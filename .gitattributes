@@ -1,0 +1,30 @@
+* text=auto
+
+# sources and docs: LF in the repository
+*.c        text eol=lf
+*.h        text eol=lf
+*.S        text eol=lf
+*.s        text eol=lf
+*.md       text eol=lf
+*.txt      text eol=lf
+*.py       text eol=lf
+*.sh       text eol=lf
+*.lxp      text eol=lf
+*.layout   text eol=lf
+*.mk       text eol=lf
+Makefile   text eol=lf
+*.script   text eol=lf
+
+# binaries: never touch
+*.bin      binary
+*.exe      binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.webp     binary
+*.pdf      binary
+*.docx     binary
+*.etl      binary
+*.pcapng   binary
+*.mp4      binary
+*.lxp      -diff

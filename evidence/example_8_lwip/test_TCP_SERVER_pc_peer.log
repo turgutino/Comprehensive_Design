@@ -1,0 +1,14 @@
+11:18:24  mode=tcp-client
+11:18:24  tcp-client: connecting to 192.168.1.123:9060
+11:18:24  tcp-client: connected, local 192.168.1.111:60116
+11:18:24  SEND    'hello from PC 1\n'
+11:18:24  RECV    'hello from PC 1\n'
+11:18:24  SEND    'hello from PC 2\n'
+11:18:24  RECV    'hello from PC 2\n'
+11:18:24  SEND    'hello from PC 3\n'
+11:18:24  RECV    'hello from PC 3\n'
+11:18:25  SEND    'hello from PC 4\n'
+11:18:25  RECV    'hello from PC 4\n'
+11:18:25  SEND    'hello from PC 5\n'
+11:18:25  RECV    'hello from PC 5\n'
+11:18:25  tcp-client: done

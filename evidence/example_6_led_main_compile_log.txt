@@ -1,0 +1,26 @@
+../main.c: In function 'parse_command':
+../main.c:82:1: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+ if (strncmp(command, "ON ", 3) == 0) {
+ ^
+../main.c:83:1: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+ int led_num = atoi(&command[3]);
+ ^
+../main.c:89:1: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+ } else if (strcmp(command, "OFF") == 0) {
+ ^
+In file included from ../main.c:5:0:
+../main.c: In function 'main':
+../main.c:116:49: warning: passing argument 4 of 'ls1x_uart_drv_ops->read_entry' makes pointer from integer without a cast
+ bytes_read = ls1x_uart_read(devUART3, &byte, 1, 1);
+                                                 ^
+../ls1x-drv/include/ns16550.h:147:94: note: in definition of macro 'ls1x_uart_read'
+ #define ls1x_uart_read(uart, buf, size, arg)  ls1x_uart_drv_ops->read_entry(uart, buf, size, arg)
+                                                                                              ^
+../main.c:116:49: note: expected 'void *' but argument is of type 'int'
+ bytes_read = ls1x_uart_read(devUART3, &byte, 1, 1);
+                                                 ^
+../ls1x-drv/include/ns16550.h:147:94: note: in definition of macro 'ls1x_uart_read'
+ #define ls1x_uart_read(uart, buf, size, arg)  ls1x_uart_drv_ops->read_entry(uart, buf, size, arg)
+                                                                                              ^
+9f050b714794c0b8bd14413d9916e49078ce2b800f2683660a67c72c4798957f *example_4_1.exe
+ac27c804ae694d908d79972724d073db7b8607c9bb6ccbf0455e60137ad9ae4e *example_4_1.bin

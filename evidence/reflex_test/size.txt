@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  55000	   3600	  18248	  76848	  12c30	E:/loongson1B_example/reflex_test/Build/reflex_test.exe

@@ -1,0 +1,68 @@
+11:14:57  mode=selftest
+11:14:57  tcp-client: connecting to 127.0.0.1:19060
+11:14:57  tcp-client: connected, local 127.0.0.1:62148
+11:14:57  SEND    'hello from PC 1\n'
+11:14:57  RECV    'hello from PC 1\n'
+11:14:58  SEND    'hello from PC 2\n'
+11:14:58  RECV    'hello from PC 2\n'
+11:14:58  tcp-client: done
+11:14:58  tcp-server: listening on 127.0.0.1:19061 (waiting 3 s for the board)
+11:14:58  tcp-server: board connected from 127.0.0.1:62149
+11:14:58  RECV    'client ticks = 0.\n'
+11:14:58  SEND    'reply 1 from PC\n'
+11:14:58  RECV    'client ticks = 1.\n'
+11:14:58  SEND    'reply 2 from PC\n'
+11:14:58  RECV    'client ticks = 2.\n'
+11:14:58  SEND    'reply 3 from PC\n'
+11:14:59  tcp-server: board closed the connection
+11:14:59  tcp-server: done, 3 message(s) received
+11:14:59  udp-client: ('127.0.0.1', 19072) -> 127.0.0.1:19062
+11:14:59  SEND    'udp hello from PC 1'
+11:14:59  RECV    'udp hello from PC 1' from 127.0.0.1:19062
+11:14:59  SEND    'udp hello from PC 2'
+11:14:59  RECV    'udp hello from PC 2' from 127.0.0.1:19062
+11:14:59  udp-client: done
+11:14:59  udp-server: listening on 127.0.0.1:19063 (waiting 3 s)
+11:14:59  RECV    'client ticks = 0.' from 127.0.0.1:60770
+11:14:59  SEND    'reply 1 from PC' to 127.0.0.1:60770
+11:14:59  RECV    'client ticks = 1.' from 127.0.0.1:60770
+11:14:59  SEND    'reply 2 from PC' to 127.0.0.1:60770
+11:14:59  RECV    'client ticks = 2.' from 127.0.0.1:60770
+11:14:59  SEND    'reply 3 from PC' to 127.0.0.1:60770
+11:15:02  udp-server: no datagram for 3 s, stopping
+11:15:02  udp-server: done, 3 datagram(s) received
+11:15:02  selftest: finished
+11:48:11  mode=selftest
+11:48:11  tcp-client: connecting to 127.0.0.1:19060
+11:48:11  tcp-client: connected, local 127.0.0.1:65528
+11:48:11  SEND    'hello from PC 1\n'
+11:48:11  RECV    'hello from PC 1\n'
+11:48:11  SEND    'hello from PC 2\n'
+11:48:11  RECV    'hello from PC 2\n'
+11:48:12  tcp-client: done
+11:48:12  tcp-server: listening on 127.0.0.1:19061 (waiting 3 s for the board)
+11:48:12  tcp-server: board connected from 127.0.0.1:65529
+11:48:12  RECV    'client ticks = 0.\n'
+11:48:12  SEND    'reply 1 from PC\n'
+11:48:12  RECV    'client ticks = 1.\n'
+11:48:12  SEND    'reply 2 from PC\n'
+11:48:12  RECV    'client ticks = 2.\n'
+11:48:12  SEND    'reply 3 from PC\n'
+11:48:12  tcp-server: board closed the connection
+11:48:12  tcp-server: done, 3 message(s) received
+11:48:12  udp-client: ('127.0.0.1', 19072) -> 127.0.0.1:19062
+11:48:12  SEND    'udp hello from PC 1'
+11:48:12  RECV    'udp hello from PC 1' from 127.0.0.1:19062
+11:48:12  SEND    'udp hello from PC 2'
+11:48:12  RECV    'udp hello from PC 2' from 127.0.0.1:19062
+11:48:12  udp-client: done
+11:48:12  udp-server: listening on 127.0.0.1:19063 (waiting 3 s)
+11:48:13  RECV    'client ticks = 0.' from 127.0.0.1:62056
+11:48:13  SEND    'reply 1 from PC' to 127.0.0.1:62056
+11:48:13  RECV    'client ticks = 1.' from 127.0.0.1:62056
+11:48:13  SEND    'reply 2 from PC' to 127.0.0.1:62056
+11:48:13  RECV    'client ticks = 2.' from 127.0.0.1:62056
+11:48:13  SEND    'reply 3 from PC' to 127.0.0.1:62056
+11:48:16  udp-server: no datagram for 3 s, stopping
+11:48:16  udp-server: done, 3 datagram(s) received
+11:48:16  selftest: finished

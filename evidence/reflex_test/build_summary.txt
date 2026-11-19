@@ -1,0 +1,21 @@
+# reflex_test - build state
+
+## Build A - full clean build of the first version (per-character output)
+log: build_clean_before_fix.log   (505 lines, `make clean` + `make all`)
+  errors: 0
+  warnings: 22 - all in vendor/BSP files, none in main.c
+    sscanf.c 11, ns16550.c 4, strtod.c 2, strcpy.c 1, strcat.c 1,
+    aligned_malloc.c 1, irq_s.S 1, exception.c 1
+  size: text 55008, data 3600, bss 17928
+  exe sha256 2cbdf1d04c8125eb6e1b94825c55672253a71751b5ec7a70235d2bf41c7f620b
+  bin sha256 4320d9b922ebfee6c1f035e4c803cd9d63efb7deea849f667130222c5c4a9df3
+  (the same exe and bin were produced by the IDE: see reproducibility.md)
+
+## Build B - after the output fix (one ls1x_uart_write per line)
+log: build_after_fix_incremental.log   (main.c recompiled, then linked)
+  errors: 0
+  warnings: 0   (only main.c was compiled here; the vendor warnings of build A
+                 are unchanged because those files were not touched)
+  size: text 55000, data 3600, bss 18120
+  exe sha256 53ada7bbb843a4992afeb2ea2ed659c42406da3967db2e6a56f883c50a0a5f7f
+  bin sha256 c59b5f9d3dab8088f2cbf8059fd690c374ee95bc3fb5af46b1bc2cac43cebcf3

@@ -1,0 +1,505 @@
+Building file: ../core/start.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/start.d" -MT"core/start.d" -o "core/start.o" "../core/start.S"
+Finished building: ../core/start.S
+ 
+Building file: ../main.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../core/bsp_start.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/bsp_start.d" -MT"core/bsp_start.d" -o "core/bsp_start.o" "../core/bsp_start.c"
+Finished building: ../core/bsp_start.c
+ 
+Building file: ../core/cache.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/cache.d" -MT"core/cache.d" -o "core/cache.o" "../core/cache.S"
+Finished building: ../core/cache.S
+ 
+Building file: ../core/exception.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/exception.d" -MT"core/exception.d" -o "core/exception.o" "../core/exception.c"
+../core/exception.c: In function 'c_exception_handler':
+../core/exception.c:85:3: warning: implicit declaration of function 'printk' [-Wimplicit-function-declaration]
+   printk("   %s", dumpregs[i].name);
+   ^
+Finished building: ../core/exception.c
+ 
+Building file: ../core/inittlb.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/inittlb.d" -MT"core/inittlb.d" -o "core/inittlb.o" "../core/inittlb.c"
+Finished building: ../core/inittlb.c
+ 
+Building file: ../core/irq.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/irq.d" -MT"core/irq.d" -o "core/irq.o" "../core/irq.c"
+Finished building: ../core/irq.c
+ 
+Building file: ../core/irq_s.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/irq_s.d" -MT"core/irq_s.d" -o "core/irq_s.o" "../core/irq_s.S"
+../core/irq_s.S: Assembler messages:
+../core/irq_s.S:73: Warning: used $at without ".set noat"
+Finished building: ../core/irq_s.S
+ 
+Building file: ../core/mips_timer.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/mips_timer.d" -MT"core/mips_timer.d" -o "core/mips_timer.o" "../core/mips_timer.S"
+Finished building: ../core/mips_timer.S
+ 
+Building file: ../core/tick.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/tick.d" -MT"core/tick.d" -o "core/tick.o" "../core/tick.c"
+Finished building: ../core/tick.c
+ 
+Building file: ../core/tlb.S
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O0 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"core/tlb.d" -MT"core/tlb.d" -o "core/tlb.o" "../core/tlb.S"
+Finished building: ../core/tlb.S
+ 
+Building file: ../libc/lwmem.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/lwmem.d" -MT"libc/lwmem.d" -o "libc/lwmem.o" "../libc/lwmem.c"
+Finished building: ../libc/lwmem.c
+ 
+Building file: ../libc/putchar.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/putchar.d" -MT"libc/putchar.d" -o "libc/putchar.o" "../libc/putchar.c"
+Finished building: ../libc/putchar.c
+ 
+Building file: ../libc/ctype/ctype.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/ctype/ctype.d" -MT"libc/ctype/ctype.d" -o "libc/ctype/ctype.o" "../libc/ctype/ctype.c"
+Finished building: ../libc/ctype/ctype.c
+ 
+Building file: ../libc/errno/errno.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/errno/errno.d" -MT"libc/errno/errno.d" -o "libc/errno/errno.o" "../libc/errno/errno.c"
+Finished building: ../libc/errno/errno.c
+ 
+Building file: ../libc/stdio/printf.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdio/printf.d" -MT"libc/stdio/printf.d" -o "libc/stdio/printf.o" "../libc/stdio/printf.c"
+Finished building: ../libc/stdio/printf.c
+ 
+Building file: ../libc/stdio/sscanf.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdio/sscanf.d" -MT"libc/stdio/sscanf.d" -o "libc/stdio/sscanf.o" "../libc/stdio/sscanf.c"
+../libc/stdio/sscanf.c: In function 'sscanf':
+../libc/stdio/sscanf.c:60:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+         if (isspace(*fmt_ptr))
+         ^
+../libc/stdio/sscanf.c:64:13: warning: array subscript has type 'char' [-Wchar-subscripts]
+             _SSCANF_CONSUME_WSPACE();
+             ^
+../libc/stdio/sscanf.c:86:13: warning: array subscript has type 'char' [-Wchar-subscripts]
+             if (isdigit(*fmt_ptr))
+             ^
+../libc/stdio/sscanf.c:144:17: warning: array subscript has type 'char' [-Wchar-subscripts]
+                 _SSCANF_CONSUME_WSPACE();
+                 ^
+../libc/stdio/sscanf.c:157:21: warning: array subscript has type 'char' [-Wchar-subscripts]
+                     _SSCANF_CONSUME_WSPACE();
+                     ^
+../libc/stdio/sscanf.c:166:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+                         if (*buf_ptr == '\0' || (isspace(*buf_ptr) && 's' == *fmt_ptr))
+                         ^
+../libc/stdio/sscanf.c:191:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+                         if (*buf_ptr == '\0' || (isspace(*buf_ptr) && 's' == *fmt_ptr))
+                         ^
+../libc/stdio/sscanf.c:223:17: warning: array subscript has type 'char' [-Wchar-subscripts]
+                 _SSCANF_CONSUME_WSPACE();
+                 ^
+../libc/stdio/sscanf.c:261:17: warning: array subscript has type 'char' [-Wchar-subscripts]
+                 _SSCANF_CONSUME_WSPACE();
+                 ^
+../libc/stdio/sscanf.c:291:17: warning: array subscript has type 'char' [-Wchar-subscripts]
+                 _SSCANF_CONSUME_WSPACE();
+                 ^
+../libc/stdio/sscanf.c:38:14: warning: variable 'wchar_ptr' set but not used [-Wunused-but-set-variable]
+     wchar_t *wchar_ptr;
+              ^
+Finished building: ../libc/stdio/sscanf.c
+ 
+Building file: ../libc/stdlib/aligned_free.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/aligned_free.d" -MT"libc/stdlib/aligned_free.d" -o "libc/stdlib/aligned_free.o" "../libc/stdlib/aligned_free.c"
+Finished building: ../libc/stdlib/aligned_free.c
+ 
+Building file: ../libc/stdlib/aligned_malloc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/aligned_malloc.d" -MT"libc/stdlib/aligned_malloc.d" -o "libc/stdlib/aligned_malloc.o" "../libc/stdlib/aligned_malloc.c"
+../libc/stdlib/aligned_malloc.c: In function 'aligned_malloc':
+../libc/stdlib/aligned_malloc.c:30:14: warning: 'addr' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     addr[-1] = head;
+              ^
+Finished building: ../libc/stdlib/aligned_malloc.c
+ 
+Building file: ../libc/stdlib/atoi.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/atoi.d" -MT"libc/stdlib/atoi.d" -o "libc/stdlib/atoi.o" "../libc/stdlib/atoi.c"
+Finished building: ../libc/stdlib/atoi.c
+ 
+Building file: ../libc/stdlib/atol.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/atol.d" -MT"libc/stdlib/atol.d" -o "libc/stdlib/atol.o" "../libc/stdlib/atol.c"
+Finished building: ../libc/stdlib/atol.c
+ 
+Building file: ../libc/stdlib/calloc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/calloc.d" -MT"libc/stdlib/calloc.d" -o "libc/stdlib/calloc.o" "../libc/stdlib/calloc.c"
+Finished building: ../libc/stdlib/calloc.c
+ 
+Building file: ../libc/stdlib/div.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/div.d" -MT"libc/stdlib/div.d" -o "libc/stdlib/div.o" "../libc/stdlib/div.c"
+Finished building: ../libc/stdlib/div.c
+ 
+Building file: ../libc/stdlib/free.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/free.d" -MT"libc/stdlib/free.d" -o "libc/stdlib/free.o" "../libc/stdlib/free.c"
+Finished building: ../libc/stdlib/free.c
+ 
+Building file: ../libc/stdlib/malloc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/malloc.d" -MT"libc/stdlib/malloc.d" -o "libc/stdlib/malloc.o" "../libc/stdlib/malloc.c"
+Finished building: ../libc/stdlib/malloc.c
+ 
+Building file: ../libc/stdlib/realloc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/realloc.d" -MT"libc/stdlib/realloc.d" -o "libc/stdlib/realloc.o" "../libc/stdlib/realloc.c"
+Finished building: ../libc/stdlib/realloc.c
+ 
+Building file: ../libc/stdlib/strtod.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/strtod.d" -MT"libc/stdlib/strtod.d" -o "libc/stdlib/strtod.o" "../libc/stdlib/strtod.c"
+../libc/stdlib/strtod.c: In function 'strtod':
+../libc/stdlib/strtod.c:69:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+     while (isspace(*p))
+     ^
+../libc/stdlib/strtod.c:193:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+         while (isdigit(*p))
+         ^
+Finished building: ../libc/stdlib/strtod.c
+ 
+Building file: ../libc/stdlib/strtol.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/strtol.d" -MT"libc/stdlib/strtol.d" -o "libc/stdlib/strtol.o" "../libc/stdlib/strtol.c"
+Finished building: ../libc/stdlib/strtol.c
+ 
+Building file: ../libc/stdlib/strtoul.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/stdlib/strtoul.d" -MT"libc/stdlib/strtoul.d" -o "libc/stdlib/strtoul.o" "../libc/stdlib/strtoul.c"
+Finished building: ../libc/stdlib/strtoul.c
+ 
+Building file: ../libc/string/memchr.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/memchr.d" -MT"libc/string/memchr.d" -o "libc/string/memchr.o" "../libc/string/memchr.c"
+Finished building: ../libc/string/memchr.c
+ 
+Building file: ../libc/string/memcmp.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/memcmp.d" -MT"libc/string/memcmp.d" -o "libc/string/memcmp.o" "../libc/string/memcmp.c"
+Finished building: ../libc/string/memcmp.c
+ 
+Building file: ../libc/string/memcpy.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/memcpy.d" -MT"libc/string/memcpy.d" -o "libc/string/memcpy.o" "../libc/string/memcpy.c"
+Finished building: ../libc/string/memcpy.c
+ 
+Building file: ../libc/string/memmove.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/memmove.d" -MT"libc/string/memmove.d" -o "libc/string/memmove.o" "../libc/string/memmove.c"
+Finished building: ../libc/string/memmove.c
+ 
+Building file: ../libc/string/memset.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/memset.d" -MT"libc/string/memset.d" -o "libc/string/memset.o" "../libc/string/memset.c"
+Finished building: ../libc/string/memset.c
+ 
+Building file: ../libc/string/strcasecmp.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strcasecmp.d" -MT"libc/string/strcasecmp.d" -o "libc/string/strcasecmp.o" "../libc/string/strcasecmp.c"
+Finished building: ../libc/string/strcasecmp.c
+ 
+Building file: ../libc/string/strcat.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strcat.d" -MT"libc/string/strcat.d" -o "libc/string/strcat.o" "../libc/string/strcat.c"
+../libc/string/strcat.c: In function 'strcat':
+../libc/string/strcat.c:14:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     while (*s1++ = *s2++)
+     ^
+Finished building: ../libc/string/strcat.c
+ 
+Building file: ../libc/string/strchr.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strchr.d" -MT"libc/string/strchr.d" -o "libc/string/strchr.o" "../libc/string/strchr.c"
+Finished building: ../libc/string/strchr.c
+ 
+Building file: ../libc/string/strcmp.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strcmp.d" -MT"libc/string/strcmp.d" -o "libc/string/strcmp.o" "../libc/string/strcmp.c"
+Finished building: ../libc/string/strcmp.c
+ 
+Building file: ../libc/string/strcpy.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strcpy.d" -MT"libc/string/strcpy.d" -o "libc/string/strcpy.o" "../libc/string/strcpy.c"
+../libc/string/strcpy.c: In function 'strcpy':
+../libc/string/strcpy.c:11:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+     while (*dst0++ = *src0++)
+     ^
+Finished building: ../libc/string/strcpy.c
+ 
+Building file: ../libc/string/strdup.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strdup.d" -MT"libc/string/strdup.d" -o "libc/string/strdup.o" "../libc/string/strdup.c"
+Finished building: ../libc/string/strdup.c
+ 
+Building file: ../libc/string/strerror.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strerror.d" -MT"libc/string/strerror.d" -o "libc/string/strerror.o" "../libc/string/strerror.c"
+Finished building: ../libc/string/strerror.c
+ 
+Building file: ../libc/string/strlen.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strlen.d" -MT"libc/string/strlen.d" -o "libc/string/strlen.o" "../libc/string/strlen.c"
+Finished building: ../libc/string/strlen.c
+ 
+Building file: ../libc/string/strncasecmp.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strncasecmp.d" -MT"libc/string/strncasecmp.d" -o "libc/string/strncasecmp.o" "../libc/string/strncasecmp.c"
+Finished building: ../libc/string/strncasecmp.c
+ 
+Building file: ../libc/string/strncat.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strncat.d" -MT"libc/string/strncat.d" -o "libc/string/strncat.o" "../libc/string/strncat.c"
+Finished building: ../libc/string/strncat.c
+ 
+Building file: ../libc/string/strncmp.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strncmp.d" -MT"libc/string/strncmp.d" -o "libc/string/strncmp.o" "../libc/string/strncmp.c"
+Finished building: ../libc/string/strncmp.c
+ 
+Building file: ../libc/string/strncpy.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strncpy.d" -MT"libc/string/strncpy.d" -o "libc/string/strncpy.o" "../libc/string/strncpy.c"
+Finished building: ../libc/string/strncpy.c
+ 
+Building file: ../libc/string/strnlen.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/string/strnlen.d" -MT"libc/string/strnlen.d" -o "libc/string/strnlen.o" "../libc/string/strnlen.c"
+Finished building: ../libc/string/strnlen.c
+ 
+Building file: ../libc/time/gmtime.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/time/gmtime.d" -MT"libc/time/gmtime.d" -o "libc/time/gmtime.o" "../libc/time/gmtime.c"
+Finished building: ../libc/time/gmtime.c
+ 
+Building file: ../libc/time/localtime.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/time/localtime.d" -MT"libc/time/localtime.d" -o "libc/time/localtime.o" "../libc/time/localtime.c"
+Finished building: ../libc/time/localtime.c
+ 
+Building file: ../libc/time/mktime.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/time/mktime.d" -MT"libc/time/mktime.d" -o "libc/time/mktime.o" "../libc/time/mktime.c"
+Finished building: ../libc/time/mktime.c
+ 
+Building file: ../libc/time/strftime.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/time/strftime.d" -MT"libc/time/strftime.d" -o "libc/time/strftime.o" "../libc/time/strftime.c"
+Finished building: ../libc/time/strftime.c
+ 
+Building file: ../libc/time/time.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/time/time.d" -MT"libc/time/time.d" -o "libc/time/time.o" "../libc/time/time.c"
+Finished building: ../libc/time/time.c
+ 
+Building file: ../libc/time/tm_utils.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"libc/time/tm_utils.d" -MT"libc/time/tm_utils.d" -o "libc/time/tm_utils.o" "../libc/time/tm_utils.c"
+Finished building: ../libc/time/tm_utils.c
+ 
+Building file: ../ls1x-drv/ls1x_drv_init.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/ls1x_drv_init.d" -MT"ls1x-drv/ls1x_drv_init.d" -o "ls1x-drv/ls1x_drv_init.o" "../ls1x-drv/ls1x_drv_init.c"
+Finished building: ../ls1x-drv/ls1x_drv_init.c
+ 
+Building file: ../ls1x-drv/ac97/ls1x_ac97.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/ac97/ls1x_ac97.d" -MT"ls1x-drv/ac97/ls1x_ac97.d" -o "ls1x-drv/ac97/ls1x_ac97.o" "../ls1x-drv/ac97/ls1x_ac97.c"
+Finished building: ../ls1x-drv/ac97/ls1x_ac97.c
+ 
+Building file: ../ls1x-drv/can/ls1x_can.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/can/ls1x_can.d" -MT"ls1x-drv/can/ls1x_can.d" -o "ls1x-drv/can/ls1x_can.o" "../ls1x-drv/can/ls1x_can.c"
+Finished building: ../ls1x-drv/can/ls1x_can.c
+ 
+Building file: ../ls1x-drv/console/console.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/console/console.d" -MT"ls1x-drv/console/console.d" -o "ls1x-drv/console/console.o" "../ls1x-drv/console/console.c"
+Finished building: ../ls1x-drv/console/console.c
+ 
+Building file: ../ls1x-drv/fb/ls1x_fb.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/fb/ls1x_fb.d" -MT"ls1x-drv/fb/ls1x_fb.d" -o "ls1x-drv/fb/ls1x_fb.o" "../ls1x-drv/fb/ls1x_fb.c"
+Finished building: ../ls1x-drv/fb/ls1x_fb.c
+ 
+Building file: ../ls1x-drv/fb/ls1x_fb_utils.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/fb/ls1x_fb_utils.d" -MT"ls1x-drv/fb/ls1x_fb_utils.d" -o "ls1x-drv/fb/ls1x_fb_utils.o" "../ls1x-drv/fb/ls1x_fb_utils.c"
+Finished building: ../ls1x-drv/fb/ls1x_fb_utils.c
+ 
+Building file: ../ls1x-drv/fb/font/font_desc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/fb/font/font_desc.d" -MT"ls1x-drv/fb/font/font_desc.d" -o "ls1x-drv/fb/font/font_desc.o" "../ls1x-drv/fb/font/font_desc.c"
+Finished building: ../ls1x-drv/fb/font/font_desc.c
+ 
+Building file: ../ls1x-drv/gmac/ls1x_gmac.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/gmac/ls1x_gmac.d" -MT"ls1x-drv/gmac/ls1x_gmac.d" -o "ls1x-drv/gmac/ls1x_gmac.o" "../ls1x-drv/gmac/ls1x_gmac.c"
+Finished building: ../ls1x-drv/gmac/ls1x_gmac.c
+ 
+Building file: ../ls1x-drv/gpio/ls1x_gpio.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/gpio/ls1x_gpio.d" -MT"ls1x-drv/gpio/ls1x_gpio.d" -o "ls1x-drv/gpio/ls1x_gpio.o" "../ls1x-drv/gpio/ls1x_gpio.c"
+Finished building: ../ls1x-drv/gpio/ls1x_gpio.c
+ 
+Building file: ../ls1x-drv/i2c/ls1x_i2c_bus.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/ls1x_i2c_bus.d" -MT"ls1x-drv/i2c/ls1x_i2c_bus.d" -o "ls1x-drv/i2c/ls1x_i2c_bus.o" "../ls1x-drv/i2c/ls1x_i2c_bus.c"
+Finished building: ../ls1x-drv/i2c/ls1x_i2c_bus.c
+ 
+Building file: ../ls1x-drv/i2c/ads1015/ads1015.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/ads1015/ads1015.d" -MT"ls1x-drv/i2c/ads1015/ads1015.d" -o "ls1x-drv/i2c/ads1015/ads1015.o" "../ls1x-drv/i2c/ads1015/ads1015.c"
+Finished building: ../ls1x-drv/i2c/ads1015/ads1015.c
+ 
+Building file: ../ls1x-drv/i2c/gp7101/gp7101.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/gp7101/gp7101.d" -MT"ls1x-drv/i2c/gp7101/gp7101.d" -o "ls1x-drv/i2c/gp7101/gp7101.o" "../ls1x-drv/i2c/gp7101/gp7101.c"
+Finished building: ../ls1x-drv/i2c/gp7101/gp7101.c
+ 
+Building file: ../ls1x-drv/i2c/gt1151/gt1151.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/gt1151/gt1151.d" -MT"ls1x-drv/i2c/gt1151/gt1151.d" -o "ls1x-drv/i2c/gt1151/gt1151.o" "../ls1x-drv/i2c/gt1151/gt1151.c"
+Finished building: ../ls1x-drv/i2c/gt1151/gt1151.c
+ 
+Building file: ../ls1x-drv/i2c/gt1151/touch.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/gt1151/touch.d" -MT"ls1x-drv/i2c/gt1151/touch.d" -o "ls1x-drv/i2c/gt1151/touch.o" "../ls1x-drv/i2c/gt1151/touch.c"
+Finished building: ../ls1x-drv/i2c/gt1151/touch.c
+ 
+Building file: ../ls1x-drv/i2c/mcp4725/mcp4725.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/mcp4725/mcp4725.d" -MT"ls1x-drv/i2c/mcp4725/mcp4725.d" -o "ls1x-drv/i2c/mcp4725/mcp4725.o" "../ls1x-drv/i2c/mcp4725/mcp4725.c"
+Finished building: ../ls1x-drv/i2c/mcp4725/mcp4725.c
+ 
+Building file: ../ls1x-drv/i2c/pca9557/pca9557.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/pca9557/pca9557.d" -MT"ls1x-drv/i2c/pca9557/pca9557.d" -o "ls1x-drv/i2c/pca9557/pca9557.o" "../ls1x-drv/i2c/pca9557/pca9557.c"
+Finished building: ../ls1x-drv/i2c/pca9557/pca9557.c
+ 
+Building file: ../ls1x-drv/i2c/rx8010/rx8010.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/i2c/rx8010/rx8010.d" -MT"ls1x-drv/i2c/rx8010/rx8010.d" -o "ls1x-drv/i2c/rx8010/rx8010.o" "../ls1x-drv/i2c/rx8010/rx8010.c"
+Finished building: ../ls1x-drv/i2c/rx8010/rx8010.c
+ 
+Building file: ../ls1x-drv/nand/ls1x_nand.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/nand/ls1x_nand.d" -MT"ls1x-drv/nand/ls1x_nand.d" -o "ls1x-drv/nand/ls1x_nand.o" "../ls1x-drv/nand/ls1x_nand.c"
+Finished building: ../ls1x-drv/nand/ls1x_nand.c
+ 
+Building file: ../ls1x-drv/pwm/ls1x_pwm.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/pwm/ls1x_pwm.d" -MT"ls1x-drv/pwm/ls1x_pwm.d" -o "ls1x-drv/pwm/ls1x_pwm.o" "../ls1x-drv/pwm/ls1x_pwm.c"
+Finished building: ../ls1x-drv/pwm/ls1x_pwm.c
+ 
+Building file: ../ls1x-drv/rtc/ls1x_rtc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/rtc/ls1x_rtc.d" -MT"ls1x-drv/rtc/ls1x_rtc.d" -o "ls1x-drv/rtc/ls1x_rtc.o" "../ls1x-drv/rtc/ls1x_rtc.c"
+Finished building: ../ls1x-drv/rtc/ls1x_rtc.c
+ 
+Building file: ../ls1x-drv/spi/ls1x_spi_bus.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/ls1x_spi_bus.d" -MT"ls1x-drv/spi/ls1x_spi_bus.d" -o "ls1x-drv/spi/ls1x_spi_bus.o" "../ls1x-drv/spi/ls1x_spi_bus.c"
+Finished building: ../ls1x-drv/spi/ls1x_spi_bus.c
+ 
+Building file: ../ls1x-drv/spi/w25x40/w25x40.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/w25x40/w25x40.d" -MT"ls1x-drv/spi/w25x40/w25x40.d" -o "ls1x-drv/spi/w25x40/w25x40.o" "../ls1x-drv/spi/w25x40/w25x40.c"
+Finished building: ../ls1x-drv/spi/w25x40/w25x40.c
+ 
+Building file: ../ls1x-drv/spi/xpt2046/touch_utils.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/xpt2046/touch_utils.d" -MT"ls1x-drv/spi/xpt2046/touch_utils.d" -o "ls1x-drv/spi/xpt2046/touch_utils.o" "../ls1x-drv/spi/xpt2046/touch_utils.c"
+Finished building: ../ls1x-drv/spi/xpt2046/touch_utils.c
+ 
+Building file: ../ls1x-drv/spi/xpt2046/xpt2046.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/spi/xpt2046/xpt2046.d" -MT"ls1x-drv/spi/xpt2046/xpt2046.d" -o "ls1x-drv/spi/xpt2046/xpt2046.o" "../ls1x-drv/spi/xpt2046/xpt2046.c"
+Finished building: ../ls1x-drv/spi/xpt2046/xpt2046.c
+ 
+Building file: ../ls1x-drv/uart/ns16550.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/uart/ns16550.d" -MT"ls1x-drv/uart/ns16550.d" -o "ls1x-drv/uart/ns16550.o" "../ls1x-drv/uart/ns16550.c"
+../ls1x-drv/uart/ns16550.c: In function 'NS16550_set_attributes':
+../ls1x-drv/uart/ns16550.c:371:29: warning: variable 'trash' set but not used [-Wunused-but-set-variable]
+     unsigned char lineCtrl, trash;
+                             ^
+../ls1x-drv/uart/ns16550.c: In function 'NS16550_init':
+../ls1x-drv/uart/ns16550.c:446:19: warning: variable 'trash' set but not used [-Wunused-but-set-variable]
+     unsigned char trash;
+                   ^
+../ls1x-drv/uart/ns16550.c: At top level:
+../ls1x-drv/uart/ns16550.c:315:12: warning: 'NS16550_assert_RTS' defined but not used [-Wunused-function]
+ static int NS16550_assert_RTS(NS16550_t *pUART)
+            ^
+../ls1x-drv/uart/ns16550.c:327:12: warning: 'NS16550_negate_RTS' defined but not used [-Wunused-function]
+ static int NS16550_negate_RTS(NS16550_t *pUART)
+            ^
+Finished building: ../ls1x-drv/uart/ns16550.c
+ 
+Building file: ../ls1x-drv/useful/aligned_malloc.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/aligned_malloc.d" -MT"ls1x-drv/useful/aligned_malloc.d" -o "ls1x-drv/useful/aligned_malloc.o" "../ls1x-drv/useful/aligned_malloc.c"
+Finished building: ../ls1x-drv/useful/aligned_malloc.c
+ 
+Building file: ../ls1x-drv/useful/fls.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/fls.d" -MT"ls1x-drv/useful/fls.d" -o "ls1x-drv/useful/fls.o" "../ls1x-drv/useful/fls.c"
+Finished building: ../ls1x-drv/useful/fls.c
+ 
+Building file: ../ls1x-drv/useful/print_hex.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/print_hex.d" -MT"ls1x-drv/useful/print_hex.d" -o "ls1x-drv/useful/print_hex.o" "../ls1x-drv/useful/print_hex.c"
+Finished building: ../ls1x-drv/useful/print_hex.c
+ 
+Building file: ../ls1x-drv/useful/qsort.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/useful/qsort.d" -MT"ls1x-drv/useful/qsort.d" -o "ls1x-drv/useful/qsort.o" "../ls1x-drv/useful/qsort.c"
+Finished building: ../ls1x-drv/useful/qsort.c
+ 
+Building file: ../ls1x-drv/watchdog/ls1x_watchdog.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"ls1x-drv/watchdog/ls1x_watchdog.d" -MT"ls1x-drv/watchdog/ls1x_watchdog.d" -o "ls1x-drv/watchdog/ls1x_watchdog.o" "../ls1x-drv/watchdog/ls1x_watchdog.c"
+Finished building: ../ls1x-drv/watchdog/ls1x_watchdog.c
+ 
+Building file: ../src/install_3th_libraries.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"src/install_3th_libraries.d" -MT"src/install_3th_libraries.d" -o "src/install_3th_libraries.o" "../src/install_3th_libraries.c"
+Finished building: ../src/install_3th_libraries.c
+ 
+Building target: reflex_test.exe
+Invoking: SDE Lite C Linker
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe  -mips32 -G0 -EL -msoft-float -nostartfiles -static -T ../ld.script -o reflex_test.exe -e start  ./core/start.o  ./main.o ./core/bsp_start.o ./core/cache.o ./core/exception.o ./core/inittlb.o ./core/irq.o ./core/irq_s.o ./core/mips_timer.o ./core/tick.o ./core/tlb.o ./libc/lwmem.o ./libc/putchar.o ./libc/ctype/ctype.o ./libc/errno/errno.o ./libc/stdio/printf.o ./libc/stdio/sscanf.o ./libc/stdlib/aligned_free.o ./libc/stdlib/aligned_malloc.o ./libc/stdlib/atoi.o ./libc/stdlib/atol.o ./libc/stdlib/calloc.o ./libc/stdlib/div.o ./libc/stdlib/free.o ./libc/stdlib/malloc.o ./libc/stdlib/realloc.o ./libc/stdlib/strtod.o ./libc/stdlib/strtol.o ./libc/stdlib/strtoul.o ./libc/string/memchr.o ./libc/string/memcmp.o ./libc/string/memcpy.o ./libc/string/memmove.o ./libc/string/memset.o ./libc/string/strcasecmp.o ./libc/string/strcat.o ./libc/string/strchr.o ./libc/string/strcmp.o ./libc/string/strcpy.o ./libc/string/strdup.o ./libc/string/strerror.o ./libc/string/strlen.o ./libc/string/strncasecmp.o ./libc/string/strncat.o ./libc/string/strncmp.o ./libc/string/strncpy.o ./libc/string/strnlen.o ./libc/time/gmtime.o ./libc/time/localtime.o ./libc/time/mktime.o ./libc/time/strftime.o ./libc/time/time.o ./libc/time/tm_utils.o ./ls1x-drv/ls1x_drv_init.o ./ls1x-drv/ac97/ls1x_ac97.o ./ls1x-drv/can/ls1x_can.o ./ls1x-drv/console/console.o ./ls1x-drv/fb/ls1x_fb.o ./ls1x-drv/fb/ls1x_fb_utils.o ./ls1x-drv/fb/font/font_desc.o ./ls1x-drv/gmac/ls1x_gmac.o ./ls1x-drv/gpio/ls1x_gpio.o ./ls1x-drv/i2c/ls1x_i2c_bus.o ./ls1x-drv/i2c/ads1015/ads1015.o ./ls1x-drv/i2c/gp7101/gp7101.o ./ls1x-drv/i2c/gt1151/gt1151.o ./ls1x-drv/i2c/gt1151/touch.o ./ls1x-drv/i2c/mcp4725/mcp4725.o ./ls1x-drv/i2c/pca9557/pca9557.o ./ls1x-drv/i2c/rx8010/rx8010.o ./ls1x-drv/nand/ls1x_nand.o ./ls1x-drv/pwm/ls1x_pwm.o ./ls1x-drv/rtc/ls1x_rtc.o ./ls1x-drv/spi/ls1x_spi_bus.o ./ls1x-drv/spi/w25x40/w25x40.o ./ls1x-drv/spi/xpt2046/touch_utils.o ./ls1x-drv/spi/xpt2046/xpt2046.o ./ls1x-drv/uart/ns16550.o ./ls1x-drv/useful/aligned_malloc.o ./ls1x-drv/useful/fls.o ./ls1x-drv/useful/print_hex.o ./ls1x-drv/useful/qsort.o ./ls1x-drv/watchdog/ls1x_watchdog.o ./src/install_3th_libraries.o  -lm 
+Invoking: SDE Lite C Objcopy
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-objcopy.exe -O binary reflex_test.exe reflex_test.bin
+Invoking: SDE Lite C Size
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-size.exe reflex_test.exe
+   text	   data	    bss	    dec	    hex	filename
+  55008	   3600	  17928	  76536	  12af8	reflex_test.exe
+Finished building target: reflex_test.exe
+ 

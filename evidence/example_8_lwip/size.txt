@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 401756	   5760	  64536	 472052	  733f4	Build/example_8_lwip.exe

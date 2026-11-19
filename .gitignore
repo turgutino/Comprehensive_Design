@@ -1,0 +1,15 @@
+# ---- build output (LoongIDE / make) ----
+Build/
+*.o
+*.d
+*.exe
+*.map
+*.bak
+~$*
+
+# raw images: they live in binaries/ with their hashes, not inside the projects
+*.bin
+!binaries/*.bin
+
+# ---- not redistributed ----
+materials/

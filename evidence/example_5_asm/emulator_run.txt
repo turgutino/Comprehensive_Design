@@ -1,0 +1,11 @@
+IDE-built example_5_asm.exe, bsp_start at 0x802000f4
+steps executed : 589829
+t0 = 0xfffe0001  (4294836225)
+t1 = 0x0001ffff  (131071)
+t2 = 0xffffffff  (4294967295)
+t3 = 0x0001fffd  (131069)
+t4 = 0x0001fffe  (131070)
+t5 = 0x80030000  (2147680256)
+s0 = 0xdead0000  (3735879680)
+mem[0x80030000] = 0xfffe0001 -> 4294836225
+ALL CHECKS PASSED (sum = 65535^2 = 0xFFFE0001, last added = 131069, next = 131071)

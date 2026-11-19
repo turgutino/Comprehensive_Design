@@ -1,0 +1,15 @@
+Collected: 2026-11-03 13:56:39 +0800
+--- OS
+Microsoft Windows [Version 10.0.26300.9818]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\Projects\Compherisive design\evidence>--- make
+GNU Make 3.81
+--- mips-sde-elf-gcc
+mips-sde-elf-gcc.exe (Sourcery CodeBench Lite 2015.05-19) 4.9.2
+--- gdb
+GNU gdb (GDB) 7.9
+--- LoongIDE.exe
+1518080 bytes, Nov 14 2021
+--- python
+Python 3.13.5

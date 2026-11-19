@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2828	     28	  16400	  19256	   4b38	E:/LoongSetup/builds/example_7_2/example_7_2.exe

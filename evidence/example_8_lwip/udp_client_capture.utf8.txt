@@ -1,0 +1,734 @@
+[00]0A48.6AB8::2026-11-10 11:37:31.781734400 [MSNT_SystemTrace] Event: Header, BufferSize: 16777216, Version: 131082, ProviderVersion: 26300, NumberOfProcessors: 20, EndTime: 134387555468236905, TimerResolution: 156250, MaxFileSize: 512, LogFileMode: 0x4010001, BuffersWritten: 4, StartBuffers: 1, PointerSize: 8, EventsLost: 0, CPUSpeed: 2688, LoggerName: 0x0, LogFileName: 0x0, TimeZoneInformation: 0, BootTime: 134386682435000000, PerfFreq: 10000000, StartTime: 134387554517817344, ReservedFlags: 0x1, BuffersLost: 0, SessionNameString: Relogger, LogFileNameString: E:\Projects\Compherisive design\evidence\example_8_lwip\udp_client_capture.etl
+[00]0A48.6AB8::2026-11-10 11:37:31.781734400 [MSNT_SystemTrace] Event: PartitionInfoExtensionV2, EventVersion: 0, Reserved: 0, PartitionType: 0, QpcOffsetFromRoot: 0, PartitionId: , ParentId: 
+[00]0A48.6AB8::2026-11-10 11:37:31.781734400 [MSNT_SystemTrace] Event: PartitionInfoExtensionV2, EventVersion: 0, Reserved: 0, PartitionType: 0, QpcOffsetFromRoot: 0, PartitionId: , ParentId: 
+[05]0004.48E8::2026-11-10 11:38:40.057916500 [Microsoft-Windows-PktMon] PktGroupId 1, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 89, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.123 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057935900 [Microsoft-Windows-PktMon] PktGroupId 1407374883553281, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 89, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.111 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057940600 [Microsoft-Windows-PktMon] PktGroupId 1407374883553282, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 11, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.123 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057941000 [Microsoft-Windows-PktMon] PktGroupId 1407374883553283, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 11, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.111 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057943700 [Microsoft-Windows-PktMon] PktGroupId 1407374883553284, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 34, Edge 2, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.123 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057944000 [Microsoft-Windows-PktMon] PktGroupId 1407374883553285, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 34, Edge 2, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.111 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057952300 [Microsoft-Windows-PktMon] PktGroupId 1407374883553286, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 34, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.123 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057952700 [Microsoft-Windows-PktMon] PktGroupId 1407374883553287, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 34, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.111 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057956900 [Microsoft-Windows-PktMon] PktGroupId 1407374883553288, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 71, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.123 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057957200 [Microsoft-Windows-PktMon] PktGroupId 1407374883553289, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 71, Edge 1, Filter 1, OriginalSize 60, LoggedSize 60 
+	72-74-00-83-DE-12 > FF-FF-FF-FF-FF-FF, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.111 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057980000 [Microsoft-Windows-PktMon] Drop: PktGroupId 1407374883553290, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 81, Filter 1, DropReason ARP: not locally destined , DropLocation 0xE0004241, OriginalSize 60, LoggedSize 60 
+	Drop: 00-00-00-00-00-00 > 00-00-00-00-00-00, ethertype ARP (0x0806), length 60: Request who-has 192.168.1.123 tell 192.168.1.123, length 46
+[05]0004.48E8::2026-11-10 11:38:40.057988800 [Microsoft-Windows-PktMon] PktGroupId 1407374883553291, PktNumber 1, Appearance 0, Direction Tx , Type Ethernet , Component 71, Edge 1, Filter 1, OriginalSize 42, LoggedSize 42 
+	08-8F-C3-82-AC-23 > 72-74-00-83-DE-12, ethertype ARP (0x0806), length 42: Reply 192.168.1.111 is-at 08-8F-C3-82-AC-23, length 28
+[05]0004.48E8::2026-11-10 11:38:40.057989800 [Microsoft-Windows-PktMon] PktGroupId 1407374883553292, PktNumber 1, Appearance 0, Direction Tx , Type Ethernet , Component 34, Edge 1, Filter 1, OriginalSize 42, LoggedSize 42 
+	08-8F-C3-82-AC-23 > 72-74-00-83-DE-12, ethertype ARP (0x0806), length 42: Reply 192.168.1.111 is-at 08-8F-C3-82-AC-23, length 28
+[05]0004.48E8::2026-11-10 11:38:40.057992900 [Microsoft-Windows-PktMon] PktGroupId 1407374883553293, PktNumber 1, Appearance 0, Direction Tx , Type Ethernet , Component 34, Edge 2, Filter 1, OriginalSize 42, LoggedSize 42 
+	08-8F-C3-82-AC-23 > 72-74-00-83-DE-12, ethertype ARP (0x0806), length 42: Reply 192.168.1.111 is-at 08-8F-C3-82-AC-23, length 28
+[05]0004.48E8::2026-11-10 11:38:40.057998700 [Microsoft-Windows-PktMon] PktGroupId 1407374883553294, PktNumber 1, Appearance 0, Direction Tx , Type Ethernet , Component 11, Edge 1, Filter 1, OriginalSize 42, LoggedSize 42 
+	08-8F-C3-82-AC-23 > 72-74-00-83-DE-12, ethertype ARP (0x0806), length 42: Reply 192.168.1.111 is-at 08-8F-C3-82-AC-23, length 28
+[05]0004.2E88::2026-11-10 11:38:40.058045900 [Microsoft-Windows-PktMon] PktGroupId 1407374883553295, PktNumber 1, Appearance 0, Direction Tx , Type Ethernet , Component 89, Edge 1, Filter 1, OriginalSize 42, LoggedSize 42 
+	08-8F-C3-82-AC-23 > 72-74-00-83-DE-12, ethertype ARP (0x0806), length 42: Reply 192.168.1.111 is-at 08-8F-C3-82-AC-23, length 28
+[00]0004.48E8::2026-11-10 11:38:40.058665900 [Microsoft-Windows-PktMon] PktGroupId 2, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 89, Edge 1, Filter 1, OriginalSize 62, LoggedSize 62 
+	72-74-00-83-DE-12 > 08-8F-C3-82-AC-23, ethertype IPv4 (0x0800), length 62: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[00]0004.48E8::2026-11-10 11:38:40.058687700 [Microsoft-Windows-PktMon] PktGroupId 3, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 11, Edge 1, Filter 1, OriginalSize 62, LoggedSize 62 
+	72-74-00-83-DE-12 > 08-8F-C3-82-AC-23, ethertype IPv4 (0x0800), length 62: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[00]0004.48E8::2026-11-10 11:38:40.058689000 [Microsoft-Windows-PktMon] PktGroupId 4, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 34, Edge 2, Filter 1, OriginalSize 62, LoggedSize 62 
+	72-74-00-83-DE-12 > 08-8F-C3-82-AC-23, ethertype IPv4 (0x0800), length 62: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[00]0004.48E8::2026-11-10 11:38:40.058692500 [Microsoft-Windows-PktMon] PktGroupId 5, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 34, Edge 1, Filter 1, OriginalSize 62, LoggedSize 62 
+	72-74-00-83-DE-12 > 08-8F-C3-82-AC-23, ethertype IPv4 (0x0800), length 62: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[00]0004.48E8::2026-11-10 11:38:40.058694700 [Microsoft-Windows-PktMon] PktGroupId 6, PktNumber 1, Appearance 0, Direction Rx , Type Ethernet , Component 71, Edge 1, Filter 1, OriginalSize 62, LoggedSize 62 
+	72-74-00-83-DE-12 > 08-8F-C3-82-AC-23, ethertype IPv4 (0x0800), length 62: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[00]0004.48E8::2026-11-10 11:38:40.058835200 [Microsoft-Windows-PktMon] Drop: PktGroupId 7, PktNumber 1, Appearance 0, Direction Rx , Type IP , Component 81, Filter 1, DropReason INET: receive inspection , DropLocation 0xE0004600, OriginalSize 48, LoggedSize 48 
+	Drop: ip: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[05]0004.48E8::2026-11-10 11:38:40.058881900 [Microsoft-Windows-PktMon] Drop: PktGroupId 1407374883553296, PktNumber 1, Appearance 0, Direction Rx , Type IP , Component 81, Filter 1, DropReason INET: transport endpoint was not found , DropLocation 0xE0004704, OriginalSize 48, LoggedSize 48 
+	Drop: ip: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[05]0004.48E8::2026-11-10 11:38:40.058883800 [Microsoft-Windows-PktMon] Drop: PktGroupId 1407374883553297, PktNumber 1, Appearance 0, Direction Rx , Type IP , Component 81, Filter 1, DropReason Inspection drop , DropLocation 0xE0004134, OriginalSize 48, LoggedSize 48 
+	Drop: ip: 192.168.1.123.49153 > 192.168.1.111.9063: UDP, length 20
+[02]62C0.4558::2026-11-10 11:39:06.776655700 [Microsoft-Windows-PktMon] Packet Filter 1, Name UDPBoard, MAC-1 0x000000000000, MAC-2 0x000000000000, EtherType 0, VlanId 0, IP-1 192.168.1.123, IP-2 0.0.0.0, Protocol 0, Port-1 0, Port-2 0, TCPFlags 0 
+[02]62C0.4558::2026-11-10 11:39:06.776660000 [Microsoft-Windows-PktMon] Component 99, Type HTTP Message , Name HTTP.SYS, HTTP Message 
+[02]62C0.4558::2026-11-10 11:39:06.776662300 [Microsoft-Windows-PktMon] Drop Counters: Component 99, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776664100 [Microsoft-Windows-PktMon] Flow Counters: Component 99, Edge Ssl, Edge Id 3, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776665500 [Microsoft-Windows-PktMon] Flow Counters: Component 99, Edge HttpLow, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776667000 [Microsoft-Windows-PktMon] Flow Counters: Component 99, Edge HttpUp, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776667600 [Microsoft-Windows-PktMon] Component 98, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776668900 [Microsoft-Windows-PktMon] Property: Component 98, IP Address  = fe80::b4b4:c097:75b5:7e8d 
+[02]62C0.4558::2026-11-10 11:39:06.776669400 [Microsoft-Windows-PktMon] Property: Component 98, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776670600 [Microsoft-Windows-PktMon] Drop Counters: Component 98, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776672400 [Microsoft-Windows-PktMon] Flow Counters: Component 98, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776673800 [Microsoft-Windows-PktMon] Flow Counters: Component 98, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776674400 [Microsoft-Windows-PktMon] Component 97, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776674900 [Microsoft-Windows-PktMon] Property: Component 97, IP Address  = fe80::1c67:920d:398a:24cc 
+[02]62C0.4558::2026-11-10 11:39:06.776675600 [Microsoft-Windows-PktMon] Property: Component 97, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776676900 [Microsoft-Windows-PktMon] Drop Counters: Component 97, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776678100 [Microsoft-Windows-PktMon] Flow Counters: Component 97, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776679400 [Microsoft-Windows-PktMon] Flow Counters: Component 97, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776679800 [Microsoft-Windows-PktMon] Component 96, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776680200 [Microsoft-Windows-PktMon] Property: Component 96, IP Address  = fe80::7bd2:2369:31cc:b4db 
+[02]62C0.4558::2026-11-10 11:39:06.776680500 [Microsoft-Windows-PktMon] Property: Component 96, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776682000 [Microsoft-Windows-PktMon] Drop Counters: Component 96, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776683300 [Microsoft-Windows-PktMon] Flow Counters: Component 96, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776684600 [Microsoft-Windows-PktMon] Flow Counters: Component 96, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776685100 [Microsoft-Windows-PktMon] Component 95, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776685500 [Microsoft-Windows-PktMon] Property: Component 95, IP Address  = ::1 
+[02]62C0.4558::2026-11-10 11:39:06.776686000 [Microsoft-Windows-PktMon] Property: Component 95, MiniportIfIndex  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776686900 [Microsoft-Windows-PktMon] Drop Counters: Component 95, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776688100 [Microsoft-Windows-PktMon] Flow Counters: Component 95, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776689300 [Microsoft-Windows-PktMon] Flow Counters: Component 95, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776689600 [Microsoft-Windows-PktMon] Component 94, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776690200 [Microsoft-Windows-PktMon] Property: Component 94, IP Address  = 169.254.63.95 
+[02]62C0.4558::2026-11-10 11:39:06.776690500 [Microsoft-Windows-PktMon] Property: Component 94, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776691400 [Microsoft-Windows-PktMon] Drop Counters: Component 94, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776692600 [Microsoft-Windows-PktMon] Flow Counters: Component 94, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776693500 [Microsoft-Windows-PktMon] Flow Counters: Component 94, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776693900 [Microsoft-Windows-PktMon] Component 93, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776694400 [Microsoft-Windows-PktMon] Property: Component 93, IP Address  = 169.254.116.86 
+[02]62C0.4558::2026-11-10 11:39:06.776694800 [Microsoft-Windows-PktMon] Property: Component 93, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776696200 [Microsoft-Windows-PktMon] Drop Counters: Component 93, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776697100 [Microsoft-Windows-PktMon] Flow Counters: Component 93, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776698100 [Microsoft-Windows-PktMon] Flow Counters: Component 93, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776698500 [Microsoft-Windows-PktMon] Component 92, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776698800 [Microsoft-Windows-PktMon] Property: Component 92, IP Address  = 192.168.1.111 
+[02]62C0.4558::2026-11-10 11:39:06.776699200 [Microsoft-Windows-PktMon] Property: Component 92, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776700000 [Microsoft-Windows-PktMon] Drop Counters: Component 92, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776700900 [Microsoft-Windows-PktMon] Flow Counters: Component 92, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776702000 [Microsoft-Windows-PktMon] Flow Counters: Component 92, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776702500 [Microsoft-Windows-PktMon] Component 91, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776702900 [Microsoft-Windows-PktMon] Property: Component 91, IP Address  = 10.4.64.13 
+[02]62C0.4558::2026-11-10 11:39:06.776703300 [Microsoft-Windows-PktMon] Property: Component 91, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776704300 [Microsoft-Windows-PktMon] Drop Counters: Component 91, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776705200 [Microsoft-Windows-PktMon] Flow Counters: Component 91, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776706200 [Microsoft-Windows-PktMon] Flow Counters: Component 91, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776706600 [Microsoft-Windows-PktMon] Component 90, Type HTTP Protocol , Name http.sys, HTTP 
+[02]62C0.4558::2026-11-10 11:39:06.776707000 [Microsoft-Windows-PktMon] Property: Component 90, IP Address  = 127.0.0.1 
+[02]62C0.4558::2026-11-10 11:39:06.776707300 [Microsoft-Windows-PktMon] Property: Component 90, MiniportIfIndex  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776708200 [Microsoft-Windows-PktMon] Drop Counters: Component 90, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776709300 [Microsoft-Windows-PktMon] Flow Counters: Component 90, Edge Upper, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776710200 [Microsoft-Windows-PktMon] Flow Counters: Component 90, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776711300 [Microsoft-Windows-PktMon] Component 89, Type NetCx , Name e2k68cx21x64.sys, Killer E2600 Gigabit Ethernet Controller 
+[02]62C0.4558::2026-11-10 11:39:06.776711800 [Microsoft-Windows-PktMon] Property: Component 89, PhysAddress  = 0x088FC382AC23 
+[02]62C0.4558::2026-11-10 11:39:06.776712300 [Microsoft-Windows-PktMon] Property: Component 89, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.776712700 [Microsoft-Windows-PktMon] Property: Component 89, IfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776713600 [Microsoft-Windows-PktMon] Drop Counters: Component 89, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776714500 [Microsoft-Windows-PktMon] Flow Counters: Component 89, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 3, Bytes In 182, Direction Out = Tx , Packets Out 1, Bytes Out 42 
+[02]62C0.4558::2026-11-10 11:39:06.776715000 [Microsoft-Windows-PktMon] Component 88, Type IPSec , Name tcpip.sys, IPSEC 
+[02]62C0.4558::2026-11-10 11:39:06.776715800 [Microsoft-Windows-PktMon] Drop Counters: Component 88, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776716600 [Microsoft-Windows-PktMon] Component 87, Type 11, Name tcpip.sys, TCP/IPv6 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776716900 [Microsoft-Windows-PktMon] Property: Component 87, IP Address  = fe80::b4b4:c097:75b5:7e8d 
+[02]62C0.4558::2026-11-10 11:39:06.776717300 [Microsoft-Windows-PktMon] Property: Component 87, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776717600 [Microsoft-Windows-PktMon] Property: Component 87, IpIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776718500 [Microsoft-Windows-PktMon] Drop Counters: Component 87, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776718900 [Microsoft-Windows-PktMon] Component 86, Type 11, Name tcpip.sys, TCP/IPv6 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776719100 [Microsoft-Windows-PktMon] Property: Component 86, IP Address  = fe80::1c67:920d:398a:24cc 
+[02]62C0.4558::2026-11-10 11:39:06.776719400 [Microsoft-Windows-PktMon] Property: Component 86, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776719600 [Microsoft-Windows-PktMon] Property: Component 86, IpIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776720600 [Microsoft-Windows-PktMon] Drop Counters: Component 86, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776721100 [Microsoft-Windows-PktMon] Component 85, Type 11, Name tcpip.sys, TCP/IPv6 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776721400 [Microsoft-Windows-PktMon] Property: Component 85, IP Address  = fe80::7bd2:2369:31cc:b4db 
+[02]62C0.4558::2026-11-10 11:39:06.776721600 [Microsoft-Windows-PktMon] Property: Component 85, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776721800 [Microsoft-Windows-PktMon] Property: Component 85, IpIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776722700 [Microsoft-Windows-PktMon] Drop Counters: Component 85, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776723100 [Microsoft-Windows-PktMon] Component 84, Type 11, Name tcpip.sys, TCP/IPv6 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776723300 [Microsoft-Windows-PktMon] Property: Component 84, IP Address  = ::1 
+[02]62C0.4558::2026-11-10 11:39:06.776723600 [Microsoft-Windows-PktMon] Property: Component 84, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776723900 [Microsoft-Windows-PktMon] Property: Component 84, IpIfIndex  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776725100 [Microsoft-Windows-PktMon] Drop Counters: Component 84, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776725600 [Microsoft-Windows-PktMon] Component 83, Type 11, Name tcpip.sys, TCP/IPv4 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776725800 [Microsoft-Windows-PktMon] Property: Component 83, IP Address  = 169.254.63.95 
+[02]62C0.4558::2026-11-10 11:39:06.776726200 [Microsoft-Windows-PktMon] Property: Component 83, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776726500 [Microsoft-Windows-PktMon] Property: Component 83, IpIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776727400 [Microsoft-Windows-PktMon] Drop Counters: Component 83, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776727700 [Microsoft-Windows-PktMon] Component 82, Type 11, Name tcpip.sys, TCP/IPv4 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776728100 [Microsoft-Windows-PktMon] Property: Component 82, IP Address  = 169.254.116.86 
+[02]62C0.4558::2026-11-10 11:39:06.776728500 [Microsoft-Windows-PktMon] Property: Component 82, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776729200 [Microsoft-Windows-PktMon] Property: Component 82, IpIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776730300 [Microsoft-Windows-PktMon] Drop Counters: Component 82, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776731000 [Microsoft-Windows-PktMon] Component 81, Type 11, Name tcpip.sys, TCP/IPv4 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776731600 [Microsoft-Windows-PktMon] Property: Component 81, IP Address  = 192.168.1.111 
+[02]62C0.4558::2026-11-10 11:39:06.776731900 [Microsoft-Windows-PktMon] Property: Component 81, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776732200 [Microsoft-Windows-PktMon] Property: Component 81, IpIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776733200 [Microsoft-Windows-PktMon] Drop Counters: Component 81, Direction In = Rx , Packets In 4, Bytes In 150, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776733600 [Microsoft-Windows-PktMon] Component 80, Type 11, Name tcpip.sys, TCP/IPv4 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776734100 [Microsoft-Windows-PktMon] Property: Component 80, IP Address  = 10.4.64.13 
+[02]62C0.4558::2026-11-10 11:39:06.776734500 [Microsoft-Windows-PktMon] Property: Component 80, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776734800 [Microsoft-Windows-PktMon] Property: Component 80, IpIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776735600 [Microsoft-Windows-PktMon] Drop Counters: Component 80, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776735900 [Microsoft-Windows-PktMon] Component 79, Type 11, Name tcpip.sys, TCP/IPv4 - L3/L4 
+[02]62C0.4558::2026-11-10 11:39:06.776736200 [Microsoft-Windows-PktMon] Property: Component 79, IP Address  = 127.0.0.1 
+[02]62C0.4558::2026-11-10 11:39:06.776736500 [Microsoft-Windows-PktMon] Property: Component 79, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776736900 [Microsoft-Windows-PktMon] Property: Component 79, IpIfIndex  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776737600 [Microsoft-Windows-PktMon] Drop Counters: Component 79, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776737900 [Microsoft-Windows-PktMon] Component 78, Type Protocol , Name tcpip.sys, TCP/IPv6 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776738400 [Microsoft-Windows-PktMon] Property: Component 78, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776738700 [Microsoft-Windows-PktMon] Property: Component 78, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776739000 [Microsoft-Windows-PktMon] Property: Component 78, IpIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776739400 [Microsoft-Windows-PktMon] Property: Component 78, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776740300 [Microsoft-Windows-PktMon] Drop Counters: Component 78, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776741100 [Microsoft-Windows-PktMon] Flow Counters: Component 78, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776741400 [Microsoft-Windows-PktMon] Component 77, Type Protocol , Name tcpip.sys, TCP/IPv6 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776741700 [Microsoft-Windows-PktMon] Property: Component 77, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776741900 [Microsoft-Windows-PktMon] Property: Component 77, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776742200 [Microsoft-Windows-PktMon] Property: Component 77, IpIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776742400 [Microsoft-Windows-PktMon] Property: Component 77, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776743300 [Microsoft-Windows-PktMon] Drop Counters: Component 77, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776744100 [Microsoft-Windows-PktMon] Flow Counters: Component 77, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776744400 [Microsoft-Windows-PktMon] Component 76, Type Protocol , Name tcpip.sys, TCP/IPv6 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776744900 [Microsoft-Windows-PktMon] Property: Component 76, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776745100 [Microsoft-Windows-PktMon] Property: Component 76, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776745400 [Microsoft-Windows-PktMon] Property: Component 76, IpIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776745700 [Microsoft-Windows-PktMon] Property: Component 76, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776746600 [Microsoft-Windows-PktMon] Drop Counters: Component 76, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776747400 [Microsoft-Windows-PktMon] Flow Counters: Component 76, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776747700 [Microsoft-Windows-PktMon] Component 75, Type Protocol , Name tcpip.sys, TCP/IPv4 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776748000 [Microsoft-Windows-PktMon] Property: Component 75, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776748200 [Microsoft-Windows-PktMon] Property: Component 75, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776748400 [Microsoft-Windows-PktMon] Property: Component 75, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776748800 [Microsoft-Windows-PktMon] Property: Component 75, IpIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776749000 [Microsoft-Windows-PktMon] Property: Component 75, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776749900 [Microsoft-Windows-PktMon] Drop Counters: Component 75, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776750800 [Microsoft-Windows-PktMon] Flow Counters: Component 75, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776751200 [Microsoft-Windows-PktMon] Component 74, Type Protocol , Name tcpip.sys, TCP/IPv4 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776751400 [Microsoft-Windows-PktMon] Property: Component 74, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776751600 [Microsoft-Windows-PktMon] Property: Component 74, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776751800 [Microsoft-Windows-PktMon] Property: Component 74, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776752000 [Microsoft-Windows-PktMon] Property: Component 74, IpIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776752400 [Microsoft-Windows-PktMon] Property: Component 74, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776753200 [Microsoft-Windows-PktMon] Drop Counters: Component 74, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776754300 [Microsoft-Windows-PktMon] Flow Counters: Component 74, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776754700 [Microsoft-Windows-PktMon] Component 73, Type Protocol , Name tcpip.sys, TCP/IPv4 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776754900 [Microsoft-Windows-PktMon] Property: Component 73, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776755100 [Microsoft-Windows-PktMon] Property: Component 73, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776755400 [Microsoft-Windows-PktMon] Property: Component 73, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776755600 [Microsoft-Windows-PktMon] Property: Component 73, IpIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776755800 [Microsoft-Windows-PktMon] Property: Component 73, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776756700 [Microsoft-Windows-PktMon] Drop Counters: Component 73, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776757600 [Microsoft-Windows-PktMon] Flow Counters: Component 73, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776757800 [Microsoft-Windows-PktMon] Component 72, Type Protocol , Name tcpip.sys, TCP/IPv4 - L2 
+[02]62C0.4558::2026-11-10 11:39:06.776758200 [Microsoft-Windows-PktMon] Property: Component 72, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776758400 [Microsoft-Windows-PktMon] Property: Component 72, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776758600 [Microsoft-Windows-PktMon] Property: Component 72, Compartment ID  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776758800 [Microsoft-Windows-PktMon] Property: Component 72, IpIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776759000 [Microsoft-Windows-PktMon] Property: Component 72, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776759900 [Microsoft-Windows-PktMon] Drop Counters: Component 72, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776760800 [Microsoft-Windows-PktMon] Flow Counters: Component 72, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776761300 [Microsoft-Windows-PktMon] Component 71, Type Protocol , Name tcpip.sys, TCPIP 
+[02]62C0.4558::2026-11-10 11:39:06.776761700 [Microsoft-Windows-PktMon] Property: Component 71, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776762100 [Microsoft-Windows-PktMon] Property: Component 71, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776762300 [Microsoft-Windows-PktMon] Property: Component 71, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776762800 [Microsoft-Windows-PktMon] Property: Component 71, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776763600 [Microsoft-Windows-PktMon] Drop Counters: Component 71, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776764700 [Microsoft-Windows-PktMon] Flow Counters: Component 71, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 4, Bytes In 242, Direction Out = Tx , Packets Out 1, Bytes Out 42 
+[02]62C0.4558::2026-11-10 11:39:06.776765100 [Microsoft-Windows-PktMon] Component 70, Type Protocol , Name tcpip.sys, TCPIP6 
+[02]62C0.4558::2026-11-10 11:39:06.776765600 [Microsoft-Windows-PktMon] Property: Component 70, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776765900 [Microsoft-Windows-PktMon] Property: Component 70, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776766200 [Microsoft-Windows-PktMon] Property: Component 70, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776767100 [Microsoft-Windows-PktMon] Drop Counters: Component 70, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776768000 [Microsoft-Windows-PktMon] Flow Counters: Component 70, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776768500 [Microsoft-Windows-PktMon] Component 69, Type Protocol , Name lltdio.sys, LLTDIO 
+[02]62C0.4558::2026-11-10 11:39:06.776769100 [Microsoft-Windows-PktMon] Property: Component 69, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776769400 [Microsoft-Windows-PktMon] Property: Component 69, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776770300 [Microsoft-Windows-PktMon] Drop Counters: Component 69, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776771100 [Microsoft-Windows-PktMon] Flow Counters: Component 69, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776771600 [Microsoft-Windows-PktMon] Component 68, Type Protocol , Name mslldp.sys, MSLLDP 
+[02]62C0.4558::2026-11-10 11:39:06.776771900 [Microsoft-Windows-PktMon] Property: Component 68, EtherType  = LLDP  
+[02]62C0.4558::2026-11-10 11:39:06.776772300 [Microsoft-Windows-PktMon] Property: Component 68, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776772500 [Microsoft-Windows-PktMon] Property: Component 68, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776773800 [Microsoft-Windows-PktMon] Drop Counters: Component 68, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776775000 [Microsoft-Windows-PktMon] Flow Counters: Component 68, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776775400 [Microsoft-Windows-PktMon] Component 67, Type Protocol , Name rspndr.sys, RSPNDR 
+[02]62C0.4558::2026-11-10 11:39:06.776775900 [Microsoft-Windows-PktMon] Property: Component 67, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776776100 [Microsoft-Windows-PktMon] Property: Component 67, EtherType  = LLTD  
+[02]62C0.4558::2026-11-10 11:39:06.776776400 [Microsoft-Windows-PktMon] Property: Component 67, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776776900 [Microsoft-Windows-PktMon] Property: Component 67, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776778000 [Microsoft-Windows-PktMon] Drop Counters: Component 67, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776779000 [Microsoft-Windows-PktMon] Flow Counters: Component 67, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776779400 [Microsoft-Windows-PktMon] Component 66, Type Protocol , Name ndisuio.sys, NDISUIO 
+[02]62C0.4558::2026-11-10 11:39:06.776779800 [Microsoft-Windows-PktMon] Property: Component 66, EtherType  = 35015 
+[02]62C0.4558::2026-11-10 11:39:06.776780100 [Microsoft-Windows-PktMon] Property: Component 66, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776780300 [Microsoft-Windows-PktMon] Property: Component 66, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776780500 [Microsoft-Windows-PktMon] Property: Component 66, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776780700 [Microsoft-Windows-PktMon] Property: Component 66, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776781700 [Microsoft-Windows-PktMon] Drop Counters: Component 66, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776782600 [Microsoft-Windows-PktMon] Flow Counters: Component 66, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776783100 [Microsoft-Windows-PktMon] Component 65, Type Protocol , Name tcpip.sys, TCPIP 
+[02]62C0.4558::2026-11-10 11:39:06.776783400 [Microsoft-Windows-PktMon] Property: Component 65, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776783700 [Microsoft-Windows-PktMon] Property: Component 65, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776783900 [Microsoft-Windows-PktMon] Property: Component 65, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776784100 [Microsoft-Windows-PktMon] Property: Component 65, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776785000 [Microsoft-Windows-PktMon] Drop Counters: Component 65, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776786100 [Microsoft-Windows-PktMon] Flow Counters: Component 65, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776786600 [Microsoft-Windows-PktMon] Component 64, Type Protocol , Name rspndr.sys, RSPNDR 
+[02]62C0.4558::2026-11-10 11:39:06.776786900 [Microsoft-Windows-PktMon] Property: Component 64, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776787100 [Microsoft-Windows-PktMon] Property: Component 64, EtherType  = LLTD  
+[02]62C0.4558::2026-11-10 11:39:06.776787400 [Microsoft-Windows-PktMon] Property: Component 64, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776787600 [Microsoft-Windows-PktMon] Property: Component 64, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776788400 [Microsoft-Windows-PktMon] Drop Counters: Component 64, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776789500 [Microsoft-Windows-PktMon] Flow Counters: Component 64, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776790000 [Microsoft-Windows-PktMon] Component 63, Type Protocol , Name ndisuio.sys, NDISUIO 
+[02]62C0.4558::2026-11-10 11:39:06.776790200 [Microsoft-Windows-PktMon] Property: Component 63, EtherType  = 35015 
+[02]62C0.4558::2026-11-10 11:39:06.776790400 [Microsoft-Windows-PktMon] Property: Component 63, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776790600 [Microsoft-Windows-PktMon] Property: Component 63, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776791000 [Microsoft-Windows-PktMon] Property: Component 63, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776791300 [Microsoft-Windows-PktMon] Property: Component 63, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776792300 [Microsoft-Windows-PktMon] Drop Counters: Component 63, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776793300 [Microsoft-Windows-PktMon] Flow Counters: Component 63, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776793700 [Microsoft-Windows-PktMon] Component 62, Type Protocol , Name lltdio.sys, LLTDIO 
+[02]62C0.4558::2026-11-10 11:39:06.776794000 [Microsoft-Windows-PktMon] Property: Component 62, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776794300 [Microsoft-Windows-PktMon] Property: Component 62, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776795200 [Microsoft-Windows-PktMon] Drop Counters: Component 62, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776796200 [Microsoft-Windows-PktMon] Flow Counters: Component 62, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776796800 [Microsoft-Windows-PktMon] Component 61, Type Protocol , Name tcpip.sys, TCPIP 
+[02]62C0.4558::2026-11-10 11:39:06.776797100 [Microsoft-Windows-PktMon] Property: Component 61, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776797400 [Microsoft-Windows-PktMon] Property: Component 61, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776797700 [Microsoft-Windows-PktMon] Property: Component 61, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776797900 [Microsoft-Windows-PktMon] Property: Component 61, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776798800 [Microsoft-Windows-PktMon] Drop Counters: Component 61, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776799700 [Microsoft-Windows-PktMon] Flow Counters: Component 61, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776800200 [Microsoft-Windows-PktMon] Component 60, Type Protocol , Name tcpip.sys, TCPIP6 
+[02]62C0.4558::2026-11-10 11:39:06.776800500 [Microsoft-Windows-PktMon] Property: Component 60, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776800700 [Microsoft-Windows-PktMon] Property: Component 60, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776801000 [Microsoft-Windows-PktMon] Property: Component 60, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776801900 [Microsoft-Windows-PktMon] Drop Counters: Component 60, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776802700 [Microsoft-Windows-PktMon] Flow Counters: Component 60, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776803300 [Microsoft-Windows-PktMon] Component 59, Type Protocol , Name rspndr.sys, RSPNDR 
+[02]62C0.4558::2026-11-10 11:39:06.776803500 [Microsoft-Windows-PktMon] Property: Component 59, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776803700 [Microsoft-Windows-PktMon] Property: Component 59, EtherType  = LLTD  
+[02]62C0.4558::2026-11-10 11:39:06.776803900 [Microsoft-Windows-PktMon] Property: Component 59, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776804200 [Microsoft-Windows-PktMon] Property: Component 59, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776805200 [Microsoft-Windows-PktMon] Drop Counters: Component 59, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776806500 [Microsoft-Windows-PktMon] Flow Counters: Component 59, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776806900 [Microsoft-Windows-PktMon] Component 58, Type Protocol , Name ndisuio.sys, NDISUIO 
+[02]62C0.4558::2026-11-10 11:39:06.776807200 [Microsoft-Windows-PktMon] Property: Component 58, EtherType  = 35015 
+[02]62C0.4558::2026-11-10 11:39:06.776807400 [Microsoft-Windows-PktMon] Property: Component 58, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776807600 [Microsoft-Windows-PktMon] Property: Component 58, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776807800 [Microsoft-Windows-PktMon] Property: Component 58, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776808000 [Microsoft-Windows-PktMon] Property: Component 58, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776808900 [Microsoft-Windows-PktMon] Drop Counters: Component 58, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776809700 [Microsoft-Windows-PktMon] Flow Counters: Component 58, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776810000 [Microsoft-Windows-PktMon] Component 57, Type Protocol , Name lltdio.sys, LLTDIO 
+[02]62C0.4558::2026-11-10 11:39:06.776810300 [Microsoft-Windows-PktMon] Property: Component 57, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776810500 [Microsoft-Windows-PktMon] Property: Component 57, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776811400 [Microsoft-Windows-PktMon] Drop Counters: Component 57, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776812400 [Microsoft-Windows-PktMon] Flow Counters: Component 57, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776812900 [Microsoft-Windows-PktMon] Component 56, Type Protocol , Name wanarp.sys, WANARP 
+[02]62C0.4558::2026-11-10 11:39:06.776813100 [Microsoft-Windows-PktMon] Property: Component 56, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776813400 [Microsoft-Windows-PktMon] Property: Component 56, MiniportIfIndex  = 7 
+[02]62C0.4558::2026-11-10 11:39:06.776814000 [Microsoft-Windows-PktMon] Property: Component 56, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776814900 [Microsoft-Windows-PktMon] Drop Counters: Component 56, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776815900 [Microsoft-Windows-PktMon] Flow Counters: Component 56, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776816300 [Microsoft-Windows-PktMon] Component 55, Type Protocol , Name wanarp.sys, WANARPV6 
+[02]62C0.4558::2026-11-10 11:39:06.776816700 [Microsoft-Windows-PktMon] Property: Component 55, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776817000 [Microsoft-Windows-PktMon] Property: Component 55, MiniportIfIndex  = 11 
+[02]62C0.4558::2026-11-10 11:39:06.776817300 [Microsoft-Windows-PktMon] Property: Component 55, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776818200 [Microsoft-Windows-PktMon] Drop Counters: Component 55, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776819000 [Microsoft-Windows-PktMon] Flow Counters: Component 55, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776819400 [Microsoft-Windows-PktMon] Component 54, Type Protocol , Name tcpip.sys, TCPIP 
+[02]62C0.4558::2026-11-10 11:39:06.776819600 [Microsoft-Windows-PktMon] Property: Component 54, EtherType  = ARP  
+[02]62C0.4558::2026-11-10 11:39:06.776820000 [Microsoft-Windows-PktMon] Property: Component 54, EtherType  = IPv4  
+[02]62C0.4558::2026-11-10 11:39:06.776820400 [Microsoft-Windows-PktMon] Property: Component 54, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776820800 [Microsoft-Windows-PktMon] Property: Component 54, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776821700 [Microsoft-Windows-PktMon] Drop Counters: Component 54, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776822400 [Microsoft-Windows-PktMon] Flow Counters: Component 54, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776822900 [Microsoft-Windows-PktMon] Component 53, Type Protocol , Name tcpip.sys, TCPIP6 
+[02]62C0.4558::2026-11-10 11:39:06.776823200 [Microsoft-Windows-PktMon] Property: Component 53, EtherType  = IPv6  
+[02]62C0.4558::2026-11-10 11:39:06.776823500 [Microsoft-Windows-PktMon] Property: Component 53, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776823900 [Microsoft-Windows-PktMon] Property: Component 53, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776824900 [Microsoft-Windows-PktMon] Drop Counters: Component 53, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776825900 [Microsoft-Windows-PktMon] Flow Counters: Component 53, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776826300 [Microsoft-Windows-PktMon] Component 52, Type Protocol , Name rspndr.sys, RSPNDR 
+[02]62C0.4558::2026-11-10 11:39:06.776826700 [Microsoft-Windows-PktMon] Property: Component 52, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776827000 [Microsoft-Windows-PktMon] Property: Component 52, EtherType  = LLTD  
+[02]62C0.4558::2026-11-10 11:39:06.776827500 [Microsoft-Windows-PktMon] Property: Component 52, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776827700 [Microsoft-Windows-PktMon] Property: Component 52, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776828500 [Microsoft-Windows-PktMon] Drop Counters: Component 52, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776829600 [Microsoft-Windows-PktMon] Flow Counters: Component 52, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776830000 [Microsoft-Windows-PktMon] Component 51, Type Protocol , Name ndisuio.sys, NDISUIO 
+[02]62C0.4558::2026-11-10 11:39:06.776830500 [Microsoft-Windows-PktMon] Property: Component 51, EtherType  = 35015 
+[02]62C0.4558::2026-11-10 11:39:06.776830700 [Microsoft-Windows-PktMon] Property: Component 51, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776831000 [Microsoft-Windows-PktMon] Property: Component 51, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776831400 [Microsoft-Windows-PktMon] Property: Component 51, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776832000 [Microsoft-Windows-PktMon] Property: Component 51, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776832900 [Microsoft-Windows-PktMon] Drop Counters: Component 51, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776852200 [Microsoft-Windows-PktMon] Flow Counters: Component 51, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776853000 [Microsoft-Windows-PktMon] Component 50, Type Protocol , Name lltdio.sys, LLTDIO 
+[02]62C0.4558::2026-11-10 11:39:06.776853300 [Microsoft-Windows-PktMon] Property: Component 50, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.776853800 [Microsoft-Windows-PktMon] Property: Component 50, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776854800 [Microsoft-Windows-PktMon] Drop Counters: Component 50, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776855800 [Microsoft-Windows-PktMon] Flow Counters: Component 50, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776856400 [Microsoft-Windows-PktMon] Component 49, Type Protocol , Name ndiswan.sys, NDISWAN 
+[02]62C0.4558::2026-11-10 11:39:06.776856600 [Microsoft-Windows-PktMon] Property: Component 49, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776856800 [Microsoft-Windows-PktMon] Property: Component 49, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776857000 [Microsoft-Windows-PktMon] Property: Component 49, MiniportIfIndex  = 13 
+[02]62C0.4558::2026-11-10 11:39:06.776857300 [Microsoft-Windows-PktMon] Property: Component 49, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776858600 [Microsoft-Windows-PktMon] Drop Counters: Component 49, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776859500 [Microsoft-Windows-PktMon] Flow Counters: Component 49, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776860000 [Microsoft-Windows-PktMon] Component 48, Type Protocol , Name ndiswan.sys, NDISWAN 
+[02]62C0.4558::2026-11-10 11:39:06.776860200 [Microsoft-Windows-PktMon] Property: Component 48, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776860400 [Microsoft-Windows-PktMon] Property: Component 48, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776860900 [Microsoft-Windows-PktMon] Property: Component 48, MiniportIfIndex  = 17 
+[02]62C0.4558::2026-11-10 11:39:06.776861200 [Microsoft-Windows-PktMon] Property: Component 48, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776862100 [Microsoft-Windows-PktMon] Drop Counters: Component 48, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776863000 [Microsoft-Windows-PktMon] Flow Counters: Component 48, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776863400 [Microsoft-Windows-PktMon] Component 47, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776863800 [Microsoft-Windows-PktMon] Property: Component 47, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776864100 [Microsoft-Windows-PktMon] Property: Component 47, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776864300 [Microsoft-Windows-PktMon] Property: Component 47, MiniportIfIndex  = 13 
+[02]62C0.4558::2026-11-10 11:39:06.776864600 [Microsoft-Windows-PktMon] Property: Component 47, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776865500 [Microsoft-Windows-PktMon] Drop Counters: Component 47, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776866400 [Microsoft-Windows-PktMon] Flow Counters: Component 47, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776866700 [Microsoft-Windows-PktMon] Component 46, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776866900 [Microsoft-Windows-PktMon] Property: Component 46, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776867100 [Microsoft-Windows-PktMon] Property: Component 46, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776867300 [Microsoft-Windows-PktMon] Property: Component 46, MiniportIfIndex  = 13 
+[02]62C0.4558::2026-11-10 11:39:06.776867600 [Microsoft-Windows-PktMon] Property: Component 46, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776868400 [Microsoft-Windows-PktMon] Drop Counters: Component 46, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776869400 [Microsoft-Windows-PktMon] Flow Counters: Component 46, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776869700 [Microsoft-Windows-PktMon] Component 45, Type Protocol , Name ndiswan.sys, NDISWAN 
+[02]62C0.4558::2026-11-10 11:39:06.776870100 [Microsoft-Windows-PktMon] Property: Component 45, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776870400 [Microsoft-Windows-PktMon] Property: Component 45, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776870900 [Microsoft-Windows-PktMon] Property: Component 45, MiniportIfIndex  = 3 
+[02]62C0.4558::2026-11-10 11:39:06.776871200 [Microsoft-Windows-PktMon] Property: Component 45, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776872200 [Microsoft-Windows-PktMon] Drop Counters: Component 45, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776873300 [Microsoft-Windows-PktMon] Flow Counters: Component 45, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776873600 [Microsoft-Windows-PktMon] Component 44, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776873900 [Microsoft-Windows-PktMon] Property: Component 44, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776874200 [Microsoft-Windows-PktMon] Property: Component 44, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776874500 [Microsoft-Windows-PktMon] Property: Component 44, MiniportIfIndex  = 17 
+[02]62C0.4558::2026-11-10 11:39:06.776875300 [Microsoft-Windows-PktMon] Property: Component 44, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776876100 [Microsoft-Windows-PktMon] Drop Counters: Component 44, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776877000 [Microsoft-Windows-PktMon] Flow Counters: Component 44, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776877400 [Microsoft-Windows-PktMon] Component 43, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776877700 [Microsoft-Windows-PktMon] Property: Component 43, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776878300 [Microsoft-Windows-PktMon] Property: Component 43, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776878500 [Microsoft-Windows-PktMon] Property: Component 43, MiniportIfIndex  = 17 
+[02]62C0.4558::2026-11-10 11:39:06.776878700 [Microsoft-Windows-PktMon] Property: Component 43, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776879700 [Microsoft-Windows-PktMon] Drop Counters: Component 43, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776880600 [Microsoft-Windows-PktMon] Flow Counters: Component 43, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776881300 [Microsoft-Windows-PktMon] Component 42, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776881600 [Microsoft-Windows-PktMon] Property: Component 42, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776882100 [Microsoft-Windows-PktMon] Property: Component 42, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776882400 [Microsoft-Windows-PktMon] Property: Component 42, MiniportIfIndex  = 3 
+[02]62C0.4558::2026-11-10 11:39:06.776882600 [Microsoft-Windows-PktMon] Property: Component 42, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776883600 [Microsoft-Windows-PktMon] Drop Counters: Component 42, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776884300 [Microsoft-Windows-PktMon] Flow Counters: Component 42, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776884700 [Microsoft-Windows-PktMon] Component 41, Type Protocol , Name ndiswan.sys, NDISWAN 
+[02]62C0.4558::2026-11-10 11:39:06.776885200 [Microsoft-Windows-PktMon] Property: Component 41, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776885400 [Microsoft-Windows-PktMon] Property: Component 41, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776885900 [Microsoft-Windows-PktMon] Property: Component 41, MiniportIfIndex  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.776886200 [Microsoft-Windows-PktMon] Property: Component 41, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776887000 [Microsoft-Windows-PktMon] Drop Counters: Component 41, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776887900 [Microsoft-Windows-PktMon] Flow Counters: Component 41, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776888200 [Microsoft-Windows-PktMon] Component 40, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776888500 [Microsoft-Windows-PktMon] Property: Component 40, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776888700 [Microsoft-Windows-PktMon] Property: Component 40, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776889100 [Microsoft-Windows-PktMon] Property: Component 40, MiniportIfIndex  = 3 
+[02]62C0.4558::2026-11-10 11:39:06.776889300 [Microsoft-Windows-PktMon] Property: Component 40, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776890300 [Microsoft-Windows-PktMon] Drop Counters: Component 40, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776891000 [Microsoft-Windows-PktMon] Flow Counters: Component 40, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776891300 [Microsoft-Windows-PktMon] Component 39, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776891600 [Microsoft-Windows-PktMon] Property: Component 39, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776891900 [Microsoft-Windows-PktMon] Property: Component 39, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776892100 [Microsoft-Windows-PktMon] Property: Component 39, MiniportIfIndex  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.776892500 [Microsoft-Windows-PktMon] Property: Component 39, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776893300 [Microsoft-Windows-PktMon] Drop Counters: Component 39, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776894200 [Microsoft-Windows-PktMon] Flow Counters: Component 39, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776894500 [Microsoft-Windows-PktMon] Component 38, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776894800 [Microsoft-Windows-PktMon] Property: Component 38, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776895000 [Microsoft-Windows-PktMon] Property: Component 38, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776895300 [Microsoft-Windows-PktMon] Property: Component 38, MiniportIfIndex  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.776895600 [Microsoft-Windows-PktMon] Property: Component 38, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776896400 [Microsoft-Windows-PktMon] Drop Counters: Component 38, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776897300 [Microsoft-Windows-PktMon] Flow Counters: Component 38, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776897600 [Microsoft-Windows-PktMon] Component 37, Type Protocol , Name ndiswan.sys, NDISWAN 
+[02]62C0.4558::2026-11-10 11:39:06.776897800 [Microsoft-Windows-PktMon] Property: Component 37, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776898100 [Microsoft-Windows-PktMon] Property: Component 37, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776898400 [Microsoft-Windows-PktMon] Property: Component 37, MiniportIfIndex  = 8 
+[02]62C0.4558::2026-11-10 11:39:06.776898900 [Microsoft-Windows-PktMon] Property: Component 37, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776899700 [Microsoft-Windows-PktMon] Drop Counters: Component 37, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776900500 [Microsoft-Windows-PktMon] Flow Counters: Component 37, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776900900 [Microsoft-Windows-PktMon] Component 36, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776901200 [Microsoft-Windows-PktMon] Property: Component 36, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776901500 [Microsoft-Windows-PktMon] Property: Component 36, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776901700 [Microsoft-Windows-PktMon] Property: Component 36, MiniportIfIndex  = 8 
+[02]62C0.4558::2026-11-10 11:39:06.776902000 [Microsoft-Windows-PktMon] Property: Component 36, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776903000 [Microsoft-Windows-PktMon] Drop Counters: Component 36, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776904000 [Microsoft-Windows-PktMon] Flow Counters: Component 36, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776904600 [Microsoft-Windows-PktMon] Component 35, Type Protocol , Name NDProxy.sys, NDPROXY 
+[02]62C0.4558::2026-11-10 11:39:06.776904900 [Microsoft-Windows-PktMon] Property: Component 35, EtherType  = VLAN  
+[02]62C0.4558::2026-11-10 11:39:06.776905200 [Microsoft-Windows-PktMon] Property: Component 35, EtherType  = 34958 
+[02]62C0.4558::2026-11-10 11:39:06.776905500 [Microsoft-Windows-PktMon] Property: Component 35, MiniportIfIndex  = 8 
+[02]62C0.4558::2026-11-10 11:39:06.776905700 [Microsoft-Windows-PktMon] Property: Component 35, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776906600 [Microsoft-Windows-PktMon] Drop Counters: Component 35, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776907400 [Microsoft-Windows-PktMon] Flow Counters: Component 35, Edge Lower, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776908100 [Microsoft-Windows-PktMon] Component 34, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776908600 [Microsoft-Windows-PktMon] Property: Component 34, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776908800 [Microsoft-Windows-PktMon] Property: Component 34, IfIndex  = 19 
+[02]62C0.4558::2026-11-10 11:39:06.776909000 [Microsoft-Windows-PktMon] Property: Component 34, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776909800 [Microsoft-Windows-PktMon] Drop Counters: Component 34, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776910800 [Microsoft-Windows-PktMon] Flow Counters: Component 34, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 4, Bytes In 242, Direction Out = Tx , Packets Out 1, Bytes Out 42 
+[02]62C0.4558::2026-11-10 11:39:06.776912400 [Microsoft-Windows-PktMon] Flow Counters: Component 34, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 4, Bytes In 242, Direction Out = Tx , Packets Out 1, Bytes Out 42 
+[02]62C0.4558::2026-11-10 11:39:06.776912900 [Microsoft-Windows-PktMon] Component 33, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.776913400 [Microsoft-Windows-PktMon] Property: Component 33, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776913900 [Microsoft-Windows-PktMon] Property: Component 33, LowerIfIndex  = 19 
+[02]62C0.4558::2026-11-10 11:39:06.776914600 [Microsoft-Windows-PktMon] Property: Component 33, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776914900 [Microsoft-Windows-PktMon] Property: Component 33, IfIndex  = 20 
+[02]62C0.4558::2026-11-10 11:39:06.776915100 [Microsoft-Windows-PktMon] Property: Component 33, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776916200 [Microsoft-Windows-PktMon] Drop Counters: Component 33, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776917000 [Microsoft-Windows-PktMon] Flow Counters: Component 33, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776918000 [Microsoft-Windows-PktMon] Flow Counters: Component 33, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776918500 [Microsoft-Windows-PktMon] Component 32, Type Filter , Name wfplwfs.sys, WFP 802.3 MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776918900 [Microsoft-Windows-PktMon] Property: Component 32, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776919600 [Microsoft-Windows-PktMon] Property: Component 32, LowerIfIndex  = 20 
+[02]62C0.4558::2026-11-10 11:39:06.776919800 [Microsoft-Windows-PktMon] Property: Component 32, MiniportIfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.776920100 [Microsoft-Windows-PktMon] Property: Component 32, IfIndex  = 21 
+[02]62C0.4558::2026-11-10 11:39:06.776920400 [Microsoft-Windows-PktMon] Property: Component 32, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776921400 [Microsoft-Windows-PktMon] Drop Counters: Component 32, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776922300 [Microsoft-Windows-PktMon] Flow Counters: Component 32, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776923100 [Microsoft-Windows-PktMon] Flow Counters: Component 32, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776923700 [Microsoft-Windows-PktMon] Component 31, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776923900 [Microsoft-Windows-PktMon] Property: Component 31, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776924300 [Microsoft-Windows-PktMon] Property: Component 31, IfIndex  = 22 
+[02]62C0.4558::2026-11-10 11:39:06.776924500 [Microsoft-Windows-PktMon] Property: Component 31, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776925600 [Microsoft-Windows-PktMon] Drop Counters: Component 31, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776926600 [Microsoft-Windows-PktMon] Flow Counters: Component 31, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776927600 [Microsoft-Windows-PktMon] Flow Counters: Component 31, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776928800 [Microsoft-Windows-PktMon] Component 30, Type Filter , Name vwififlt.sys, Virtual WiFi Filter Driver 
+[02]62C0.4558::2026-11-10 11:39:06.776929100 [Microsoft-Windows-PktMon] Property: Component 30, LowerIfIndex  = 22 
+[02]62C0.4558::2026-11-10 11:39:06.776929700 [Microsoft-Windows-PktMon] Property: Component 30, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776930100 [Microsoft-Windows-PktMon] Property: Component 30, IfIndex  = 23 
+[02]62C0.4558::2026-11-10 11:39:06.776930400 [Microsoft-Windows-PktMon] Property: Component 30, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776931200 [Microsoft-Windows-PktMon] Drop Counters: Component 30, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776932400 [Microsoft-Windows-PktMon] Flow Counters: Component 30, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776933200 [Microsoft-Windows-PktMon] Flow Counters: Component 30, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776933600 [Microsoft-Windows-PktMon] Component 29, Type Filter , Name nwifi.sys, Native WiFi Filter Driver 
+[02]62C0.4558::2026-11-10 11:39:06.776934100 [Microsoft-Windows-PktMon] Property: Component 29, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.776934400 [Microsoft-Windows-PktMon] Property: Component 29, LowerIfIndex  = 23 
+[02]62C0.4558::2026-11-10 11:39:06.776934900 [Microsoft-Windows-PktMon] Property: Component 29, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776935200 [Microsoft-Windows-PktMon] Property: Component 29, IfIndex  = 24 
+[02]62C0.4558::2026-11-10 11:39:06.776935600 [Microsoft-Windows-PktMon] Property: Component 29, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776936700 [Microsoft-Windows-PktMon] Drop Counters: Component 29, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776937600 [Microsoft-Windows-PktMon] Flow Counters: Component 29, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776938500 [Microsoft-Windows-PktMon] Flow Counters: Component 29, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776938800 [Microsoft-Windows-PktMon] Component 28, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.776939100 [Microsoft-Windows-PktMon] Property: Component 28, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776939600 [Microsoft-Windows-PktMon] Property: Component 28, LowerIfIndex  = 24 
+[02]62C0.4558::2026-11-10 11:39:06.776940200 [Microsoft-Windows-PktMon] Property: Component 28, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776940500 [Microsoft-Windows-PktMon] Property: Component 28, IfIndex  = 25 
+[02]62C0.4558::2026-11-10 11:39:06.776940800 [Microsoft-Windows-PktMon] Property: Component 28, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776941700 [Microsoft-Windows-PktMon] Drop Counters: Component 28, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776942700 [Microsoft-Windows-PktMon] Flow Counters: Component 28, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776943500 [Microsoft-Windows-PktMon] Flow Counters: Component 28, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776944000 [Microsoft-Windows-PktMon] Component 27, Type Filter , Name wfplwfs.sys, WFP 802.3 MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776944400 [Microsoft-Windows-PktMon] Property: Component 27, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776944600 [Microsoft-Windows-PktMon] Property: Component 27, LowerIfIndex  = 25 
+[02]62C0.4558::2026-11-10 11:39:06.776944800 [Microsoft-Windows-PktMon] Property: Component 27, MiniportIfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.776945100 [Microsoft-Windows-PktMon] Property: Component 27, IfIndex  = 26 
+[02]62C0.4558::2026-11-10 11:39:06.776945500 [Microsoft-Windows-PktMon] Property: Component 27, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776946400 [Microsoft-Windows-PktMon] Drop Counters: Component 27, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776947400 [Microsoft-Windows-PktMon] Flow Counters: Component 27, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776948200 [Microsoft-Windows-PktMon] Flow Counters: Component 27, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776948600 [Microsoft-Windows-PktMon] Component 26, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776949100 [Microsoft-Windows-PktMon] Property: Component 26, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776949600 [Microsoft-Windows-PktMon] Property: Component 26, IfIndex  = 27 
+[02]62C0.4558::2026-11-10 11:39:06.776949800 [Microsoft-Windows-PktMon] Property: Component 26, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776950700 [Microsoft-Windows-PktMon] Drop Counters: Component 26, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776951900 [Microsoft-Windows-PktMon] Flow Counters: Component 26, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776952900 [Microsoft-Windows-PktMon] Flow Counters: Component 26, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776953300 [Microsoft-Windows-PktMon] Component 25, Type Filter , Name nwifi.sys, Native WiFi Filter Driver 
+[02]62C0.4558::2026-11-10 11:39:06.776953600 [Microsoft-Windows-PktMon] Property: Component 25, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.776953900 [Microsoft-Windows-PktMon] Property: Component 25, LowerIfIndex  = 27 
+[02]62C0.4558::2026-11-10 11:39:06.776954200 [Microsoft-Windows-PktMon] Property: Component 25, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776954500 [Microsoft-Windows-PktMon] Property: Component 25, IfIndex  = 28 
+[02]62C0.4558::2026-11-10 11:39:06.776954700 [Microsoft-Windows-PktMon] Property: Component 25, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776955700 [Microsoft-Windows-PktMon] Drop Counters: Component 25, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776956800 [Microsoft-Windows-PktMon] Flow Counters: Component 25, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776957700 [Microsoft-Windows-PktMon] Flow Counters: Component 25, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776958400 [Microsoft-Windows-PktMon] Component 24, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.776959100 [Microsoft-Windows-PktMon] Property: Component 24, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776959500 [Microsoft-Windows-PktMon] Property: Component 24, LowerIfIndex  = 28 
+[02]62C0.4558::2026-11-10 11:39:06.776959900 [Microsoft-Windows-PktMon] Property: Component 24, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776960200 [Microsoft-Windows-PktMon] Property: Component 24, IfIndex  = 29 
+[02]62C0.4558::2026-11-10 11:39:06.776960500 [Microsoft-Windows-PktMon] Property: Component 24, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776961500 [Microsoft-Windows-PktMon] Drop Counters: Component 24, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776962500 [Microsoft-Windows-PktMon] Flow Counters: Component 24, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776963300 [Microsoft-Windows-PktMon] Flow Counters: Component 24, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776964000 [Microsoft-Windows-PktMon] Component 23, Type Filter , Name wfplwfs.sys, WFP 802.3 MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776964500 [Microsoft-Windows-PktMon] Property: Component 23, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776964800 [Microsoft-Windows-PktMon] Property: Component 23, LowerIfIndex  = 29 
+[02]62C0.4558::2026-11-10 11:39:06.776965100 [Microsoft-Windows-PktMon] Property: Component 23, MiniportIfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.776965400 [Microsoft-Windows-PktMon] Property: Component 23, IfIndex  = 30 
+[02]62C0.4558::2026-11-10 11:39:06.776965600 [Microsoft-Windows-PktMon] Property: Component 23, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776966500 [Microsoft-Windows-PktMon] Drop Counters: Component 23, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776967900 [Microsoft-Windows-PktMon] Flow Counters: Component 23, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776968800 [Microsoft-Windows-PktMon] Flow Counters: Component 23, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776969400 [Microsoft-Windows-PktMon] Component 22, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776969600 [Microsoft-Windows-PktMon] Property: Component 22, MiniportIfIndex  = 7 
+[02]62C0.4558::2026-11-10 11:39:06.776970200 [Microsoft-Windows-PktMon] Property: Component 22, IfIndex  = 31 
+[02]62C0.4558::2026-11-10 11:39:06.776970400 [Microsoft-Windows-PktMon] Property: Component 22, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776978400 [Microsoft-Windows-PktMon] Drop Counters: Component 22, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776979500 [Microsoft-Windows-PktMon] Flow Counters: Component 22, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776980700 [Microsoft-Windows-PktMon] Flow Counters: Component 22, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776981100 [Microsoft-Windows-PktMon] Component 21, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.776981600 [Microsoft-Windows-PktMon] Property: Component 21, LowerIfIndex  = 31 
+[02]62C0.4558::2026-11-10 11:39:06.776981800 [Microsoft-Windows-PktMon] Property: Component 21, MiniportIfIndex  = 7 
+[02]62C0.4558::2026-11-10 11:39:06.776982300 [Microsoft-Windows-PktMon] Property: Component 21, IfIndex  = 32 
+[02]62C0.4558::2026-11-10 11:39:06.776982500 [Microsoft-Windows-PktMon] Property: Component 21, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776983500 [Microsoft-Windows-PktMon] Drop Counters: Component 21, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776984300 [Microsoft-Windows-PktMon] Flow Counters: Component 21, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776985000 [Microsoft-Windows-PktMon] Flow Counters: Component 21, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776985400 [Microsoft-Windows-PktMon] Component 20, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776985700 [Microsoft-Windows-PktMon] Property: Component 20, MiniportIfIndex  = 11 
+[02]62C0.4558::2026-11-10 11:39:06.776985900 [Microsoft-Windows-PktMon] Property: Component 20, IfIndex  = 33 
+[02]62C0.4558::2026-11-10 11:39:06.776986100 [Microsoft-Windows-PktMon] Property: Component 20, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776987000 [Microsoft-Windows-PktMon] Drop Counters: Component 20, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776987900 [Microsoft-Windows-PktMon] Flow Counters: Component 20, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776988600 [Microsoft-Windows-PktMon] Flow Counters: Component 20, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776989100 [Microsoft-Windows-PktMon] Component 19, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.776989300 [Microsoft-Windows-PktMon] Property: Component 19, LowerIfIndex  = 33 
+[02]62C0.4558::2026-11-10 11:39:06.776989600 [Microsoft-Windows-PktMon] Property: Component 19, MiniportIfIndex  = 11 
+[02]62C0.4558::2026-11-10 11:39:06.776989800 [Microsoft-Windows-PktMon] Property: Component 19, IfIndex  = 34 
+[02]62C0.4558::2026-11-10 11:39:06.776990000 [Microsoft-Windows-PktMon] Property: Component 19, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776990800 [Microsoft-Windows-PktMon] Drop Counters: Component 19, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776991800 [Microsoft-Windows-PktMon] Flow Counters: Component 19, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776992600 [Microsoft-Windows-PktMon] Flow Counters: Component 19, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776993100 [Microsoft-Windows-PktMon] Component 18, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.776993500 [Microsoft-Windows-PktMon] Property: Component 18, MiniportIfIndex  = 16 
+[02]62C0.4558::2026-11-10 11:39:06.776993800 [Microsoft-Windows-PktMon] Property: Component 18, IfIndex  = 35 
+[02]62C0.4558::2026-11-10 11:39:06.776994000 [Microsoft-Windows-PktMon] Property: Component 18, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776994800 [Microsoft-Windows-PktMon] Drop Counters: Component 18, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776995900 [Microsoft-Windows-PktMon] Flow Counters: Component 18, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776996800 [Microsoft-Windows-PktMon] Flow Counters: Component 18, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.776997500 [Microsoft-Windows-PktMon] Component 17, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.776997900 [Microsoft-Windows-PktMon] Property: Component 17, LowerIfIndex  = 35 
+[02]62C0.4558::2026-11-10 11:39:06.776998100 [Microsoft-Windows-PktMon] Property: Component 17, MiniportIfIndex  = 16 
+[02]62C0.4558::2026-11-10 11:39:06.776998400 [Microsoft-Windows-PktMon] Property: Component 17, IfIndex  = 36 
+[02]62C0.4558::2026-11-10 11:39:06.776998700 [Microsoft-Windows-PktMon] Property: Component 17, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.776999500 [Microsoft-Windows-PktMon] Drop Counters: Component 17, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777000500 [Microsoft-Windows-PktMon] Flow Counters: Component 17, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777001200 [Microsoft-Windows-PktMon] Flow Counters: Component 17, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777001700 [Microsoft-Windows-PktMon] Component 16, Type Filter , Name wfplwfs.sys, WFP Native MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.777002100 [Microsoft-Windows-PktMon] Property: Component 16, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.777002400 [Microsoft-Windows-PktMon] Property: Component 16, IfIndex  = 37 
+[02]62C0.4558::2026-11-10 11:39:06.777002600 [Microsoft-Windows-PktMon] Property: Component 16, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777003400 [Microsoft-Windows-PktMon] Drop Counters: Component 16, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777004400 [Microsoft-Windows-PktMon] Flow Counters: Component 16, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777005500 [Microsoft-Windows-PktMon] Flow Counters: Component 16, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777006000 [Microsoft-Windows-PktMon] Component 15, Type Filter , Name nwifi.sys, Native WiFi Filter Driver 
+[02]62C0.4558::2026-11-10 11:39:06.777006300 [Microsoft-Windows-PktMon] Property: Component 15, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.777006500 [Microsoft-Windows-PktMon] Property: Component 15, LowerIfIndex  = 37 
+[02]62C0.4558::2026-11-10 11:39:06.777006700 [Microsoft-Windows-PktMon] Property: Component 15, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.777010400 [Microsoft-Windows-PktMon] Property: Component 15, IfIndex  = 38 
+[02]62C0.4558::2026-11-10 11:39:06.777010600 [Microsoft-Windows-PktMon] Property: Component 15, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777011600 [Microsoft-Windows-PktMon] Drop Counters: Component 15, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777012600 [Microsoft-Windows-PktMon] Flow Counters: Component 15, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777013500 [Microsoft-Windows-PktMon] Flow Counters: Component 15, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777014200 [Microsoft-Windows-PktMon] Component 14, Type Filter , Name pacer.sys, QoS Packet Scheduler 
+[02]62C0.4558::2026-11-10 11:39:06.777014500 [Microsoft-Windows-PktMon] Property: Component 14, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777014700 [Microsoft-Windows-PktMon] Property: Component 14, LowerIfIndex  = 38 
+[02]62C0.4558::2026-11-10 11:39:06.777014900 [Microsoft-Windows-PktMon] Property: Component 14, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.777015300 [Microsoft-Windows-PktMon] Property: Component 14, IfIndex  = 39 
+[02]62C0.4558::2026-11-10 11:39:06.777015600 [Microsoft-Windows-PktMon] Property: Component 14, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777016600 [Microsoft-Windows-PktMon] Drop Counters: Component 14, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777017500 [Microsoft-Windows-PktMon] Flow Counters: Component 14, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777018700 [Microsoft-Windows-PktMon] Flow Counters: Component 14, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777019200 [Microsoft-Windows-PktMon] Component 13, Type Filter , Name wfplwfs.sys, WFP 802.3 MAC Layer LightWeight Filter 
+[02]62C0.4558::2026-11-10 11:39:06.777019500 [Microsoft-Windows-PktMon] Property: Component 13, OptDataPath  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777019700 [Microsoft-Windows-PktMon] Property: Component 13, LowerIfIndex  = 39 
+[02]62C0.4558::2026-11-10 11:39:06.777020200 [Microsoft-Windows-PktMon] Property: Component 13, MiniportIfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.777020600 [Microsoft-Windows-PktMon] Property: Component 13, IfIndex  = 40 
+[02]62C0.4558::2026-11-10 11:39:06.777021200 [Microsoft-Windows-PktMon] Property: Component 13, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777022200 [Microsoft-Windows-PktMon] Drop Counters: Component 13, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777023400 [Microsoft-Windows-PktMon] Flow Counters: Component 13, Edge Lower, Edge Id 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777024200 [Microsoft-Windows-PktMon] Flow Counters: Component 13, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777025000 [Microsoft-Windows-PktMon] Component 12, Type Miniport , Name Netwtw12.sys, Killer(R) Wi-Fi 6 AX1650i 160MHz Wireless Network Adapter (201NGW) 
+[02]62C0.4558::2026-11-10 11:39:06.777025500 [Microsoft-Windows-PktMon] Property: Component 12, PhysAddress  = 0x30894A0F21F2 
+[02]62C0.4558::2026-11-10 11:39:06.777025900 [Microsoft-Windows-PktMon] Property: Component 12, NdisMedium  = 16 
+[02]62C0.4558::2026-11-10 11:39:06.777026300 [Microsoft-Windows-PktMon] Property: Component 12, IfGuid  = {9e1608f7-f621-48eb-8632-1320b842699d} 
+[02]62C0.4558::2026-11-10 11:39:06.777026700 [Microsoft-Windows-PktMon] Property: Component 12, IfIndex  = 10 
+[02]62C0.4558::2026-11-10 11:39:06.777027100 [Microsoft-Windows-PktMon] Property: Component 12, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777027900 [Microsoft-Windows-PktMon] Drop Counters: Component 12, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777028900 [Microsoft-Windows-PktMon] Flow Counters: Component 12, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777029500 [Microsoft-Windows-PktMon] Component 11, Type Miniport , Name netadaptercx.sys, Killer E2600 Gigabit Ethernet Controller 
+[02]62C0.4558::2026-11-10 11:39:06.777029800 [Microsoft-Windows-PktMon] Property: Component 11, PhysAddress  = 0x088FC382AC23 
+[02]62C0.4558::2026-11-10 11:39:06.777030100 [Microsoft-Windows-PktMon] Property: Component 11, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.777030400 [Microsoft-Windows-PktMon] Property: Component 11, IfGuid  = {dae404fb-28e6-483b-a0f6-5a8dc382b81b} 
+[02]62C0.4558::2026-11-10 11:39:06.777030600 [Microsoft-Windows-PktMon] Property: Component 11, IfIndex  = 15 
+[02]62C0.4558::2026-11-10 11:39:06.777030800 [Microsoft-Windows-PktMon] Property: Component 11, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777031700 [Microsoft-Windows-PktMon] Drop Counters: Component 11, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777032500 [Microsoft-Windows-PktMon] Flow Counters: Component 11, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 4, Bytes In 242, Direction Out = Tx , Packets Out 1, Bytes Out 42 
+[02]62C0.4558::2026-11-10 11:39:06.777032900 [Microsoft-Windows-PktMon] Component 10, Type Miniport , Name vwifimp.sys, Microsoft Wi-Fi Direct Virtual Adapter 
+[02]62C0.4558::2026-11-10 11:39:06.777033100 [Microsoft-Windows-PktMon] Property: Component 10, PhysAddress  = 0x30894A0F21F3 
+[02]62C0.4558::2026-11-10 11:39:06.777033400 [Microsoft-Windows-PktMon] Property: Component 10, NdisMedium  = 16 
+[02]62C0.4558::2026-11-10 11:39:06.777033700 [Microsoft-Windows-PktMon] Property: Component 10, IfGuid  = {d3d316b7-6e7c-4b9b-a86a-4a90b4852429} 
+[02]62C0.4558::2026-11-10 11:39:06.777033900 [Microsoft-Windows-PktMon] Property: Component 10, IfIndex  = 14 
+[02]62C0.4558::2026-11-10 11:39:06.777034200 [Microsoft-Windows-PktMon] Property: Component 10, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777035100 [Microsoft-Windows-PktMon] Drop Counters: Component 10, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777035900 [Microsoft-Windows-PktMon] Flow Counters: Component 10, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777036800 [Microsoft-Windows-PktMon] Component 9, Type Miniport , Name rassstp.sys, WAN Miniport (SSTP) 
+[02]62C0.4558::2026-11-10 11:39:06.777037000 [Microsoft-Windows-PktMon] Property: Component 9, NdisMedium  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.777037300 [Microsoft-Windows-PktMon] Property: Component 9, IfGuid  = {b14dc62d-64fb-4a9d-b819-eea9d0df6f8b} 
+[02]62C0.4558::2026-11-10 11:39:06.777037500 [Microsoft-Windows-PktMon] Property: Component 9, IfIndex  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.777037700 [Microsoft-Windows-PktMon] Property: Component 9, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777038800 [Microsoft-Windows-PktMon] Drop Counters: Component 9, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777039700 [Microsoft-Windows-PktMon] Flow Counters: Component 9, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777040100 [Microsoft-Windows-PktMon] Component 8, Type Miniport , Name AgileVpn.sys, WAN Miniport (IKEv2) 
+[02]62C0.4558::2026-11-10 11:39:06.777040500 [Microsoft-Windows-PktMon] Property: Component 8, NdisMedium  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.777040700 [Microsoft-Windows-PktMon] Property: Component 8, IfGuid  = {d1683403-a43c-430a-b45c-ff4fda4d3f99} 
+[02]62C0.4558::2026-11-10 11:39:06.777040900 [Microsoft-Windows-PktMon] Property: Component 8, IfIndex  = 13 
+[02]62C0.4558::2026-11-10 11:39:06.777041100 [Microsoft-Windows-PktMon] Property: Component 8, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777042500 [Microsoft-Windows-PktMon] Drop Counters: Component 8, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777043300 [Microsoft-Windows-PktMon] Flow Counters: Component 8, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777043700 [Microsoft-Windows-PktMon] Component 7, Type Miniport , Name rasl2tp.sys, WAN Miniport (L2TP) 
+[02]62C0.4558::2026-11-10 11:39:06.777044000 [Microsoft-Windows-PktMon] Property: Component 7, NdisMedium  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.777044300 [Microsoft-Windows-PktMon] Property: Component 7, IfGuid  = {dd70872b-d57e-475e-b192-789b783a334a} 
+[02]62C0.4558::2026-11-10 11:39:06.777044500 [Microsoft-Windows-PktMon] Property: Component 7, IfIndex  = 17 
+[02]62C0.4558::2026-11-10 11:39:06.777044700 [Microsoft-Windows-PktMon] Property: Component 7, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777045600 [Microsoft-Windows-PktMon] Drop Counters: Component 7, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777046600 [Microsoft-Windows-PktMon] Flow Counters: Component 7, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777047200 [Microsoft-Windows-PktMon] Component 6, Type Miniport , Name raspptp.sys, WAN Miniport (PPTP) 
+[02]62C0.4558::2026-11-10 11:39:06.777047500 [Microsoft-Windows-PktMon] Property: Component 6, NdisMedium  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.777047800 [Microsoft-Windows-PktMon] Property: Component 6, IfGuid  = {0b954178-4d1b-443f-8b49-0e769c9c497d} 
+[02]62C0.4558::2026-11-10 11:39:06.777048100 [Microsoft-Windows-PktMon] Property: Component 6, IfIndex  = 3 
+[02]62C0.4558::2026-11-10 11:39:06.777048400 [Microsoft-Windows-PktMon] Property: Component 6, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777049200 [Microsoft-Windows-PktMon] Drop Counters: Component 6, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777050000 [Microsoft-Windows-PktMon] Flow Counters: Component 6, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777050600 [Microsoft-Windows-PktMon] Component 5, Type Miniport , Name raspppoe.sys, WAN Miniport (PPPOE) 
+[02]62C0.4558::2026-11-10 11:39:06.777050800 [Microsoft-Windows-PktMon] Property: Component 5, NdisMedium  = 12 
+[02]62C0.4558::2026-11-10 11:39:06.777051000 [Microsoft-Windows-PktMon] Property: Component 5, IfGuid  = {91d8ca80-00ba-45e5-ae1b-d4b34720fd7b} 
+[02]62C0.4558::2026-11-10 11:39:06.777051300 [Microsoft-Windows-PktMon] Property: Component 5, IfIndex  = 8 
+[02]62C0.4558::2026-11-10 11:39:06.777051500 [Microsoft-Windows-PktMon] Property: Component 5, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777052300 [Microsoft-Windows-PktMon] Drop Counters: Component 5, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777053200 [Microsoft-Windows-PktMon] Flow Counters: Component 5, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777053600 [Microsoft-Windows-PktMon] Component 4, Type Miniport , Name ndiswan.sys, WAN Miniport (IP) 
+[02]62C0.4558::2026-11-10 11:39:06.777053900 [Microsoft-Windows-PktMon] Property: Component 4, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.777054200 [Microsoft-Windows-PktMon] Property: Component 4, IfGuid  = {8ff82853-d3ee-4aca-9acc-379633041297} 
+[02]62C0.4558::2026-11-10 11:39:06.777054400 [Microsoft-Windows-PktMon] Property: Component 4, IfIndex  = 7 
+[02]62C0.4558::2026-11-10 11:39:06.777054700 [Microsoft-Windows-PktMon] Property: Component 4, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777055700 [Microsoft-Windows-PktMon] Drop Counters: Component 4, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777056700 [Microsoft-Windows-PktMon] Flow Counters: Component 4, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777057100 [Microsoft-Windows-PktMon] Component 3, Type Miniport , Name ndiswan.sys, WAN Miniport (IPv6) 
+[02]62C0.4558::2026-11-10 11:39:06.777057300 [Microsoft-Windows-PktMon] Property: Component 3, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.777057500 [Microsoft-Windows-PktMon] Property: Component 3, IfGuid  = {b0fad17f-21eb-4dcc-a758-dad56e070d69} 
+[02]62C0.4558::2026-11-10 11:39:06.777057700 [Microsoft-Windows-PktMon] Property: Component 3, IfIndex  = 11 
+[02]62C0.4558::2026-11-10 11:39:06.777057900 [Microsoft-Windows-PktMon] Property: Component 3, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777058800 [Microsoft-Windows-PktMon] Drop Counters: Component 3, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777059700 [Microsoft-Windows-PktMon] Flow Counters: Component 3, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777060300 [Microsoft-Windows-PktMon] Component 2, Type Miniport , Name ndiswan.sys, WAN Miniport (Network Monitor) 
+[02]62C0.4558::2026-11-10 11:39:06.777060500 [Microsoft-Windows-PktMon] Property: Component 2, NdisMedium  = 0 
+[02]62C0.4558::2026-11-10 11:39:06.777060800 [Microsoft-Windows-PktMon] Property: Component 2, IfGuid  = {dcd5b5af-fd73-441a-b14d-20df3aeb8890} 
+[02]62C0.4558::2026-11-10 11:39:06.777061000 [Microsoft-Windows-PktMon] Property: Component 2, IfIndex  = 16 
+[02]62C0.4558::2026-11-10 11:39:06.777061200 [Microsoft-Windows-PktMon] Property: Component 2, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777062400 [Microsoft-Windows-PktMon] Drop Counters: Component 2, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777063200 [Microsoft-Windows-PktMon] Flow Counters: Component 2, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777063900 [Microsoft-Windows-PktMon] Component 1, Type Miniport , Name vwifimp.sys, Microsoft Wi-Fi Direct Virtual Adapter #2 
+[02]62C0.4558::2026-11-10 11:39:06.777064200 [Microsoft-Windows-PktMon] Property: Component 1, PhysAddress  = 0x32894A0F21F2 
+[02]62C0.4558::2026-11-10 11:39:06.777064400 [Microsoft-Windows-PktMon] Property: Component 1, NdisMedium  = 16 
+[02]62C0.4558::2026-11-10 11:39:06.777064700 [Microsoft-Windows-PktMon] Property: Component 1, IfGuid  = {0f3a8d41-62c5-435a-b3a9-8ee313d0c33c} 
+[02]62C0.4558::2026-11-10 11:39:06.777064900 [Microsoft-Windows-PktMon] Property: Component 1, IfIndex  = 4 
+[02]62C0.4558::2026-11-10 11:39:06.777065100 [Microsoft-Windows-PktMon] Property: Component 1, NdisObject  = 1 
+[02]62C0.4558::2026-11-10 11:39:06.777065900 [Microsoft-Windows-PktMon] Drop Counters: Component 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 
+[02]62C0.4558::2026-11-10 11:39:06.777066900 [Microsoft-Windows-PktMon] Flow Counters: Component 1, Edge Upper, Edge Id 1, Direction In = Rx , Packets In 0, Bytes In 0, Direction Out = Tx , Packets Out 0, Bytes Out 0 

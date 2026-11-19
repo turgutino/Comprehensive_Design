@@ -1,0 +1,16 @@
+Building file: ../main.c
+Invoking: SDE Lite C Compiler
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe -mips32 -G0 -EL -msoft-float -DLS1B -DOS_NONE  -O1 -g -Wall -c -fmessage-length=0 -pipe -I"../" -I"../include" -I"../core/include" -I"../core/mips" -I"../ls1x-drv/include" -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: reflex_test.exe
+Invoking: SDE Lite C Linker
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-gcc.exe  -mips32 -G0 -EL -msoft-float -nostartfiles -static -T ../ld.script -o reflex_test.exe -e start  ./core/start.o  ./main.o ./core/bsp_start.o ./core/cache.o ./core/exception.o ./core/inittlb.o ./core/irq.o ./core/irq_s.o ./core/mips_timer.o ./core/tick.o ./core/tlb.o ./libc/lwmem.o ./libc/putchar.o ./libc/ctype/ctype.o ./libc/errno/errno.o ./libc/stdio/printf.o ./libc/stdio/sscanf.o ./libc/stdlib/aligned_free.o ./libc/stdlib/aligned_malloc.o ./libc/stdlib/atoi.o ./libc/stdlib/atol.o ./libc/stdlib/calloc.o ./libc/stdlib/div.o ./libc/stdlib/free.o ./libc/stdlib/malloc.o ./libc/stdlib/realloc.o ./libc/stdlib/strtod.o ./libc/stdlib/strtol.o ./libc/stdlib/strtoul.o ./libc/string/memchr.o ./libc/string/memcmp.o ./libc/string/memcpy.o ./libc/string/memmove.o ./libc/string/memset.o ./libc/string/strcasecmp.o ./libc/string/strcat.o ./libc/string/strchr.o ./libc/string/strcmp.o ./libc/string/strcpy.o ./libc/string/strdup.o ./libc/string/strerror.o ./libc/string/strlen.o ./libc/string/strncasecmp.o ./libc/string/strncat.o ./libc/string/strncmp.o ./libc/string/strncpy.o ./libc/string/strnlen.o ./libc/time/gmtime.o ./libc/time/localtime.o ./libc/time/mktime.o ./libc/time/strftime.o ./libc/time/time.o ./libc/time/tm_utils.o ./ls1x-drv/ls1x_drv_init.o ./ls1x-drv/ac97/ls1x_ac97.o ./ls1x-drv/can/ls1x_can.o ./ls1x-drv/console/console.o ./ls1x-drv/fb/ls1x_fb.o ./ls1x-drv/fb/ls1x_fb_utils.o ./ls1x-drv/fb/font/font_desc.o ./ls1x-drv/gmac/ls1x_gmac.o ./ls1x-drv/gpio/ls1x_gpio.o ./ls1x-drv/i2c/ls1x_i2c_bus.o ./ls1x-drv/i2c/ads1015/ads1015.o ./ls1x-drv/i2c/gp7101/gp7101.o ./ls1x-drv/i2c/gt1151/gt1151.o ./ls1x-drv/i2c/gt1151/touch.o ./ls1x-drv/i2c/mcp4725/mcp4725.o ./ls1x-drv/i2c/pca9557/pca9557.o ./ls1x-drv/i2c/rx8010/rx8010.o ./ls1x-drv/nand/ls1x_nand.o ./ls1x-drv/pwm/ls1x_pwm.o ./ls1x-drv/rtc/ls1x_rtc.o ./ls1x-drv/spi/ls1x_spi_bus.o ./ls1x-drv/spi/w25x40/w25x40.o ./ls1x-drv/spi/xpt2046/touch_utils.o ./ls1x-drv/spi/xpt2046/xpt2046.o ./ls1x-drv/uart/ns16550.o ./ls1x-drv/useful/aligned_malloc.o ./ls1x-drv/useful/fls.o ./ls1x-drv/useful/print_hex.o ./ls1x-drv/useful/qsort.o ./ls1x-drv/watchdog/ls1x_watchdog.o ./src/install_3th_libraries.o  -lm 
+Invoking: SDE Lite C Objcopy
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-objcopy.exe -O binary reflex_test.exe reflex_test.bin
+Invoking: SDE Lite C Size
+D:/LoongIDE/mips-2015.05/bin/mips-sde-elf-size.exe reflex_test.exe
+   text	   data	    bss	    dec	    hex	filename
+  55000	   3600	  18120	  76720	  12bb0	reflex_test.exe
+Finished building target: reflex_test.exe
+ 

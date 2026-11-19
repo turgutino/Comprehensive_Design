@@ -1,0 +1,1277 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.11.10 10:56:14 =~=~=~=~=~=~=~=~=~=~=~=
+
+Clock_mask: 8000, step=100000
+
+ \ | /
+- RT -     Thread Operating System
+ / | \     4.0.3 build Nov  9 2026
+ 2006 - 2019 Copyright by rt-thread team
+
+Welcome to RT-Thread.
+
+create semaphore barber done.  The value of barber = 0
+create semaphore customers done. The value of customers = 0
+create mutex is sucessful. 
+barber thread  startup. 
+customers 1 thread  startup. 
+customers 2 thread  startup. 
+customers 3 thread  startup. 
+customers 4 thread  startup. 
+customers 5 thread  startup. 
+msh />freeseats=2
+customers 1 is waitting to cut hair.
+freeseats=1
+customers 2 is waitting to cut hair.
+freeseats=0
+customers 3 is waitting to cut hair.
+customers 4 leave.
+customers 5 leave.
+barber find customer 0 .
+barber begin to cut hair.
+barber finish cut hair.
+barber find customer 1 .
+barber begin to cut hair.
+barber finish cut hair.
+barber find customer 2 .
+barber begin to cut hair.
+barber finish cut hair.
+Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580  + 0x80a6ba8c/471044(z) Attempt to read non page aligned data
+ + 16610 syms Attempt to read non page aligned data
+Attempt to read non page aligned data
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+Entry address is 8086ab00
+g root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2
+   zero      at       v0       v1       a0       a1       a2       a3   
+ 00000000 00000000 00000000 00000000 00000005 a30ffc98 a30ffcb0 8008f4c0
+    t0       t1       t2       t3       t4       t5       t6       t7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    s0       s1       s2       s3       s4       s5       s6       s7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    t8       t9       k0       k1       gp       sp       s8       ra   
+ 00000000 00000000 00000000 00000000 00000000 a30ffc78 00000000 8005b020
+Booting Linux kernel...
+system_state: 0	addr:809c6624
+Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+bootconsole [early0] enabled
+CPU revision is: 00004220 (ICT Loongson-1b)
+LS232 CPU board
+memsize=64,highmemsize=0
+Determined physical RAM map:
+ memory: 04000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00004000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00004000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+ available.
+Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:256
+Console: colour dummy device 80x25
+Calibrating delay loop... 199.06 BogoMIPS (lpj=995328)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 512
+ftrace: allocating 17539 entries in 35 pages
+devtmpfs: initialized
+NET: Registered protocol family 16
+open gmac0 close gmac1.
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+cfg80211: Calling CRDA to update world regulatory domain
+Switching to clocksource MIPS
+Switched to NOHz mode on CPU #0
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+audit: initializing netlink socket (disabled)
+type=2000 audit(1.150:1): initialized
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+NTFS driver 2.1.30 [Flags: R/W].
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 105
+alg: No test for stdrng (krng)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+800x480-16@60
+Console: switching to colour frame buffer device 100x30
+fb0: ls1bfb frame buffer device
+Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+console [ttyS5] enabled, bootconsole disabled
+console [ttyS5] enabled, bootconsole disabled
+brd: module loaded
+loop: module loaded
+NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+NAND_ECC_NONE selected by board driver. This is not recommended !!
+Scanning device for bad blocks
+Creating 3 MTD partitions on "mtd0":
+0x000000000000-0x000000e00000 : "kernel"
+0x000000e00000-0x000007500000 : "os"
+0x000007500000-0x000008000000 : "data"
+loongson 1B spi probe begin
+SPI IRQ mode
+SPI master IRQ num = 8
+loongson 1B spi probe done
+STMMAC driver:
+	platform registration... 
+	done!
+	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+	IO base addr: 0xbfe10000)
+STMMAC MII Bus: probed
+eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+
+rtw driver version=v3.3.2_3192.20120103
+usbcore: registered new interface driver rtl8192cu
+usbcore: registered new interface driver zd1211rw
+usbcore: registered new interface driver rt2500usb
+usbcore: registered new interface driver rt73usb
+usbcore: registered new interface driver rt2800usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+mousedev: PS/2 mouse device common for all mice
+ls1b rtc init
+ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+i2c /dev entries driver
+i2c-ls1b init
+i2c-ls1b probe
+i2c-ls1b probe ok
+Linux video capture interface: v2.00
+gspca: v2.13.0 registered
+usbcore: registered new interface driver zc3xx
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+Registering the dns_resolver key type
+ls1b-rtc ls1b-rtc: setting system clock to 3088-02-29 20:46:08 UTC (926096400)
+VFS: Mounted root (ext2 filesystem) readonly on device 31:1.
+devtmpfs: mounted
+Freeing unused kernel memory: 324k freed
+Algorithmics/MIPS FPU Emulator v1.5
+EXT2-fs (mtdblock1): warning: mounting unchecked fs, running e2fsck is recommended
+Starting logging: OK
+May  7 17:00:02 buildroot syslog.info syslogd started: BusyBox v1.22.1
+May  7 17:00:02 buildroot user.notice kernel: klogd started: BusyBox v1.22.1 (2025-12-25 23:20:52 PST)
+May  7 17:00:02 buildroot user.notice kernel: Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+May  7 17:00:02 buildroot user.warn kernel: busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+May  7 17:00:02 buildroot user.info kernel: bootconsole [early0] enabled
+May  7 17:00:02 buildroot user.info kernel: CPU revision is: 00004220 (ICT Loongson-1b)
+May  7 17:00:02 buildroot user.info kernel: Determined physical RAM map:
+May  7 17:00:02 buildroot user.info kernel:  memory: 04000000 @ 00000000 (usable)
+May  7 17:00:02 buildroot user.warn kernel: Zone PFN ranges:
+May  7 17:00:0EXT2-fs (mtdblock1): error: ext2_lookup: deleted inode referenced: 1164
+2 buildroot userEXT2-fs (mtdblock1): error: remounting filesystem read-only
+.warn kernel:   Normal   0x00000000 -> 0x00004000
+May  7 17:00:02 buildroot user.warn kernel: Movable zone start PFN for each node
+May  7 17:00:02 buildroot user.warn kernel: early_node_map[1] active PFN ranges
+May  7 17:00:02 buildroot user.warn kernel:     0: 0x00000000 -> 0x00004000
+Initializing random number generator... May  7 17:00:02 buildroot user.debug kernel: On node 0 totalpages: 16384
+May  7 17:00:02 buildroot user.debug kernel: free_area_init_node: node 0, pgdat 80a159f0, node_mem_map 81000000
+May  7 17:00:02 buildroot user.debug kernel:   Normal zone: 128 pages used for memmap
+May  7 17:00:02 buildroot user.debug kernel:   Normal zone: 0 pages reserved
+May  7 17:00:02 buildroot user.debug kernel:   Normal zone: 16256 pages, LIFO batch:3
+May  7 17:00:02 buildroot user.debug kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+May  7 17:00:02 buildroot user.debug kernel: pcpu-alloc: [0] 0 
+May  7 17:00:02 buildroot user.warn kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+May  7 17:00:02 buildroot user.notice kernel: Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+May  7 17:00:03 buildroot user.info kernel: PID hash table entries: 256 (order: -2, 1024 bytes)
+May  7 17:00:03 buildroot user.info kernel: Dentry cache hash table entries: 8192 (orderEXT2-fs (mtdblock1): error: ext2_lookup: deleted inode referenced: 1164
+: 3, 32768 bytesEXT2-fs (mtdblock1): error: remounting filesystem read-only
+)
+May  7 17:00:03 buildroot user.info kernel: Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+May  7 17:00:03 buildroot user.warn kernel:  available.
+May  7 17:00:03 buildroot user.warn kernel: Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+May  7 17:00:03 buildroot user.warn kernel: Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+May  7 17:00:03 buildroot user.info kernel: Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+May  7 17:00:03 buildroot user.info kernel: SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+May  7 17:00:03 buildroot user.info kernel: NR_IRQS:256
+May  7 17:00:03 buildroot user.info kernel: Console: colour dummy device 80x25
+May  7 17:00:03 buildroot user.info kernel: Calibrating delay loop... 199.06 BogoMIPS (lpj=995328)
+May  7 17:00:03 buildroot user.info kernel: pid_max: default: 32768 minimum: 301
+May  7 17:00:03 buildroot user.info kernel: Security Framework initialized
+May  7 17:00:03 buildroot user.info kernel: Mount-cache hash table entries: 512
+May  7 17:00:03 buildroot user.info kernel: ftrace: allocating 17539 entries in 35 pages
+May  7 17:00:03 buildroot user.info kernel: devtmpfs: initialized
+May  7 17:00:03 buildroot user.info kernel: NET: Registered protocol family 16
+read-only file system detected...done
+May  7 17:00:03 buildroot user.warn kernel: open gmac0 close gmac1.
+May  7 17:00:03 buildroot user.info kernel: bio: create slab <bio-0> at 0
+May  7 17:00:03 buildroot user.notice kernel: SCSI subsystem initialized
+May  7 17:00:03 buildroot user.info kernel: usbcore: registered new interface driver usbfs
+May  7 17:00:03 buildroot user.info kernel: usbcore: registered new interface driver hub
+May  7 17:00:03 buildroot user.info kernel: usbcore: registered new device driver usb
+May  7 17:00:03 buildroot user.info kernel: cfg80211: Calling CRDA to update world regulatory domain
+May  7 17:00:03 buildroot user.info kernel: Switching to clocksource MIPS
+May  7 17:00:03 buildroot user.info kernel: Switched to NOHz mode on CPU #0
+May  7 17:00:03 buildroot user.info kernel: NET: Registered protocol family 2
+May  7 17:00:03 buildroot user.info kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+May  7 17:00:03 buildroot user.info kernel: TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+May  7 17:00:03 buildroot user.info kernel: TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+May  7 17:00:03 buildroot user.info kernel: TCP: Hash tables configured (established 2048 bind 2048)
+May  7 17:00:03 buildroot user.info kernel: TCP reno registered
+May  7 17:00:03 buildroot user.info kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+May  7 17:00:03 buildroot user.info kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+May  7 17:00:03 buildroot user.info kernel: NET: Registered protocol family 1
+May  7 17:00:03 buildroot user.info kernel: RPC: Registered named UNIX socket transport module.
+May  7 17:00:03 buildroot user.info kernel: RPC: Registered udp transport module.
+May  7 17:00:03 buildroot user.info kernel: RPC: Registered tcp transport module.
+May  7 17:00:03 buildroot user.info kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+May  7 17:00:03 buildroot user.info kernel: audit: initializing netlink socket (disabled)
+May  7 17:00:03 buildroot user.notice kernel: type=2000 audit(1.150:1): initialized
+Starting network...
+May  7 17:00:03 buildroot user.notice kernel: VFS: Disk quotas dquot_6.5.2
+May  7 17:00:03 buildroot user.warn kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+May  7 17:00:03 buildroot user.info kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+May  7 17:00:03 buildroot user.info kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+May  7 17:00:03 buildroot user.info kernel: NTFS driver 2.1.30 [Flags: R/W].
+May  7 17:00:03 buildroot user.info kernel: JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+May  7 17:00:03 buildroot user.debug kernel: yaffs: yaffs built Dec 25 2025 23:13:42 Installing.
+May  7 17:00:03 buildroot user.info kernel: msgmni has been set to 105
+May  7 17:00:03 buildroot user.info kernel: alg: No test for stdrng (krng)
+May  7 17:00:03 buildroot user.info kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+May  7 17:00:03 buildroot user.info kernel: io scheduler noop registered
+May  7 17:00:03 buildroot user.info kernel: io scheduler deadline registered
+May  7 17:00:03 buildroot user.info kernel: io scheduler cfq registered (default)
+May  7 17:00:03 buildroot user.warn kernel: 800x480-16@60
+May  7 17:00:03 buildroot user.info kernel: Console: switching to colour frame buffer device 100x30
+May  7 17:00:03 buildroot user.info kernel: fb0: ls1bfb frame buffer device
+May  7 17:00:03 buildroot user.info kernel: Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+May  7 17:00:03 buildroot user.info kernel: serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+May  7 17:00:03 buildroot user.info kernel: serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+May  7 17:00:03 buildroot user.info kernel: serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+May  7 17:00:03 buildroot user.info kernel: serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+May  7 17:00:03 buildroot user.info kernel: serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+May  7 17:00:03 buildroot user.info kernel: serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+May  7 17:00:03 buildroot user.info kernel: console [ttyS5] enabled, bootconsole disabled
+May  7 17:00:03 buildroot user.info kernel: brd: module loaded
+May  7 17:00:03 buildroot user.info kernel: loop: module loaded
+May  7 17:00:03 buildroot user.info kernel: NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+May  7 17:00:03 buildroot user.warn kernel: NAND_ECC_NONE selected by board driver. This is not recommended !!
+May  7 17:00:03 buildroot user.info kernel: Scanning device for bad blocks
+May  7 17:00:03 buildroot user.notice kernel: Creating 3 MTD partitions on "mtd0":
+May  7 17:00:03 buildroot user.notice kernel: 0x000000000000-0x000000e00000 : "kernel"
+May  7 17:00:03 buildroot user.notice kernel: 0x000000e00000-0x000007500000 : "os"
+May  7 17:00:03 buildroot user.notice kernel: 0x000007500000-0x000008000000 : "data"
+May  7 17:00:03 buildroot user.emerg kernel: loongson 1B spi probe begin
+May  7 17:00:03 buildroot user.debug kernel: ls1b-spi0 ls1b-spi0.0: bitbang at 83a33ad8
+May  7 17:00:03 buildroot user.emerg kernel: SPI IRQ mode
+May  7 17:00:03 buildroot user.emerg kernel: SPI master IRQ num = 8
+May  7 17:00:03 buildroot user.debug kernel: spi spi0.0: setting pre-scaler to 0 (hz 80000000)
+May  7 17:00:03 buildroot user.debug kernel: spi spi0.0: ls1b_spi_setup: mode 0, 8 bpw, 80000000 hz
+May  7 17:00:03 buildroot user.debug kernel: spi spi0.1: setting pre-scaler to 6 (hz 500000)
+May  7 17:00:03 buildroot user.debug kernel: spi spi0.1: ls1b_spi_setup: mode 1, 8 bpw, 500000 hz
+May  7 17:00:03 buildroot user.debug kernel: spi spi0.2: setting pre-scaler to 4 (hz 25000000)
+May  7 17:00:03 buildroot user.debug kernel: spi spi0.2: ls1b_spi_setup: mode 0, 8 bpw, 25000000 hz
+May  7 17:00:03 buildroot user.emerg kernel: loongson 1B spi probe done
+May  7 17:00:03 buildroot user.info kernel: STMMAC driver:
+May  7 17:00:03 buildroot user.info kernel: 	platform registration... 
+May  7 17:00:03 buildroot user.info kernel: 	done!
+May  7 17:00:03 buildroot user.info kernel: 	DWMAC1000 - user ID: 0x11, SynopMay  7 17:00:03 buildroot user.info kernel: 	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+May  7 17:00:03 buildroot user.info kernel: 	IO base addr: 0xbfe10000)
+May  7 17:00:03 buildroot user.info kernel: May  7 17:00:03 May  7 17:00:03 buildroot user.warn kernel: rtw driver version=v3.3.2_3192.20120103
+May  7 17:00:03 buildroot user.info kernel: usbcore: registered new interface driver rtl8192cu
+May  7 17:00:03 buildroot uMay  7 17:00:03 buildroot user.iMay  7 17:00:03 buildroot user.info kernel: usbcore: registered new interface driver rt73usb
+May  7 17:00:03 buildroot user.info kernel: usbcore: registered new interface drivMay  7 17:00:03 buildroot user.iMay  7 17:00:03 buildroot user.iMay  7 17:00:03 buildroot user.iMay  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 buildroot user.emerg kernel: i2c-ls1b init
+May  7 17:00:03 buildroot user.emerg kernel: i2c-ls1b probe
+May  7 17:00:03 buildroot user.emerg kernel: i2c-ls1b probe ok
+May  7 17:00:03 buildroot user.info kernel: Linux video capture interface: v2.00
+May  7 17:00:03 buildroot user.info kMay  7 17:00:03 May  7 17:00:03 May  7 17:00:03 buildroot user.info kernel: usbhid: USB HID core driver
+May  7 17:00:03 buildroot user.info kernel: TCP cubic registered
+May  7 17:00:03 buildroot user.info kernel: InitializMay  7 17:00:03 buildroot user.iMay  7 17:00:03 buildroot user.iMay  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 May  7 17:00:03 buildroot user.warn kernel: Algorithmics/MIPS FPU Emulator v1.5
+May  7 17:00:03 buildroot user.warn kernel: EXT2-fs (mtdblock1): warning: mountMay  7 17:00:03 May  7 17:00:03 May  7 17:00:03 ifup: can't open '/var/run/ifstate': No such file or directory
+Starting dropbear sshd: OK
+May  7 17:00:04 buildroot authpriv.info dropbear[606]: Running in background
+mkdir: can't create directory '/var/run/proftpd': No such file or directory
+touch: /var/log/wtmp: No such file or directory
+Starting ProFTPD: warning: `proftpd' uses 32-bit capabilities (legacy support in use)
+May  7 17:00:05 buildroot user.info kernel: warning: `proftpd' uses 32-bit capabilities (legacy support in use)
+buildroot proftpd[610] buildroot: mod_delay/0.7: error opening DelayTable '/var/run/proftpd.delay': No such file or directory
+done
+May  7 17:00:05 buildroot daemon.err proftpd[611]: buildroot - error opening scoreboard: Operation not permitted
+Starting pppd: /usr/sbin/pppd: In file /etc/ppp/peers/rlp_mobile_unicom_chinacom4g: unrecognized option '/dev/ttyUSB2'
+FAIL
+May  7 17:00:05 buildroot daemon.err pppd[613]: In file /etc/ppp/peers/rlp_mobile_unicom_chinacom4g: unrecognized option '/dev/ttyUSB2'
+May  7 17:00:05 buildroot daemon.info init: starting pid 614, tty '/dev/ttyS5': '/sbin/getty -L  ttyS5 115200 vt100 '
+May  7 17:00:05 buildroot daemon.info init: starting pid 615, tty '/dev/tty1': '/sbin/getty -L  tty1 115200 vt100'
+May  7 17:00:05 buildroot daemon.info init: starting pid 616, tty '/dev/tty2': '/sbin/getty -L  tty2 115200 vt100'
+
+Welcome to Buildroot
+buildroot login: D 
+Clock_mask: 8000, step=100000
+
+ \ | /
+- RT -     Thread Operating System
+ / | \     4.0.3 build Nov 10 2026
+ 2006 - 2019 Copyright by rt-thread team
+
+Welcome to RT-Thread.
+
+detect phy address == 17
+msh />GMAC0: SPEED=100M, DUPLEX=FULL, LINK=UP. AN=YES.
+
+GMAC0 controller initialized.
+succeed to create sock_fd!
+succeed to bind ip!
+succeed to listen!
+waiting for client access!
+client incoming succeed!
+RECEIVE: hello from PC 1
+ 
+    SEND: hello from PC 1
+ 
+RECEIVE: hello from PC 2
+ 
+    SEND: hello from PC 2
+ 
+RECEIVE: hello from PC 3
+ 
+    SEND: hello from PC 3
+ 
+RECEIVE: hello from PC 4
+ 
+    SEND: hello from PC 4
+ 
+RECEIVE: hello from PC 5
+ 
+    SEND: hello from PC 5
+ 
+disconnect client succeed!
+waiting for client access!
+Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580  + 0x80a6ba8c/471044(z) Attempt to read non page aligned data
+ + 16610 syms Attempt to read non page aligned data
+Attempt to read non page aligned data
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+Entry address is 8086ab00
+g root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2
+   zero      at       v0       v1       a0       a1       a2       a3   
+ 00000000 00000000 00000000 00000000 00000005 a30ffc98 a30ffcb0 8008f4c0
+    t0       t1       t2       t3       t4       t5       t6       t7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    s0       s1       s2       s3       s4       s5       s6       s7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    t8       t9       k0       k1       gp       sp       s8       ra   
+ 00000000 00000000 00000000 00000000 00000000 a30ffc78 00000000 8005b020
+Booting Linux kernel...
+system_state: 0	addr:809c6624
+Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+bootconsole [early0] enabled
+CPU revision is: 00004220 (ICT Loongson-1b)
+LS232 CPU board
+memsize=64,highmemsize=0
+Determined physical RAM map:
+ memory: 04000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00004000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00004000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+ available.
+Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:256
+Console: colour dummy device 80x25
+Calibrating delay loop... 194.96 BogoMIPS (lpj=974848)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 512
+ftrace: allocating 17539 entries in 35 pages
+devtmpfs: initialized
+NET: Registered protocol family 16
+open gmac0 close gmac1.
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Switching to clocksource MIPS
+Switched to NOHz mode on CPU #0
+cfg80211: Calling CRDA to update world regulatory domain
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+audit: initializing netlink socket (disabled)
+type=2000 audit(1.180:1): initialized
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+NTFS driver 2.1.30 [Flags: R/W].
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 105
+alg: No test for stdrng (krng)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+800x480-16@60
+Console: switching to colour frame buffer device 100x30
+fb0: ls1bfb frame buffer device
+Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+console [ttyS5] enabled, bootconsole disabled
+console [ttyS5] enabled, bootconsole disabled
+brd: module loaded
+loop: module loaded
+NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+NAND_ECC_NONE selected by board driver. This is not recommended !!
+Scanning device for bad blocks
+Creating 3 MTD partitions on "mtd0":
+0x000000000000-0x000000e00000 : "kernel"
+0x000000e00000-0x000007500000 : "os"
+0x000007500000-0x000008000000 : "data"
+loongson 1B spi probe begin
+SPI IRQ mode
+SPI master IRQ num = 8
+loongson 1B spi probe done
+STMMAC driver:
+	platform registration... 
+	done!
+	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+	IO base addr: 0xbfe10000)
+STMMAC MII Bus: probed
+eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+
+rtw driver version=v3.3.2_3192.20120103
+usbcore: registered new interface driver rtl8192cu
+usbcore: registered new interface driver zd1211rw
+usbcore: registered new interface driver rt2500usb
+usbcore: registered new interface driver rt73usb
+usbcore: registered new interface driver rt2800usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+mousedev: PS/2 mouse device common for all mice
+ls1b rtc init
+ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+i2c /dev entries driver
+i2c-ls1b init
+i2c-ls1b probe
+i2c-ls1b probe ok
+Linux video capture interface: v2.00
+gspca: v2.13.0 registered
+usbcore: registered new interface driver zc3xx
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+Registering the dns_resolver key type
+ls1b-rtc ls1b-rtc: setting system clock to 3088-02-29 21:04:24 UTC (926097496)
+VFS: Mounted root (ext2 filesystem) readonly on device 31:1.
+devtmpfs: mounted
+Freeing unused kernel memory: 324k freed
+Algorithmics/MIPS FPU Emulator v1.5
+EXT2-fs (mtdblock1): warning: mounting unchecked fs, running e2fsck is recommended
+Starting logging: OK
+May  7 17:18:18 buildroot syslog.info syslogd started: BusyBox v1.22.1
+May  7 17:18:18 buildroot user.notice kernel: klogd started: BusyBox v1.22.1 (2025-12-25 23:20:52 PST)
+May  7 17:18:18 buildroot user.notice kernel: Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+May  7 17:18:18 buildroot user.warn kernel: busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+May  7 17:18:18 buildroot user.info kernel: bootconsole [early0] enabled
+May  7 17:18:18 buildroot user.info kernel: CPU revision is: 00004220 (ICT Loongson-1b)
+May  7 17:18:18 buildroot user.info kernel: Determined physical RAM map:
+May  7 17:18:18 buildroot user.info kernel:  memory: 04000000 @ 00000000 (usable)
+May  7 17:18:18 buildroot user.warn kernel: EXT2-fs (mtdblock1): error: ext2_lookup: deleted inode referenced: 1164
+Zone PFN ranges:EXT2-fs (mtdblock1): error: remounting filesystem read-only
+
+May  7 17:18:18 buildroot user.warn kernel:   Normal   0x00000000 -> 0x00004000
+May  7 17:18:18 buildroot user.warn kernel: Movable zone start PFN for each node
+May  7 17:18:18 buildroot user.warn kernel: early_node_map[1] active PFN ranges
+May  7 17:18:18 buildroot user.warn kernel:     0: 0x00000000 -> 0x00004000
+Initializing random number generator... May  7 17:18:18 buildroot user.debug kernel: On node 0 totalpages: 16384
+May  7 17:18:18 buildroot user.debug kernel: free_area_init_node: node 0, pgdat 80a159f0, node_mem_map 81000000
+May  7 17:18:18 buildroot user.debug kernel:   Normal zone: 128 pages used for memmap
+May  7 17:18:18 buildroot user.debug kernel:   Normal zone: 0 pages reserved
+May  7 17:18:18 buildroot user.debug kernel:   Normal zone: 16256 pages, LIFO batch:3
+May  7 17:18:18 buildroot user.debug kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+May  7 17:18:18 buildroot user.debug kernel: pcpu-alloc: [0] 0 
+May  7 17:18:18 buildroot user.warn kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+May  7 17:18:18 buildroot user.notice kernel: Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+May  7 17:18:18 buildroot user.info kernel: PID hash table entries: 256 (order: -2, 1024 EXT2-fs (mtdblock1): error: ext2_lookup: deleted inode referenced: 1164
+bytes)
+May  7 1EXT2-fs (mtdblock1): error: remounting filesystem read-only
+7:18:18 buildroot user.info kernel: Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+May  7 17:18:18 buildroot user.info kernel: Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+May  7 17:18:18 buildroot user.warn kernel:  available.
+May  7 17:18:19 buildroot user.warn kernel: Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+May  7 17:18:19 buildroot user.warn kernel: Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+May  7 17:18:19 buildroot user.info kernel: Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+May  7 17:18:19 buildroot user.info kernel: SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+May  7 17:18:19 buildroot user.info kernel: NR_IRQS:256
+May  7 17:18:19 buildroot user.info kernel: Console: colour dummy device 80x25
+May  7 17:18:19 buildroot user.info kernel: Calibrating delay loop... 194.96 BogoMIPS (lpj=974848)
+May  7 17:18:19 buildroot user.info kernel: pid_max: default: 32768 minimum: 301
+May  7 17:18:19 buildroot user.info kernel: Security Framework initialized
+May  7 17:18:19 buildroot user.info kernel: Mount-cache hash table entries: 512
+May  7 17:18:19 buildroot user.info kernel: ftrace: allocating 17539 entries in 35 pages
+May  7 17:18:19 buildroot user.info kernel: devtmpfs: initialized
+May  7 17:18:19 buildroot user.info kernel: NET: Registered protocol family 16
+read-only file system detected...done
+May  7 17:18:19 buildroot user.warn kernel: open gmac0 close gmac1.
+May  7 17:18:19 buildroot user.info kernel: bio: create slab <bio-0> at 0
+May  7 17:18:19 buildroot user.notice kernel: SCSI subsystem initialized
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver usbfs
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver hub
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new device driver usb
+May  7 17:18:19 buildroot user.info kernel: Switching to clocksource MIPS
+May  7 17:18:19 buildroot user.info kernel: Switched to NOHz mode on CPU #0
+May  7 17:18:19 buildroot user.info kernel: cfg80211: Calling CRDA to update world regulatory domain
+May  7 17:18:19 buildroot user.info kernel: NET: Registered protocol family 2
+May  7 17:18:19 buildroot user.info kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+May  7 17:18:19 buildroot user.info kernel: TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+May  7 17:18:19 buildroot user.info kernel: TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+May  7 17:18:19 buildroot user.info kernel: TCP: Hash tables configured (established 2048 bind 2048)
+May  7 17:18:19 buildroot user.info kernel: TCP reno registered
+May  7 17:18:19 buildroot user.info kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+May  7 17:18:19 buildroot user.info kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+May  7 17:18:19 buildroot user.info kernel: NET: Registered protocol family 1
+May  7 17:18:19 buildroot user.info kernel: RPC: Registered named UNIX socket transport module.
+May  7 17:18:19 buildroot user.info kernel: RPC: Registered udp transport module.
+May  7 17:18:19 buildroot user.info kernel: RPC: Registered tcp transport module.
+May  7 17:18:19 buildroot user.info kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+May  7 17:18:19 buildroot user.info kernel: audit: initializing netlink socket (disabled)
+May  7 17:18:19 buildroot user.notice kernel: type=2000 audit(1.180:1): initialized
+Starting network...
+May  7 17:18:19 buildroot user.notice kernel: VFS: Disk quotas dquot_6.5.2
+May  7 17:18:19 buildroot user.warn kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+May  7 17:18:19 buildroot user.info kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+May  7 17:18:19 buildroot user.info kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+May  7 17:18:19 buildroot user.info kernel: NTFS driver 2.1.30 [Flags: R/W].
+May  7 17:18:19 buildroot user.info kernel: JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+May  7 17:18:19 buildroot user.debug kernel: yaffs: yaffs built Dec 25 2025 23:13:42 Installing.
+May  7 17:18:19 buildroot user.info kernel: msgmni has been set to 105
+May  7 17:18:19 buildroot user.info kernel: alg: No test for stdrng (krng)
+May  7 17:18:19 buildroot user.info kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+May  7 17:18:19 buildroot user.info kernel: io scheduler noop registered
+May  7 17:18:19 buildroot user.info kernel: io scheduler deadline registered
+May  7 17:18:19 buildroot user.info kernel: io scheduler cfq registered (default)
+May  7 17:18:19 buildroot user.warn kernel: 800x480-16@60
+May  7 17:18:19 buildroot user.info kernel: Console: switching to colour frame buffer device 100x30
+May  7 17:18:19 buildroot user.info kernel: fb0: ls1bfb frame buffer device
+May  7 17:18:19 buildroot user.info kernel: Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+May  7 17:18:19 buildroot user.info kernel: serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+May  7 17:18:19 buildroot user.info kernel: serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+May  7 17:18:19 buildroot user.info kernel: serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+May  7 17:18:19 buildroot user.info kernel: serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+May  7 17:18:19 buildroot user.info kernel: serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+May  7 17:18:19 buildroot user.info kernel: serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+May  7 17:18:19 buildroot user.info kernel: console [ttyS5] enabled, bootconsole disabled
+May  7 17:18:19 buildroot user.info kernel: brd: module loaded
+May  7 17:18:19 buildroot user.info kernel: loop: module loaded
+May  7 17:18:19 buildroot user.info kernel: NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+May  7 17:18:19 buildroot user.warn kernel: NAND_ECC_NONE selected by board driver. This is not recommended !!
+May  7 17:18:19 buildroot user.info kernel: Scanning device for bad blocks
+May  7 17:18:19 buildroot user.notice kernel: Creating 3 MTD partitions on "mtd0":
+May  7 17:18:19 buildroot user.notice kernel: 0x000000000000-0x000000e00000 : "kernel"
+May  7 17:18:19 buildroot user.notice kernel: 0x000000e00000-0x000007500000 : "os"
+May  7 17:18:19 buildroot user.notice kernel: 0x000007500000-0x000008000000 : "data"
+May  7 17:18:19 buildroot user.emerg kernel: loongson 1B spi probe begin
+May  7 17:18:19 buildroot user.debug kernel: ls1b-spi0 ls1b-spi0.0: bitbang at 83a37ad8
+May  7 17:18:19 buildroot user.emerg kernel: SPI IRQ mode
+May  7 17:18:19 buildroot user.emerg kernel: SPI master IRQ num = 8
+May  7 17:18:19 buildroot user.debug kernel: spi spi0.0: setting pre-scaler to 0 (hz 80000000)
+May  7 17:18:19 buildroot user.debug kernel: spi spi0.0: ls1b_spi_setup: mode 0, 8 bpw, 80000000 hz
+May  7 17:18:19 buildroot user.debug kernel: spi spi0.1: setting pre-scaler to 6 (hz 500000)
+May  7 17:18:19 buildroot user.debug kernel: spi spi0.1: ls1b_spi_setup: mode 1, 8 bpw, 500000 hz
+May  7 17:18:19 buildroot user.debug kernel: spi spi0.2: setting pre-scaler to 4 (hz 25000000)
+May  7 17:18:19 buildroot user.debug kernel: spi spi0.2: ls1b_spi_setup: mode 0, 8 bpw, 25000000 hz
+May  7 17:18:19 buildroot user.emerg kernel: loongson 1B spi probe done
+May  7 17:18:19 buildroot user.info kernel: STMMAC driver:
+May  7 17:18:19 buildroot user.info kernel: 	platform registration... 
+May  7 17:18:19 buildroot user.info kernel: 	done!
+May  7 17:18:19 buildroot user.info kernel: 	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+May  7 17:18:19 buildroot user.info kernel: 	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+May  7 17:18:19 buildroot user.info kernel: 	IO base addr: 0xbfe10000)
+May  7 17:18:19 buildroot user.info kernel: STMMAC MII Bus: probed
+May  7 17:18:19 buildroot user.info kernel: eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+May  7 17:18:19 buildroot user.warn kernel: rtw driver version=v3.3.2_3192.20120103
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver rtl8192cu
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver zd1211rw
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver rt2500usb
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver rt73usb
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver rt2800usb
+May  7 17:18:19 buildroot user.info kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+May  7 17:18:19 buildroot user.info kernel: Initializing USB Mass Storage driver...
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver usb-storage
+May  7 17:18:19 buildroot user.info kernel: USB Mass Storage support registered.
+May  7 17:18:19 buildroot user.info kernel: mousedev: PS/2 mouse device common for all mice
+May  7 17:18:19 buildroot user.emerg kernel: ls1b rtc init
+May  7 17:18:19 buildroot user.info kernel: ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+May  7 17:18:19 buildroot user.info kernel: ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+May  7 17:18:19 buildroot user.info kernel: i2c /dev entries driver
+May  7 17:18:19 buildroot user.emerg kernel: i2c-ls1b init
+May  7 17:18:19 buildroot user.emerg kernel: i2c-ls1b probe
+May  7 17:18:19 buildroot user.emerg kernel: i2c-ls1b probe ok
+May  7 17:18:19 buildroot user.info kernel: Linux video capture interface: v2.00
+May  7 17:18:19 buildroot user.info kernel: gspca: v2.13.0 registered
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver zc3xx
+May  7 17:18:19 buildroot user.info kernel: usbcore: registered new interface driver usbhid
+May  7 17:18:19 buildroot user.info kernel: usbhid: USB HID core driver
+May  7 17:18:19 buildroot user.info kernel: TCP cubic registered
+May  7 17:18:19 buildroot user.info kernel: Initializing XFRM netlink socket
+May  7 17:18:19 buildroot user.info kernel: NET: Registered protocol family 17
+May  7 17:18:19 buildroot user.info kernel: lib80211: common routines for IEEE802.11 drivers
+May  7 17:18:19 buildroot user.debug kernel: lib80211_crypt: registered algorithm 'NULL'
+May  7 17:18:19 buildroot usMay  7 17:18:19 May  7 17:18:19 May  7 17:18:19 May  7 17:18:19 May  7 17:18:19 buildroot user.warn kernel: Algorithmics/MIPS FPU Emulator v1.5
+May  7 17:18:19 buildroot user.warn kernel: EXT2-fs (mtdblock1): warning: mountMay  7 17:18:19 May  7 17:18:19 May  7 17:18:19 May  7 17:18:19 ifup: can't open '/var/run/ifstate': No such file or directory
+Starting dropbear sshd: OK
+May  7 17:18:20 buildroot authpriv.info dropbear[606]: Running in background
+mkdir: can't create directory '/var/run/proftpd': No such file or directory
+touch: /var/log/wtmp: No such file or directory
+Starting ProFTPD: warning: `proftpd' uses 32-bit capabilities (legacy support in use)
+May  7 17:18:21 buildroot user.info kernel: warning: `proftpd' uses 32-bit capabilities (legacy support in use)
+buildroot proftpd[610] buildroot: mod_delay/0.7: error opening DelayTable '/var/run/proftpd.delay': No such file or directory
+done
+May  7 17:18:21 buildroot daemon.err proftpd[611]: buildroot - error opening scoreboard: Operation not permitted
+Starting pppd: /usr/sbin/pppd: In file /etc/ppp/peers/rlp_mobile_unicom_chinacom4g: unrecognized option '/dev/ttyUSB2'
+May  7 17:18:21 buildroot daemon.err pppd[613]: In file /etc/ppp/peers/rlp_mobile_unicom_chinacom4g: unrecognized option '/dev/ttyUSB2'
+FAIL
+May  7 17:18:21 buildroot daemon.info init: starting pid 614, tty '/dev/ttyS5': '/sbin/getty -L  ttyS5 115200 vt100 '
+May  7 17:18:21 buildroot daemon.info init: starting pid 615, tty '/dev/tty1': '/sbin/getty -L  tty1 115200 vt100'
+May  7 17:18:21 buildroot daemon.info init: starting pid 616, tty '/dev/tty2': '/sbin/getty -L  tty2 115200 vt100'
+
+Welcome to Buildroot
+buildroot login: 
+Clock_mask: 8000, step=100000
+
+ \ | /
+- RT -     Thread Operating System
+ / | \     4.0.3 build Nov 10 2026
+ 2006 - 2019 Copyright by rt-thread team
+
+Welcome to RT-Thread.
+
+detect phy address == 17
+msh />GMAC0: SPEED=100M, DUPLEX=FULL, LINK=UP. AN=YES.
+
+GMAC0 controller initialized.
+succeed to create sock_fd!
+failed to connect to server!
+Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580  + 0x80a6ba8c/471044(z) Attempt to read non page aligned data
+ + 16610 syms Attempt to read non page aligned data
+Attempt to read non page aligned data
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+Entry address is 8086ab00
+g root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2
+   zero      at       v0       v1       a0       a1       a2       a3   
+ 00000000 00000000 00000000 00000000 00000005 a30ffc98 a30ffcb0 8008f4c0
+    t0       t1       t2       t3       t4       t5       t6       t7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    s0       s1       s2       s3       s4       s5       s6       s7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    t8       t9       k0       k1       gp       sp       s8       ra   
+ 00000000 00000000 00000000 00000000 00000000 a30ffc78 00000000 8005b020
+Booting Linux kernel...
+system_state: 0	addr:809c6624
+Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+bootconsole [early0] enabled
+CPU revision is: 00004220 (ICT Loongson-1b)
+LS232 CPU board
+memsize=64,highmemsize=0
+Determined physical RAM map:
+ memory: 04000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00004000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00004000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+ available.
+Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:256
+Console: colour dummy device 80x25
+Calibrating delay loop... 195.99 BogoMIPS (lpj=979968)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 512
+ftrace: allocating 17539 entries in 35 pages
+devtmpfs: initialized
+NET: Registered protocol family 16
+open gmac0 close gmac1.
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+cfg80211: Calling CRDA to update world regulatory domain
+Switching to clocksource MIPS
+Switched to NOHz mode on CPU #0
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+audit: initializing netlink socket (disabled)
+type=2000 audit(1.160:1): initialized
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+NTFS driver 2.1.30 [Flags: R/W].
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 105
+alg: No test for stdrng (krng)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+800x480-16@60
+Console: switching to colour frame buffer device 100x30
+fb0: ls1bfb frame buffer device
+Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+erial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+console [ttyS5] enabled, bootconsole disabled
+console [ttyS5] enabled, bootconsole disabled
+brd: module loaded
+loop: module loaded
+NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+NAND_ECC_NONE selected by board driver. This is not recommended !!
+Scanning device for bad blocks
+Creating 3 MTD partitions on "mtd0":
+0x000000000000-0x000000e00000 : "kernel"
+0x000000e00000-0x000007500000 : "os"
+0x000007500000-0x000008000000 : "data"
+loongson 1B spi probe begin
+SPI IRQ mode
+SPI master IRQ num = 8
+loongson 1B spi probe done
+STMMAC driver:
+	platform registration... 
+	done!
+	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+	IO base addr: 0xbfe10000)
+STMMAC MII Bus: probed
+eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+
+rtw driver version=v3.3.2_3192.20120103
+usbcore: registered new interface driver rtl8192cu
+usbcore: registered new interface driver zd1211rw
+usbcore: registered new interface driver rt2500usb
+usbcore: registered new interface driver rt73usb
+usbcore: registered new interface driver rt2800usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+mousedev: PS/2 mouse device common for all mice
+ls1b rtc init
+ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+i2c /dev entries driver
+i2c-ls1b init
+i2c-ls1b probe
+i2c-ls1b probe ok
+Linux video capture interface: v2.00
+gspca: v2.13.0 registered
+usbcore: registered new interface driver zc3xx
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+Registering the dns_resolver key type
+ls1b-rtc ls1b-rtc: setting system clock to 3088-02-29 21:07:16 UTC (926097668)
+VFS: Mounted root (ext2 filesystem) readonly on device 31:1.
+devtmpfs: mounted
+Freeing unused kernel memory: 324k freed
+Algorithmics/MIPS FPU Emulator v1.5
+EXT2-fs (mtdblock1): warning: mounting unchecked fs, running e2fsck is recommended
+Starting logging: OK
+May  7 17:21:10 buildroot syslog.info syslogd started: BusyBox v1.22.1
+May  7 17:21:10 buildroot user.notice kernel: klogd started: BusyBox v1.22.1 (2025-12-25 23:20:52 PST)
+May  7 17:21:10 buildroot user.notice kernel: Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+May  7 17:21:10 buildroot user.warn kernel: busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+May  7 17:21:10 buildroot user.info kernel: bootconsole [early0] enabled
+May  7 17:21:10 buildroot user.info kernel: CPU revision is: 00004220 (ICT Loongson-1b)
+May  7 17:21:10 buildroot user.info kernel: Determined physical RAM map:
+May  7 17:21:10 buildroot user.info kernel:  memory: 04000000 @ 00000000 (usable)
+May  7 17:21:10 buildroot user.warn kernel: Zone PFN ranges:
+May  7 17:21:10 buildroot user.warn kernel:   Normal   0x00000000 -> 0x00004000
+May  7 17:21:10 buildroot user.warn kernel: Movable zone start PFN for each node
+May  7 17:21:10 buildroot user.warn kernel: early_node_map[1] active PFN ranges
+May  7 17:21:10 buildroot user.warn kernel:     0: 0x00000000 -> 0x00004000
+May  7 17:21:10 buildroot user.debug kernel: On node 0 totalpages: 16384
+May  7 17:21:10 buildroot user.debug kernel: free_area_init_node: node 0, pgdat 80a159f0, node_mem_map 81000000
+May  7 17:21:10 buildroot user.debEXT2-fs (mtdblock1): error: ext2_lookup: deleted inode referenced: 1164
+ug kernel:   NorEXT2-fs (mtdblock1): error: remounting filesystem read-only
+mal zone: 128 pages used for memmap
+May  7 17:21:10 buildroot user.debug kernel:   Normal zone: 0 pages reserved
+May  7 17:21:10 buildroot user.debug kernel:   Normal zone: 16256 pages, LIFO batch:3
+May  7 17:21:10 buildroot user.debug kernel: pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+May  7 17:21:10 buildroot user.debug kernel: pcpu-alloc: [0] 0 
+May  7 17:21:10 buildroot user.warn kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Initializing random number generator... May  7 17:21:10 buildroot user.notice kernel: Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+May  7 17:21:10 buildroot user.info kernel: PID hash table entries: 256 (order: -2, 1024 bytes)
+May  7 17:21:10 buildroot user.info kernel: Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+May  7 17:21:10 buildroot user.info kernel: Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+May  7 17:21:10 buildroot user.warn kernel:  available.
+May  7 17:21:10 buildroot user.warn kernel: Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+May  7 17:21:10 buildroot user.warn kernel: Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+May  7 17:21:1EXT2-fs (mtdblock1): error: ext2_lookup: deleted inode referenced: 1164
+0 buildroot userEXT2-fs (mtdblock1): error: remounting filesystem read-only
+.info kernel: Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+May  7 17:21:11 buildroot user.info kernel: SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+May  7 17:21:11 buildroot user.info kernel: NR_IRQS:256
+May  7 17:21:11 buildroot user.info kernel: Console: colour dummy device 80x25
+May  7 17:21:11 buildroot user.info kernel: Calibrating delay loop... 195.99 BogoMIPS (lpj=979968)
+May  7 17:21:11 buildroot user.info kernel: pid_max: default: 32768 minimum: 301
+May  7 17:21:11 buildroot user.info kernel: Security Framework initialized
+May  7 17:21:11 buildroot user.info kernel: Mount-cache hash table entries: 512
+May  7 17:21:11 buildroot user.info kernel: ftrace: allocating 17539 entries in 35 pages
+May  7 17:21:11 buildroot user.info kernel: devtmpfs: initialized
+May  7 17:21:11 buildroot user.info kernel: NET: Registered protocol family 16
+May  7 17:21:11 buildroot user.warn kernel: open gmac0 close gmac1.
+May  7 17:21:11 buildroot user.info kernel: bio: create slab <bio-0> at 0
+May  7 17:21:11 buildroot user.notice kernel: SCSI subsystem initialized
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver usbfs
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver hub
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new device driver usb
+read-only file system detected...done
+May  7 17:21:11 buildroot user.info kernel: cfg80211: Calling CRDA to update world regulatory domain
+May  7 17:21:11 buildroot user.info kernel: Switching to clocksource MIPS
+May  7 17:21:11 buildroot user.info kernel: Switched to NOHz mode on CPU #0
+May  7 17:21:11 buildroot user.info kernel: NET: Registered protocol family 2
+May  7 17:21:11 buildroot user.info kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+May  7 17:21:11 buildroot user.info kernel: TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+May  7 17:21:11 buildroot user.info kernel: TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+May  7 17:21:11 buildroot user.info kernel: TCP: Hash tables configured (established 2048 bind 2048)
+May  7 17:21:11 buildroot user.info kernel: TCP reno registered
+May  7 17:21:11 buildroot user.info kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+May  7 17:21:11 buildroot user.info kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+May  7 17:21:11 buildroot user.info kernel: NET: Registered protocol family 1
+May  7 17:21:11 buildroot user.info kernel: RPC: Registered named UNIX socket transport module.
+May  7 17:21:11 buildroot user.info kernel: RPC: Registered udp transport module.
+May  7 17:21:11 buildroot user.info kernel: RPC: Registered tcp transport module.
+May  7 17:21:11 buildroot user.info kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+May  7 17:21:11 buildroot user.info kernel: audit: initializing netlink socket (disabled)
+May  7 17:21:11 buildroot user.notice kernel: type=2000 audit(1.160:1): initialized
+May  7 17:21:11 buildroot user.notice kernel: VFS: Disk quotas dquot_6.5.2
+May  7 17:21:11 buildroot user.warn kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+May  7 17:21:11 buildroot user.info kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+May  7 17:21:11 buildroot user.info kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+May  7 17:21:11 buildroot user.info kernel: NTFS driver 2.1.30 [Flags: R/W].
+May  7 17:21:11 buildroot user.info kernel: JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Starting network...
+May  7 17:21:11 buildroot user.debug kernel: yaffs: yaffs built Dec 25 2025 23:13:42 Installing.
+May  7 17:21:11 buildroot user.info kernel: msgmni has been set to 105
+May  7 17:21:11 buildroot user.info kernel: alg: No test for stdrng (krng)
+May  7 17:21:11 buildroot user.info kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+May  7 17:21:11 buildroot user.info kernel: io scheduler noop registered
+May  7 17:21:11 buildroot user.info kernel: io scheduler deadline registered
+May  7 17:21:11 buildroot user.info kernel: io scheduler cfq registered (default)
+May  7 17:21:11 buildroot user.warn kernel: 800x480-16@60
+May  7 17:21:11 buildroot user.info kernel: Console: switching to colour frame buffer device 100x30
+May  7 17:21:11 buildroot user.info kernel: fb0: ls1bfb frame buffer device
+May  7 17:21:11 buildroot user.info kernel: Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+May  7 17:21:11 buildroot user.info kernel: serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+May  7 17:21:11 buildroot user.info kernel: serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+May  7 17:21:11 buildroot user.info kernel: serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+May  7 17:21:11 buildroot user.info kernel: serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+May  7 17:21:11 buildroot user.info kernel: serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+May  7 17:21:11 buildroot user.info kernel: serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+May  7 17:21:11 buildroot user.info kernel: console [ttyS5] enabled, bootconsole disabled
+May  7 17:21:11 buildroot user.info kernel: brd: module loaded
+May  7 17:21:11 buildroot user.info kernel: loop: module loaded
+May  7 17:21:11 buildroot user.info kernel: NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+May  7 17:21:11 buildroot user.warn kernel: NAND_ECC_NONE selected by board driver. This is not recommended !!
+May  7 17:21:11 buildroot user.info kernel: Scanning device for bad blocks
+May  7 17:21:11 buildroot user.notice kernel: Creating 3 MTD partitions on "mtd0":
+May  7 17:21:11 buildroot user.notice kernel: 0x000000000000-0x000000e00000 : "kernel"
+May  7 17:21:11 buildroot user.notice kernel: 0x000000e00000-0x000007500000 : "os"
+May  7 17:21:11 buildroot user.notice kernel: 0x000007500000-0x000008000000 : "data"
+May  7 17:21:11 buildroot user.emerg kernel: loongson 1B spi probe begin
+May  7 17:21:11 buildroot user.debug kernel: ls1b-spi0 ls1b-spi0.0: bitbang at 83a33ad8
+May  7 17:21:11 buildroot user.emerg kernel: SPI IRQ mode
+May  7 17:21:11 buildroot user.emerg kernel: SPI master IRQ num = 8
+May  7 17:21:11 buildroot user.debug kernel: spi spi0.0: setting pre-scaler to 0 (hz 80000000)
+May  7 17:21:11 buildroot user.debug kernel: spi spi0.0: ls1b_spi_setup: mode 0, 8 bpw, 80000000 hz
+May  7 17:21:11 buildroot user.debug kernel: spi spi0.1: setting pre-scaler to 6 (hz 500000)
+May  7 17:21:11 buildroot user.debug kernel: spi spi0.1: ls1b_spi_setup: mode 1, 8 bpw, 500000 hz
+May  7 17:21:11 buildroot user.debug kernel: spi spi0.2: setting pre-scaler to 4 (hz 25000000)
+May  7 17:21:11 buildroot user.debug kernel: spi spi0.2: ls1b_spi_setup: mode 0, 8 bpw, 25000000 hz
+May  7 17:21:11 buildroot user.emerg kernel: loongson 1B spi probe done
+May  7 17:21:11 buildroot user.info kernel: STMMAC driver:
+May  7 17:21:11 buildroot user.info kernel: 	platform registration... 
+May  7 17:21:11 buildroot user.info kernel: 	done!
+May  7 17:21:11 buildroot user.info kernel: 	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+May  7 17:21:11 buildroot user.info kernel: 	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+May  7 17:21:11 buildroot user.info kernel: 	IO base addr: 0xbfe10000)
+May  7 17:21:11 buildroot user.info kernel: STMMAC MII Bus: probed
+May  7 17:21:11 buildroot user.info kernel: eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+May  7 17:21:11 buildroot user.warn kernel: rtw driver version=v3.3.2_3192.20120103
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver rtl8192cu
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver zd1211rw
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver rt2500usb
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver rt73usb
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver rt2800usb
+May  7 17:21:11 buildroot user.info kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+May  7 17:21:11 buildroot user.info kernel: Initializing USB Mass Storage driver...
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver usb-storage
+May  7 17:21:11 buildroot user.info kernel: USB Mass Storage support registered.
+May  7 17:21:11 buildroot user.info kernel: mousedev: PS/2 mouse device common for all mice
+May  7 17:21:11 buildroot user.emerg kernel: ls1b rtc init
+May  7 17:21:11 buildroot user.info kernel: ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+May  7 17:21:11 buildroot user.info kernel: ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+May  7 17:21:11 buildroot user.info kernel: i2c /dev entries driver
+May  7 17:21:11 buildroot user.emerg kernel: i2c-ls1b init
+May  7 17:21:11 buildroot user.emerg kernel: i2c-ls1b probe
+May  7 17:21:11 buildroot user.emerg kernel: i2c-ls1b probe ok
+May  7 17:21:11 buildroot user.info kernel: Linux video capture interface: v2.00
+May  7 17:21:11 buildroot user.info kernel: gspca: v2.13.0 registered
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver zc3xx
+May  7 17:21:11 buildroot user.info kernel: usbcore: registered new interface driver usbhid
+May  7 17:21:11 buildroot user.info kernel: usbhid: USB HID core driver
+May  7 17:21:11 buildroot user.info kernel: TCP cubic registered
+May  7 17:21:11 buildroot user.info kernel: Initializing XFRM netlink socket
+May  7 17:21:11 buildroot user.info kernel: NET: Registered protocol family 17
+May  7 17:21:11 buildroot user.info kernel: lib80211: common routines for IEEE802.11 drivers
+May  7 17:21:11 buildroot user.debug kMay  7 17:21:11 May  7 17:21:11 May  7 17:21:11 May  7 17:21:11 May  7 17:21:11 May  7 17:21:11 buildroot user.warn kernel: Algorithmics/MIPS FPU Emulator v1.5
+May  7 17:21:11 buildroot user.warn kernel: EXT2-fs (mtdblock1): warning: mounting unchecked fs, running e2fsck is recommended
+May  7 17:21:11 buildroot user.crit kernel: EXT2-fs (mtdblock1): error: ext2_loMay  7 17:21:11 May  7 17:21:11 May  7 17:21:11 ifup: can't open '/var/run/ifstate': No such file or directory
+Starting dropbear sshd: OK
+May  7 17:21:12 buildroot authpriv.info dropbear[606]: Running in background
+mkdir: can't create directory '/var/run/proftpd': No such file or directory
+touch: /var/log/wtmp: No such file or directory
+Starting ProFTPD: warning: `proftpd' uses 32-bit capabilities (legacy support in use)
+May  7 17:21:13 buildroot user.info kernel: warning: `proftpd' uses 32-bit capabilities (legacy support in use)
+buildroot proftpd[610] buildroot: mod_delay/0.7: error opening DelayTable '/var/run/proftpd.delay': No such file or directory
+done
+May  7 17:21:13 buildroot daemon.err proftpd[611]: buildroot - error opening scoreboard: Operation not permitted
+Starting pppd: /usr/sbin/pppd: In file /etc/ppp/peers/rlp_mobile_unicom_chinacom4g: unrecognized option '/dev/ttyUSB2'
+May  7 17:21:13 buildroot daemon.err pppd[613]: In file /etc/ppp/peers/rlp_mobile_unicom_chinacom4g: unrecognized option '/dev/ttyUSB2'
+FAIL
+May  7 17:21:13 buildroot daemon.info init: starting pid 614, tty '/dev/ttyS5': '/sbin/getty -L  ttyS5 115200 vt100 '
+May  7 17:21:13 buildroot daemon.info init: starting pid 615, tty '/dev/tty1': '/sbin/getty -L  tty1 115200 vt100'
+May  7 17:21:13 buildroot daemon.info init: starting pid 616, tty '/dev/tty2': '/sbin/getty -L  tty2 115200 vt100'
+
+Welcome to Buildroot
+buildroot login: 
+Clock_mask: 8000, step=100000
+
+ \ | /
+- RT -     Thread Operating System
+ / | \     4.0.3 build Nov 10 2026
+ 2006 - 2019 Copyright by rt-thread team
+
+Welcome to RT-Thread.
+
+detect phy address == 17
+msh />GMAC0: SPEED=100M, DUPLEX=FULL, LINK=UP. AN=YES.
+
+GMAC0 controller initialized.
+succeed to create sock_fd!
+succeed to connect to server!
+SEND: client ticks = 4560.
+  RECEIVE: reply 1 from PC
+ 
+SEND: client ticks = 4666.
+  RECEIVE: reply 2 from PC
+ 
+SEND: client ticks = 4774.
+  RECEIVE: reply 3 from PC
+ 
+SEND: client ticks = 4880.
+  RECEIVE: reply 4 from PC
+ 
+SEND: client ticks = 4986.
+  RECEIVE: reply 5 from PC
+ 
+tcp_client_thread stop!

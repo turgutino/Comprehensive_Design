@@ -1,0 +1,80 @@
+In file included from ./RTT4/include/rtlibc.h:19:0,
+                 from ./RTT4/include/rtdef.h:1089,
+                 from ./RTT4/include/rtthread.h:24,
+                 from ./lwIP-1.4.1/port/include/arch/sys_arch.h:18,
+                 from ./lwIP-1.4.1/include/lwip/sys.h:86,
+                 from tcp_client.c:5:
+./RTT4/include/libc/libc_ioctl.h:24:0: warning: "_IO" redefined
+ #define _IO(a,b)    _IOC(_IOC_NONE,(a),(b),0)
+ ^
+In file included from tcp_client.c:3:0:
+./lwIP-1.4.1/include/lwip/sockets.h:244:0: note: this is the location of the previous definition
+ #define _IO(x,y)        (IOC_VOID|((x)<<8)|(y))
+ ^
+In file included from ./RTT4/include/rtlibc.h:19:0,
+                 from ./RTT4/include/rtdef.h:1089,
+                 from ./RTT4/include/rtthread.h:24,
+                 from ./lwIP-1.4.1/port/include/arch/sys_arch.h:18,
+                 from ./lwIP-1.4.1/include/lwip/sys.h:86,
+                 from tcp_client.c:5:
+./RTT4/include/libc/libc_ioctl.h:25:0: warning: "_IOW" redefined
+ #define _IOW(a,b,c) _IOC(_IOC_WRITE,(a),(b),sizeof(c))
+ ^
+In file included from tcp_client.c:3:0:
+./lwIP-1.4.1/include/lwip/sockets.h:248:0: note: this is the location of the previous definition
+ #define _IOW(x,y,t)     (IOC_IN|(((long)sizeof(t)&IOCPARM_MASK)<<16)|((x)<<8)|(y))
+ ^
+In file included from ./RTT4/include/rtlibc.h:19:0,
+                 from ./RTT4/include/rtdef.h:1089,
+                 from ./RTT4/include/rtthread.h:24,
+                 from ./lwIP-1.4.1/port/include/arch/sys_arch.h:18,
+                 from ./lwIP-1.4.1/include/lwip/sys.h:86,
+                 from tcp_client.c:5:
+./RTT4/include/libc/libc_ioctl.h:26:0: warning: "_IOR" redefined
+ #define _IOR(a,b,c) _IOC(_IOC_READ,(a),(b),sizeof(c))
+ ^
+In file included from tcp_client.c:3:0:
+./lwIP-1.4.1/include/lwip/sockets.h:246:0: note: this is the location of the previous definition
+ #define _IOR(x,y,t)     (IOC_OUT|(((long)sizeof(t)&IOCPARM_MASK)<<16)|((x)<<8)|(y))
+ ^
+In file included from ./RTT4/include/rtlibc.h:19:0,
+                 from ./RTT4/include/rtdef.h:1089,
+                 from ./RTT4/include/rtthread.h:24,
+                 from ./lwIP-1.4.1/port/include/arch/sys_arch.h:18,
+                 from ./lwIP-1.4.1/include/lwip/sys.h:86,
+                 from tcp_client.c:5:
+./RTT4/include/libc/libc_ioctl.h:29:0: warning: "FIONREAD" redefined
+ #define FIONREAD    _IOR('f', 127, int) /* get # bytes to read */
+ ^
+In file included from tcp_client.c:3:0:
+./lwIP-1.4.1/include/lwip/sockets.h:252:0: note: this is the location of the previous definition
+ #define FIONREAD    _IOR('f', 127, unsigned long) /* get # bytes to read */
+ ^
+In file included from ./RTT4/include/rtlibc.h:19:0,
+                 from ./RTT4/include/rtdef.h:1089,
+                 from ./RTT4/include/rtthread.h:24,
+                 from ./lwIP-1.4.1/port/include/arch/sys_arch.h:18,
+                 from ./lwIP-1.4.1/include/lwip/sys.h:86,
+                 from tcp_client.c:5:
+./RTT4/include/libc/libc_ioctl.h:30:0: warning: "FIONBIO" redefined
+ #define FIONBIO     _IOW('f', 126, int) /* set/clear non-blocking i/o */
+ ^
+In file included from tcp_client.c:3:0:
+./lwIP-1.4.1/include/lwip/sockets.h:255:0: note: this is the location of the previous definition
+ #define FIONBIO     _IOW('f', 126, unsigned long) /* set/clear non-blocking i/o */
+ ^
+tcp_client.c: In function 'tcp_client_thread':
+tcp_client.c:19:1: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+ memset(&remote_addr, 0, sizeof(remote_addr)); // Allocate space for the remote server address
+ ^
+tcp_client.c:19:1: warning: incompatible implicit declaration of built-in function 'memset'
+tcp_client.c:41:1: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+ if (send(sock_fd, data_buf, strlen(data_buf), 0) <= 0)  // Send the data in the data buffer
+ ^
+In file included from tcp_client.c:3:0:
+tcp_client.c:41:29: warning: incompatible implicit declaration of built-in function 'strlen'
+ if (send(sock_fd, data_buf, strlen(data_buf), 0) <= 0)  // Send the data in the data buffer
+                             ^
+./lwIP-1.4.1/include/lwip/sockets.h:358:45: note: in definition of macro 'send'
+ #define send(a,b,c,d)         lwip_send(a,b,c,d)
+                                             ^

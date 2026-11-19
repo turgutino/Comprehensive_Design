@@ -1,0 +1,3 @@
+example_6_led build 2026-11-10 14:19 after Make Clean, main.c LED_5..8 = 20,22,6,7
+f2bb2327a6bd361a7aa9c5de940b2a3a07f15cccf816380c2d026ef14e908d19 *example_6_led.exe
+20b8174e2dc8bd68eb575e691aa13d6d09c973b0d9d6db5f3e0136d507205a86 *example_6_led.bin

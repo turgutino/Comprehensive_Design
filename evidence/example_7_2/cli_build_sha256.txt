@@ -1,0 +1,2 @@
+75d8cf76bd9cabba758eaed0f3a666625379a25d96ecbd719cb0c9436dc0929e */e/LoongSetup/builds/example_7_2/example_7_2.exe
+b3d8870e10e53481f68f1015de23806e567d4b45d7034278068b07fdb78e81ed */e/LoongSetup/builds/example_7_2/example_7_2.bin

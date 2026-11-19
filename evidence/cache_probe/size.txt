@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2888	     28	  16400	  19316	   4b74	E:/LoongSetup/builds/cache_probe/cache_probe.exe

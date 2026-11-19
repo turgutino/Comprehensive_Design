@@ -1,0 +1,15 @@
+11:25:43  mode=tcp-server
+11:25:43  tcp-server: listening on 192.168.1.111:9061 (waiting 900 s for the board)
+11:26:33  tcp-server: board connected from 192.168.1.123:49153
+11:26:33  RECV    'client ticks = 4560.\n'
+11:26:33  SEND    'reply 1 from PC\n'
+11:26:33  RECV    'client ticks = 4666.\n'
+11:26:33  SEND    'reply 2 from PC\n'
+11:26:33  RECV    'client ticks = 4774.\n'
+11:26:33  SEND    'reply 3 from PC\n'
+11:26:33  RECV    'client ticks = 4880.\n'
+11:26:33  SEND    'reply 4 from PC\n'
+11:26:33  RECV    'client ticks = 4986.\n'
+11:26:33  SEND    'reply 5 from PC\n'
+11:26:33  tcp-server: board closed the connection
+11:26:33  tcp-server: done, 5 message(s) received

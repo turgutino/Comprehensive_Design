@@ -1,0 +1,42 @@
+PMON environment of the replacement board, read with the read-only command `env` (2026-11-10, about 15:40).
+Console: CH340 on the DB9 labelled UART5, COM7, 115200 8N1. Nothing was changed (no set/unset/eset/flash command used).
+Boot banner: PMON "MakeTime: 2023-04-10 15:36:00", CPU 200 MHz, bus 100 MHz, 64 MB memory, I/D cache 8 KB each; "update usb, no !"; the board stays at the PMON> prompt after every power-up (checked twice, no key pressed).
+
+PMON> env
+   ethaddr = ff:ff:ff:ff:ff:ff
+  pll_reg0 = 0x00000026
+  pll_reg1 = 0x9239aa00
+      xres = 800
+      yres = 480
+     depth = 16
+   memsize = 64
+highmemsize = 0
+  cpuclock = 200000000
+  busclock = 100000000
+   systype = FCR
+    brkcmd = "l -r @cpc 1"
+  datasize = -b          [-b -h -w]
+    dlecho = off         [off on lfeed]
+   dlproto = none        [none XonXoff EtxAck]
+     bootp = no          [no sec pri save]
+  hostport = tty0
+   inalpha = hex         [hex symbol]
+    inbase = 16          [auto 8 10 16]
+    moresz = 10
+    prompt = "PMON> "
+  regstyle = sw          [hw sw]
+    rptcmd = trace       [off on trace]
+   trabort = ^K
+      ulcr = cr          [cr lf crlf]
+     uleof = %
+   showsym = yes         [no yes]
+     fpfmt = both        [both double single none]
+     fpdis = yes         [no yes]
+        TZ = UTC8
+  ifconfig = syn0:192.168.1.2
+update_usb = no          [no yes]
+ bootdelay = 8
+syn0.ipaddr = 192.168.1.2
+
+Observation (not a conclusion): the list has no `al` (autoload) and no `append` variable, and `ethaddr` is the default ff:ff:ff:ff:ff:ff.
+This is why PMON does not start Linux by itself; the guide step 9.2.10 sets these variables with `set` and writes the kernel and root file system with `devcp`, i.e. commands that change the flash/PMON environment and need the instructor's approval.

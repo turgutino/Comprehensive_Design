@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  77352	   3768	  17888	  99008	  182c0	example_6_led.exe

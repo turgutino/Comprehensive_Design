@@ -1,0 +1,725 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.11.10 15:24:48 =~=~=~=~=~=~=~=~=~=~=~=
+Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580 Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580 Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+07Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580 Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580  + 0x80a6ba8c/471044(z) Attempt to read non page aligned data
+ + 16610 syms Attempt to read non page aligned data
+Attempt to read non page aligned data
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+Entry address is 8086ab00
+g root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2
+   zero      at       v0       v1       a0       a1       a2       a3   
+ 00000000 00000000 00000000 00000000 00000005 a30ffc98 a30ffcb0 8008f4c0
+    t0       t1       t2       t3       t4       t5       t6       t7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    s0       s1       s2       s3       s4       s5       s6       s7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    t8       t9       k0       k1       gp       sp       s8       ra   
+ 00000000 00000000 00000000 00000000 00000000 a30ffc78 00000000 8005b020
+Booting Linux kernel...
+system_state: 0	addr:809c6624
+Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+bootconsole [early0] enabled
+CPU revision is: 00004220 (ICT Loongson-1b)
+LS232 CPU board
+memsize=64,highmemsize=0
+Determined physical RAM map:
+ memory: 04000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00004000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00004000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+ available.
+Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:256
+Console: colour dummy device 80x25
+Calibrating delay loop... 198.04 BogoMIPS (lpj=990208)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 512
+ftrace: allocating 17539 entries in 35 pages
+devtmpfs: initialized
+NET: Registered protocol family 16
+open gmac0 close gmac1.
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+cfg80211: Calling CRDA to update world regulatory domain
+Switching to clocksource MIPS
+Switched to NOHz mode on CPU #0
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+audit: initializing netlink socket (disabled)
+type=2000 audit(1.150:1): initialized
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+NTFS driver 2.1.30 [Flags: R/W].
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 105
+alg: No test for stdrng (krng)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+800x480-16@60
+Console: switching to colour frame buffer device 100x30
+fb0: ls1bfb frame buffer device
+Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+console [ttyS5] enabled, bootconsole disabled
+console [ttyS5] enabled, bootconsole disabled
+brd: module loaded
+loop: module loaded
+NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+NAND_ECC_NONE selected by board driver. This is not recommended !!
+Scanning device for bad blocks
+Creating 3 MTD partitions on "mtd0":
+0x000000000000-0x000000e00000 : "kernel"
+0x000000e00000-0x000007500000 : "os"
+0x000007500000-0x000008000000 : "data"
+loongson 1B spi probe begin
+SPI IRQ mode
+SPI master IRQ num = 8
+loongson 1B spi probe done
+STMMAC driver:
+	platform registration... 
+	done!
+	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+	IO base addr: 0xbfe10000)
+STMMAC MII Bus: probed
+eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+
+rtw driver version=v3.3.2_3192.20120103
+usbcore: registered new interface driver rtl8192cu
+usbcore: registered new interface driver zd1211rw
+usbcore: registered new interface driver rt2500usb
+usbcore: registered new interface driver rt73usb
+usbcore: registered new interface driver rt2800usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+mousedev: PS/2 mouse device common for all mice
+ls1b rtc init
+rtc (null): alarm rollover not handled
+ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+i2c /dev entries driver
+i2c-ls1b init
+i2c-ls1b probe
+i2c-ls1b probe ok
+Linux video capture interface: v2.00
+gspca: v2.13.0 registered
+usbcore: registered new interface driver zc3xx
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+Registering the dns_resolver key type
+ls1b-rtc ls1b-rtc: hctosys: invalid date/time
+VFS: Mounted root (ext2 filesystem) readonly on device 31:1.
+devtmpfs: mounted
+Freeing unused kernel memory: 324k freed
+Algorithmics/MIPS FPU Emulator v1.5
+/sbin/init: error while loading shared libraries: /lib/libm.so.6: cannot read file data: Invalid argument
+Kernel panic - not syncing: Attempted to kill init!
+Unzip is completed
+FREQ
+DONE
+DEVI
+
+NAND dete
+data_buff_addr:0xa01fafe0, dma_addr:0xa01fdfe0
+NAND device: Manufacturer ID: 0x9b, Chip ID: 0xf1 (ATO NAND 128MiB 3,3V 8-bit)
+Scanning device for bad blocks
+Creat MTD partitions on "ls1x-nand": name="kernel" size=14680064Byte
+Creat MTD partitions on "ls1x-nand": name="rootfs" size=104857600Byte
+Creat MTD partitions on "ls1x-nand": name="data" size=14680064Byte
+ENVI
+MAPV
+in envinit
+NVRAM@801fac20
+STDV
+80100000:  memory between 801fa400-80200000  is already been allocated,heap is already above this point
+SBDD
+DINI
+NETI
+RTCL
+in fb_init
+cfb_console init, fb=0xa3108000, xres=800, yres=480
+in configure
+mainbus0 (root)
+localbus0 at mainbus0
+syn0 at localbus0
+phy id = 181 b8a0
+phy base = 17
+in if attach
+loopdev0 at mainbus0
+out configure
+devconfig done.
+network configure 'syn0:192.168.1.2'
+bootp=8000bc2c
+Version = 0x1137
+MacAddr = 0x0	0x55	0x7b	0xb5	0x7d	0xf7
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+=====>enter synopGMAC_mac_init:1006
+=====>full duplex
+=====>100M
+HSTI
+SYMI
+SBDE
+
+Configuration [FCR,EL,NET]
+MakeTime: 2023-11-17 15:14:52.
+Supported loaders [srec, elf, bin]
+Supported filesystems [mtd, net, fat, fs, disk, socket, tty, ram]
+This software may be redistributed under the BSD copyright.
+Copyright 2000-2002, Opsycon AB, Sweden.
+Copyright 2005, ICT CAS.
+CPU (null) @ 200.00 MHz / Bus @ 100.00 MHz
+Memory size  64 MB ( 64 MB Low memory,   0 MB High memory) .
+Primary Instruction cache size 8kb (32 line, 2 way)
+Primary Data cache size 8kb (32 line, 2 way)
+
+BEV1
+BEV0
+BEV in SR set to zero.
+update_usb, no !
+AUTO
+Press <Enter> to execute loading image:/dev/mtd0
+Press any other key to abort.
+0706050403020100
+Loading file: /dev/mtd0 (elf)
+Attempt to read non page aligned data
+0x80200000/8829580  + 0x80a6ba8c/471044(z) Attempt to read non page aligned data
+ + 16610 syms Attempt to read non page aligned data
+Attempt to read non page aligned data
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\
+Entry address is 8086ab00
+g root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2
+   zero      at       v0       v1       a0       a1       a2       a3   
+ 00000000 00000000 00000000 00000000 00000005 a30ffc98 a30ffcb0 8008f4c0
+    t0       t1       t2       t3       t4       t5       t6       t7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    s0       s1       s2       s3       s4       s5       s6       s7   
+ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    t8       t9       k0       k1       gp       sp       s8       ra   
+ 00000000 00000000 00000000 00000000 00000000 a30ffc78 00000000 8005b020
+Booting Linux kernel...
+system_state: 0	addr:809c6624
+Linux version 3.0.0 (loongson@ubuntu) (gcc version 4.3.6 20101004 (prerelease) (GCC) ) #23 Thu Dec 25 23:16:44 PST 2025
+busclock=100000000, cpuclock=200000000,memsize=64,highmemsize=0
+bootconsole [early0] enabled
+CPU revision is: 00004220 (ICT Loongson-1b)
+LS232 CPU board
+memsize=64,highmemsize=0
+Determined physical RAM map:
+ memory: 04000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x00004000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x00004000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Kernel command line: root=/dev/mtdblock1 console=ttyS5,115200 rdinit=/sbin/init rootfstype=ext2 
+PID hash table entries: 256 (order: -2, 1024 bytes)
+Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+ available.
+Primary instruction cache 8kB, VIPT, 2-way, linesize 32 bytes.
+Primary data cache 8kB, 2-way, VIPT, no aliases, linesize 32 bytes
+Memory: 53796k/65536k available (6612k kernel code, 11740k reserved, 1684k data, 324k init, 0k highmem)
+SLUB: Genslabs=9, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:256
+Console: colour dummy device 80x25
+Calibrating delay loop... 199.06 BogoMIPS (lpj=995328)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 512
+ftrace: allocating 17539 entries in 35 pages
+devtmpfs: initialized
+NET: Registered protocol family 16
+open gmac0 close gmac1.
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Switching to clocksource MIPS
+Switched to NOHz mode on CPU #0
+cfg80211: Calling CRDA to update world regulatory domain
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+TCP: Hash tables configured (established 2048 bind 2048)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+audit: initializing netlink socket (disabled)
+type=2000 audit(1.160:1): initialized
+VFS: Disk quotas dquot_6.5.2
+Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+NTFS driver 2.1.30 [Flags: R/W].
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+msgmni has been set to 105
+alg: No test for stdrng (krng)
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+800x480-16@60
+Console: switching to colour frame buffer device 100x30
+fb0: ls1bfb frame buffer device
+Serial: 8250/16550 driver, 6 ports, IRQ sharing disabled
+serial8250.0: ttyS0 at MMIO 0xbfe40000 (irq = 2) is a 16550A
+serial8250.0: ttyS1 at MMIO 0xbfe44000 (irq = 3) is a 16550A
+serial8250.0: ttyS2 at MMIO 0xbfe48000 (irq = 4) is a 16550A
+serial8250.0: ttyS3 at MMIO 0xbfe4c000 (irq = 5) is a 16550A
+serial8250.0: ttyS4 at MMIO 0xbfe6c000 (irq = 29) is a 16550A
+serial8250.0: ttyS5 at MMIO 0xbfe7c000 (irq = 30) is a 16550A
+console [ttyS5] enabled, bootconsole disabled
+console [ttyS5] enabled, bootconsole disabled
+brd: module loaded
+loop: module loaded
+NAND device: Manufacturer ID: 0x00, Chip ID: 0xf1 (Unknown NAND 128MiB 3,3V 8-bit)
+NAND_ECC_NONE selected by board driver. This is not recommended !!
+Scanning device for bad blocks
+Creating 3 MTD partitions on "mtd0":
+0x000000000000-0x000000e00000 : "kernel"
+0x000000e00000-0x000007500000 : "os"
+0x000007500000-0x000008000000 : "data"
+loongson 1B spi probe begin
+SPI IRQ mode
+SPI master IRQ num = 8
+loongson 1B spi probe done
+STMMAC driver:
+	platform registration... 
+	done!
+	DWMAC1000 - user ID: 0x11, Synopsys ID: 0x37
+	eth0 - (dev. name: stmmaceth - id: 0, IRQ #34
+	IO base addr: 0xbfe10000)
+STMMAC MII Bus: probed
+eth0: PHY ID 0181b8a0 at 17 IRQ 1 (0:11) active
+
+rtw driver version=v3.3.2_3192.20120103
+usbcore: registered new interface driver rtl8192cu
+usbcore: registered new interface driver zd1211rw
+usbcore: registered new interface driver rt2500usb
+usbcore: registered new interface driver rt73usb
+usbcore: registered new interface driver rt2800usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+mousedev: PS/2 mouse device common for all mice
+ls1b rtc init
+ls1b-rtc ls1b-rtc: rtc core: registered ls1b-rtc as rtc0
+ls1b-rtc ls1b-rtc: LS1B RTC  at bfe64020 irq 26 
+i2c /dev entries driver
+i2c-ls1b init
+i2c-ls1b probe
+i2c-ls1b probe ok
+Linux video capture interface: v2.00
+gspca: v2.13.0 registered
+usbcore: registered new interface driver zc3xx
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+Registering the dns_resolver key type
+ls1b-rtc ls1b-rtc: hctosys: invalid date/time
+VFS: Mounted root (ext2 filesystem) readonly on device 31:1.
+devtmpfs: mounted
+Freeing unused kernel memory: 324k freed
+Algorithmics/MIPS FPU Emulator v1.5
+/sbin/init: error while loading shared libraries: /lib/libm.so.6: cannot read file data: Invalid argument
+Kernel panic - not syncing: Attempted to kill init!

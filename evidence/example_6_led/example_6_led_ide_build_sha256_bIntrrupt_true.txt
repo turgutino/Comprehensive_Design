@@ -1,0 +1,3 @@
+example_6_led build 2026-11-10 15:04 (Make Clean + Compile), ns16550.c UART3 bIntrrupt = true, main.c LED_5..8 = 20,22,6,7
+3218f1188407085f09413a2113c3ab9a009ce773eb539556282afb95bb9c1f5d *example_6_led.exe
+0c674e6869183a618f9ead079806265c034e177e811f16de2e8a9e69007d6818 *example_6_led.bin

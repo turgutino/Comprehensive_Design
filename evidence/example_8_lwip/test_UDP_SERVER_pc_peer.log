@@ -1,0 +1,13 @@
+11:28:53  mode=udp-client
+11:28:53  udp-client: ('192.168.1.111', 9062) -> 192.168.1.123:9062
+11:28:53  SEND    'udp hello from PC 1'
+11:28:53  RECV    'udp hello from PC 1' from 192.168.1.123:9062
+11:28:53  SEND    'udp hello from PC 2'
+11:28:53  RECV    'udp hello from PC 2' from 192.168.1.123:9062
+11:28:53  SEND    'udp hello from PC 3'
+11:28:53  RECV    'udp hello from PC 3' from 192.168.1.123:9062
+11:28:53  SEND    'udp hello from PC 4'
+11:28:53  RECV    'udp hello from PC 4' from 192.168.1.123:9062
+11:28:53  SEND    'udp hello from PC 5'
+11:28:53  RECV    'udp hello from PC 5' from 192.168.1.123:9062
+11:28:53  udp-client: done

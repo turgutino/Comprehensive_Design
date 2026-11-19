@@ -1,0 +1,2 @@
+b1522481139955ef87c870f31d816e8517ade90714273df512e217155da401d3 */e/loongson1B_example/example_5_asm/Build/example_5_asm.exe
+9b5ada694fafd90ae0f17ffef403eeebfe29145f04a729c26a540decae4df1b9 */e/loongson1B_example/example_5_asm/Build/example_5_asm.bin

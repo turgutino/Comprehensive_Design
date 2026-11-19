@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  52112	   3600	  17848	  73560	  11f58	E:/loongson1B_example/example_5_asm/Build/example_5_asm.exe
